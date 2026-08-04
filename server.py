@@ -33,11 +33,12 @@ app.mount("/stock", StaticFiles(directory=static_stock_dir, html=True), name="st
 
 # Crear credentials.json desde Variable de Entorno si no existe físicamente (Para Deploy en Nube/Render)
 CREDENTIALS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'credentials.json')
-if not os.path.exists(CREDENTIALS_FILE) and os.environ.get("GOOGLE_CREDENTIALS_JSON"):
+env_creds = os.environ.get("GOOGLE_CREDENTIALS_JSON") or os.environ.get("CREDENTIALS.JSON") or os.environ.get("CREDENTIALS_JSON")
+if not os.path.exists(CREDENTIALS_FILE) and env_creds:
     try:
         with open(CREDENTIALS_FILE, "w", encoding="utf-8") as f:
-            f.write(os.environ["GOOGLE_CREDENTIALS_JSON"])
-        print("Creado credentials.json a partir de la variable de entorno GOOGLE_CREDENTIALS_JSON")
+            f.write(env_creds)
+        print("Creado credentials.json a partir de la variable de entorno de Render")
     except Exception as e:
         print(f"Error al escribir credentials.json: {e}")
 
