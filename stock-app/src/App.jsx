@@ -906,7 +906,7 @@ function App() {
         <div className="login-card-container">
           <div className="login-card glass">
             <div className="brand-header">
-              <img src="Logo cerdos MINI.png" alt="Logo" className="brand-logo" />
+              <img src="logo.png" alt="Logo" className="brand-logo" />
               <h1>SPI - Control de Stock</h1>
               <p>Ingrese su PIN de operador para comenzar</p>
             </div>
@@ -964,7 +964,7 @@ function App() {
           {/* SIDEBAR NAVIGATION */}
           <aside className="sidebar glass">
             <div className="sidebar-brand">
-              <img src="Logo cerdos MINI.png" alt="Logo" className="sidebar-logo" />
+              <img src="logo.png" alt="Logo" className="sidebar-logo" />
               <h3 className="sidebar-title">SPI Stock</h3>
             </div>
 

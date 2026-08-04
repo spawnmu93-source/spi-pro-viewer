@@ -33,6 +33,7 @@ procesador_datos.py
 # --- Local Data Files & CSVs ---
 *.csv
 *.txt
+!requirements.txt
 config.json
 token.json
 client_secret_*.json

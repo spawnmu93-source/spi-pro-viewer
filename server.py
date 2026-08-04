@@ -10,12 +10,18 @@ from psycopg2 import pool
 from psycopg2.extras import RealDictCursor
 
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import RedirectResponse
 
 app = FastAPI(
     title="SPI - Sistema de Producción Integral API",
     description="API REST local para interactuar con la base de datos PostgreSQL de la granja.",
     version="1.0.0"
 )
+
+# Redirección automática de raíz (/) a (/stock/)
+@app.get("/")
+def read_root():
+    return RedirectResponse(url="/stock/")
 
 # Habilitar CORS para permitir llamadas desde cualquier IP en la red local de la granja
 app.add_middleware(
