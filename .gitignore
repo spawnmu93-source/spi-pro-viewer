@@ -32,6 +32,7 @@ procesador_datos.py
 
 # --- Local Data Files & CSVs ---
 *.csv
+!CODIGOS.csv
 *.txt
 !requirements.txt
 config.json
@@ -48,6 +49,9 @@ credentials.json
 *.jpeg
 *.png
 *.ico
+!static_stock/assets/*
+!stock-app/src/assets/*
+!stock-app/public/*
 
 # --- Other Projects & Temp Folders ---
 scratch/

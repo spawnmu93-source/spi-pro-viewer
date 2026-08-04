@@ -144,6 +144,7 @@ function App() {
   const [filterYieldSearch, setFilterYieldSearch] = useState('');
   const [filterYieldDateFrom, setFilterYieldDateFrom] = useState('');
   const [filterYieldDateTo, setFilterYieldDateTo] = useState('');
+  const [yieldPage, setYieldPage] = useState(1);
   
   // Importador
   const [tangoFile, setTangoFile] = useState(null);
@@ -1503,67 +1504,133 @@ function App() {
                         ))}
                       </div>
 
-                      {/* SECCIÓN 3: TABLA DETALLADA DE TRANSFORMACIONES */}
-                      <div className="report-card glass" style={{ marginTop: '28px' }}>
-                        <div className="report-header">
-                          <h3>Registros de Transformación y Despiece ({filteredYieldList.length})</h3>
-                        </div>
+                      {/* SECCIÓN 3: TABLA DETALLADA DE TRANSFORMACIONES CON PAGINACIÓN (20 por página) */}
+                      {(() => {
+                        const ITEMS_PER_PAGE = 20;
+                        const totalPages = Math.max(1, Math.ceil(filteredYieldList.length / ITEMS_PER_PAGE));
+                        const currentPage = Math.min(yieldPage, totalPages);
+                        const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+                        const paginatedList = filteredYieldList.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
-                        {isLoadingYield ? (
-                          <div style={{ padding: '60px 0', textAlign: 'center' }}>
-                            <div className="spinner-mini" style={{ width: '40px', height: '40px', borderColor: 'rgba(99,102,241,0.2)', borderTopColor: 'var(--primary-color)', margin: '0 auto' }}></div>
-                            <p style={{ marginTop: 16, color: 'var(--text-secondary)' }}>Cargando transformaciones...</p>
-                          </div>
-                        ) : (
-                          <div className="report-table-responsive">
-                            <table className="report-table">
-                              <thead>
-                                <tr>
-                                  {yieldVisibleCols.Sucursal && <th>Sucursal</th>}
-                                  {yieldVisibleCols.FechaHora && <th>Fecha/Hora</th>}
-                                  {yieldVisibleCols.Operario && <th>Operario</th>}
-                                  {yieldVisibleCols.CorteMadre && <th>Corte Madre (Origen)</th>}
-                                  {yieldVisibleCols.PesoMadre && <th className="text-right">Peso Madre (KG)</th>}
-                                  {yieldVisibleCols.Lote && <th>Lote</th>}
-                                  {yieldVisibleCols.Resultante && <th>Producto Resultante (Destino)</th>}
-                                  {yieldVisibleCols.PesoRes && <th className="text-right">Peso Resultante (KG)</th>}
-                                  {yieldVisibleCols.RendPct && <th className="text-right">Rendimiento %</th>}
-                                  {yieldVisibleCols.MermaKG && <th className="text-right">Merma KG</th>}
-                                  {yieldVisibleCols.MermaPct && <th className="text-right">Merma %</th>}
-                                </tr>
-                              </thead>
-                              <tbody>
-                                {filteredYieldList.map((r, idx) => {
-                                  const rendVal = parseFloat(r['Rendimiento (%)'] || '0');
-                                  const rendBadgeClass = rendVal >= 92 ? 'badge-success' : rendVal >= 88 ? 'badge-warning' : 'badge-danger';
-                                  return (
-                                    <tr key={idx}>
-                                      {yieldVisibleCols.Sucursal && <td><span className="store-pill">{r.Sucursal}</span></td>}
-                                      {yieldVisibleCols.FechaHora && <td className="text-muted">{r['Fecha/Hora']}</td>}
-                                      {yieldVisibleCols.Operario && <td>{r.Operario}</td>}
-                                      {yieldVisibleCols.CorteMadre && <td className="font-semibold text-cyan">{r['Corte Madre']}</td>}
-                                      {yieldVisibleCols.PesoMadre && <td className="text-right font-bold">{parseFloat(r['Peso Madre (KG)'] || 0).toFixed(2)}</td>}
-                                      {yieldVisibleCols.Lote && <td className="text-muted font-mono">{r['Lote Madre']}</td>}
-                                      {yieldVisibleCols.Resultante && <td className="font-semibold text-emerald">{r['Producto Resultante']}</td>}
-                                      {yieldVisibleCols.PesoRes && <td className="text-right font-bold text-emerald">{parseFloat(r['Peso Resultante (KG)'] || 0).toFixed(2)}</td>}
-                                      {yieldVisibleCols.RendPct && <td className="text-right"><span className={`table-rend-pill ${rendBadgeClass}`}>{r['Rendimiento (%)']}</span></td>}
-                                      {yieldVisibleCols.MermaKG && <td className="text-right text-rose">{parseFloat(r['Merma Registrada (KG)'] || 0).toFixed(2)}</td>}
-                                      {yieldVisibleCols.MermaPct && <td className="text-right text-rose">{r['Merma (%)']}</td>}
-                                    </tr>
-                                  );
-                                })}
-                                {filteredYieldList.length === 0 && (
-                                  <tr>
-                                    <td colSpan="11" style={{ padding: '40px', textAlign: 'center', color: 'var(--text-secondary)' }}>
-                                      No se encontraron transformaciones con los filtros seleccionados.
-                                    </td>
-                                  </tr>
+                        return (
+                          <div className="report-card glass" style={{ marginTop: '28px' }}>
+                            <div className="report-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                              <h3>Registros de Transformación y Despiece ({filteredYieldList.length})</h3>
+                              <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                                Mostrando 20 entradas por página
+                              </span>
+                            </div>
+
+                            {isLoadingYield ? (
+                              <div style={{ padding: '60px 0', textAlign: 'center' }}>
+                                <div className="spinner-mini" style={{ width: '40px', height: '40px', borderColor: 'rgba(99,102,241,0.2)', borderTopColor: 'var(--primary-color)', margin: '0 auto' }}></div>
+                                <p style={{ marginTop: 16, color: 'var(--text-secondary)' }}>Cargando transformaciones...</p>
+                              </div>
+                            ) : (
+                              <>
+                                <div className="report-table-responsive">
+                                  <table className="report-table">
+                                    <thead>
+                                      <tr>
+                                        {yieldVisibleCols.Sucursal && <th>Sucursal</th>}
+                                        {yieldVisibleCols.FechaHora && <th>Fecha/Hora</th>}
+                                        {yieldVisibleCols.Operario && <th>Operario</th>}
+                                        {yieldVisibleCols.CorteMadre && <th>Corte Madre (Origen)</th>}
+                                        {yieldVisibleCols.PesoMadre && <th className="text-right">Peso Madre (KG)</th>}
+                                        {yieldVisibleCols.Lote && <th>Lote</th>}
+                                        {yieldVisibleCols.Resultante && <th>Producto Resultante (Destino)</th>}
+                                        {yieldVisibleCols.PesoRes && <th className="text-right">Peso Resultante (KG)</th>}
+                                        {yieldVisibleCols.RendPct && <th className="text-right">Rendimiento %</th>}
+                                        {yieldVisibleCols.MermaKG && <th className="text-right">Merma KG</th>}
+                                        {yieldVisibleCols.MermaPct && <th className="text-right">Merma %</th>}
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      {paginatedList.map((r, idx) => {
+                                        const rendVal = parseFloat(r['Rendimiento (%)'] || '0');
+                                        const rendBadgeClass = rendVal >= 92 ? 'badge-success' : rendVal >= 88 ? 'badge-warning' : 'badge-danger';
+                                        return (
+                                          <tr key={idx}>
+                                            {yieldVisibleCols.Sucursal && <td><span className="store-pill">{r.Sucursal}</span></td>}
+                                            {yieldVisibleCols.FechaHora && <td className="text-muted">{r['Fecha/Hora']}</td>}
+                                            {yieldVisibleCols.Operario && <td>{r.Operario}</td>}
+                                            {yieldVisibleCols.CorteMadre && <td className="font-semibold text-cyan">{r['Corte Madre']}</td>}
+                                            {yieldVisibleCols.PesoMadre && <td className="text-right font-bold">{parseFloat(r['Peso Madre (KG)'] || 0).toFixed(2)}</td>}
+                                            {yieldVisibleCols.Lote && <td className="text-muted font-mono">{r['Lote Madre']}</td>}
+                                            {yieldVisibleCols.Resultante && <td className="font-semibold text-emerald">{r['Producto Resultante']}</td>}
+                                            {yieldVisibleCols.PesoRes && <td className="text-right font-bold text-emerald">{parseFloat(r['Peso Resultante (KG)'] || 0).toFixed(2)}</td>}
+                                            {yieldVisibleCols.RendPct && <td className="text-right"><span className={`table-rend-pill ${rendBadgeClass}`}>{r['Rendimiento (%)']}</span></td>}
+                                            {yieldVisibleCols.MermaKG && <td className="text-right text-rose">{parseFloat(r['Merma Registrada (KG)'] || 0).toFixed(2)}</td>}
+                                            {yieldVisibleCols.MermaPct && <td className="text-right text-rose">{r['Merma (%)']}</td>}
+                                          </tr>
+                                        );
+                                      })}
+                                      {filteredYieldList.length === 0 && (
+                                        <tr>
+                                          <td colSpan="11" style={{ padding: '40px', textAlign: 'center', color: 'var(--text-secondary)' }}>
+                                            No se encontraron transformaciones con los filtros seleccionados.
+                                          </td>
+                                        </tr>
+                                      )}
+                                    </tbody>
+                                  </table>
+                                </div>
+
+                                {/* BARRA DE PAGINACIÓN */}
+                                {filteredYieldList.length > 0 && (
+                                  <div className="pagination-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '16px', padding: '12px 16px', background: 'rgba(0,0,0,0.2)', borderRadius: '12px', flexWrap: 'wrap', gap: '12px' }}>
+                                    <span className="pagination-info" style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                                      Mostrando <strong>{startIndex + 1}</strong> a <strong>{Math.min(startIndex + ITEMS_PER_PAGE, filteredYieldList.length)}</strong> de <strong>{filteredYieldList.length}</strong> registros
+                                    </span>
+
+                                    <div className="pagination-controls" style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+                                      <button 
+                                        type="button" 
+                                        disabled={currentPage <= 1} 
+                                        onClick={() => setYieldPage(1)} 
+                                        className="btn-refresh" 
+                                        style={{ padding: '6px 12px', fontSize: '0.8rem', opacity: currentPage <= 1 ? 0.4 : 1, cursor: currentPage <= 1 ? 'not-allowed' : 'pointer' }}
+                                      >
+                                        ⏮ Primero
+                                      </button>
+                                      <button 
+                                        type="button" 
+                                        disabled={currentPage <= 1} 
+                                        onClick={() => setYieldPage(prev => Math.max(1, prev - 1))} 
+                                        className="btn-refresh" 
+                                        style={{ padding: '6px 12px', fontSize: '0.8rem', opacity: currentPage <= 1 ? 0.4 : 1, cursor: currentPage <= 1 ? 'not-allowed' : 'pointer' }}
+                                      >
+                                        ◀ Anterior
+                                      </button>
+                                      <span style={{ fontSize: '0.85rem', padding: '0 8px', fontWeight: 600, color: 'var(--text-primary)' }}>
+                                        Página {currentPage} de {totalPages}
+                                      </span>
+                                      <button 
+                                        type="button" 
+                                        disabled={currentPage >= totalPages} 
+                                        onClick={() => setYieldPage(prev => Math.min(totalPages, prev + 1))} 
+                                        className="btn-refresh" 
+                                        style={{ padding: '6px 12px', fontSize: '0.8rem', opacity: currentPage >= totalPages ? 0.4 : 1, cursor: currentPage >= totalPages ? 'not-allowed' : 'pointer' }}
+                                      >
+                                        Siguiente ▶
+                                      </button>
+                                      <button 
+                                        type="button" 
+                                        disabled={currentPage >= totalPages} 
+                                        onClick={() => setYieldPage(totalPages)} 
+                                        className="btn-refresh" 
+                                        style={{ padding: '6px 12px', fontSize: '0.8rem', opacity: currentPage >= totalPages ? 0.4 : 1, cursor: currentPage >= totalPages ? 'not-allowed' : 'pointer' }}
+                                      >
+                                        Último ⏭
+                                      </button>
+                                    </div>
+                                  </div>
                                 )}
-                              </tbody>
-                            </table>
+                              </>
+                            )}
                           </div>
-                        )}
-                      </div>
+                        );
+                      })()}
                     </>
                   );
                 })()}

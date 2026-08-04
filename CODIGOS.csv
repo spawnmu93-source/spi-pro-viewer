@@ -1,0 +1,2883 @@
+﻿Código;Descripción;Descripción adicional;Sinónimo;Código de barras;Tipo;Escala
+0101;Gastos varios Anim. Vivos;;;;Simple;No usa
+01010001;Cachorras capón;;;;Simple;No usa
+01010002;Cerda;;;;Simple;No usa
+01010003;Capón;;;;Simple;No usa
+01010004;Macho entero inmunocastrado;;;;Simple;No usa
+01010005;Merma animales en pie;;;;Simple;No usa
+01010006;Capón Liviano;;;;Simple;No usa
+01010007;MEI Liviano;;;;Simple;No usa
+01010008;Lechón pesado cap;Granja;;;Simple;No usa
+01010009;Lechon vivo;Frigo;;;Simple;No usa
+01010011;Gastos No grav.;;;;Simple;No usa
+01010012;Macho de retajo;;;;Simple;No usa
+01010013;Cerda descarte;p/faena;;;Simple;No usa
+01010014;Lechón pesado mei;Granja;;;Simple;No usa
+01010015;Ajuste de liquidación vivo;Granja;;;Simple;No usa
+01020001;Media res;;;;Simple;No usa
+01020002;Merma media res;;;;Simple;No usa
+01020003;Perdida por rinde Media res;;;;Simple;No usa
+01020004;Media res cerda;;;;Simple;No usa
+01030001;Adicional cortes;;;;Simple;No usa
+01030002;Asado;3 kg;;2100151100005;Simple;No usa
+01030003;Asado premium;4 Kg.;;2100157100009;Simple;No usa
+01030004;Baso;;000149;;Simple;No usa
+01030006;Bife de lomo;;000201;;Simple;No usa
+01030007;Bifes de cerdo;;00044;;Simple;No usa
+01030008;Blanda de cerdo;;00045;;Simple;No usa
+01030009;Bolson canino;;00020;;Simple;No usa
+01030011;Bondiola sin hueso;;00124;;Simple;No usa
+01030012;Cabeza;;00029;;Simple;No usa
+01030013;Caracu;;00025;;Simple;No usa
+01030014;Carre;;00119;;Simple;No usa
+01030016;Chuleta de cerdo con cuero;Chuleta de Jamón;00056;;Simple;No usa
+01030018;Chuleta de paleta;;00160;;Simple;No usa
+01030019;Churrascos de bondiola;;00135;;Simple;No usa
+01030020;Combo locro ;3kg;;2100158100008;Simple;No usa
+01030021;Combo semanal;4 Kg.;;2100156100000;Simple;No usa
+01030022;Corazon de cerdo;;00148;;Simple;No usa
+01030023;Costeleta;;00006;;Simple;No usa
+01030024;Costeleta al traves;;00019;;Simple;No usa
+01030025;Costilla - Pechito;;00016;;Simple;No usa
+01030026;Costillar completo;;00142;;Simple;No usa
+01030027;Cuero de cerdo;;00072;;Simple;No usa
+01030028;Descarte;;;;Simple;No usa
+01030029;Higado de cerdo;;00147;;Simple;No usa
+01030030;Huesos;;;;Simple;No usa
+01030031;Jamon con cuero y huesos;;00038;;Simple;No usa
+01030032;Lechon;Locales;00022;;Simple;No usa
+01030033;Lengua;;00202;;Simple;No usa
+01030034;Lomo;;00150;;Simple;No usa
+01030035;Matambre de cerdo;;00004;;Simple;No usa
+01030036;Matambre de cerdo congelado;;00203;;Simple;No usa
+01030038;Oferta asado 2Kg.;Costilla+1/2 chorizo;;2100200100000;Simple;No usa
+01030039;Oferta asado 2;Chuleta+Chorizox2.5;;2100162100001;Simple;No usa
+01030040;Osobuco del rey;;00138;;Simple;No usa
+01030041;Otros cortes;;;;Simple;No usa
+01030042;Paleta de cerdo;;00002;;Simple;No usa
+01030043;Panceta;;00126;;Simple;No usa
+01030044;Pata - Mano;;00009;;Simple;No usa
+01030045;Pechito con manta;;00143;;Simple;No usa
+01030046;Pernil de cerdo;11 Kg.;00134;;Simple;No usa
+01030047;Picada especial;;00042;;Simple;No usa
+01030048;Pulmon;;00146;;Simple;No usa
+01030049;Pulpa paleta;;00132;;Simple;No usa
+01030050;Punta de matambre;;00043;;Simple;No usa
+01030051;Recorte de cerdo;80/20;00131;;Simple;No usa
+01030052;Ribs;;00067;;Simple;No usa
+01030053;Riñon de cerdo;;00154;;Simple;No usa
+01030054;Solomillo;;00007;;Simple;No usa
+01030055;Tapa de asado;;00014;;Simple;No usa
+01030056;T-Bone;;00137;;Simple;No usa
+01030057;Tercio medias desposte;;;;Simple;No usa
+01030058;Tocino;;00049;;Simple;No usa
+01030059;Tomahawk;;00136;;Simple;No usa
+01030060;Tripa de cerdo;;;;Simple;No usa
+01030061;Unto;;00100;;Simple;No usa
+01030062;Vacio de cerdo;;00017;;Simple;No usa
+01030063;Adicional comercialización ;;;;Simple;No usa
+01030064;Pulpa para embutidos;;00102;;Simple;No usa
+01030065;Recorte de cerdo 70/30;;;00098;Simple;No usa
+01030066;Pulpa de Jamón para milanesas;;;;Simple;No usa
+01030067;Pulpa de Jamón para picada;;;;Simple;No usa
+01030068;Oferta chuleta de jamon;2 kg;00208;;Simple;No usa
+01030069;Perdida por desposte;;;;Simple;No usa
+01030070;Perdida por despiece;;;;Simple;No usa
+01030071;Pulpa paleta para picada;;;;Simple;No usa
+01030072;Oferta chuleta de paleta;2 kg;00210;2002000000019;Simple;No usa
+01030073;Merma cortes;;;;Simple;No usa
+01030074;Cortes varios;;;;Simple;No usa
+01030075;Costillar cuarteado;;00123;;Simple;No usa
+01030076;Cuarto Delantero;;;;Simple;No usa
+01030077;Cuarto trasero;;;;Simple;No usa
+01030078;Bolson chuleta de paleta;4 kg;00122;2000122009651;Simple;No usa
+01030079;Bolson chuleta de jamon;4 kg;00121;2000121002356;Simple;No usa
+01030080;Chuleta de paleta x3kg;Feria interior;;;Simple;No usa
+01030084;Bolson Chuleta x 2kg;feria interior ;;;Simple;No usa
+01030086;Combo locro Premium;3kg con panceta;;2100213100004;Simple;No usa
+01030087;Combo semanal x 3kg;feria interior ;401;;Simple;No usa
+01030088;Oferta picada especial;+ 2 kg;00215;;Simple;No usa
+01030089;Pulpa de paleta p/bife;;;;Simple;No usa
+01030090;Pulpa de cerdo;;;;Simple;No usa
+01030091;Oferta Bife;+ 2 kg;00046;;Simple;No usa
+01030092;Combo locro 3kg;feria interior;;;Simple;No usa
+01030093;Oferta Milanesa;+ 2 kg;00058;;Simple;No usa
+01030094;Paleta entera;;00130;;Simple;No usa
+01030095;Merma cortes;21%;;;Simple;No usa
+01030096;Conejo No Gravado;;;;Simple;No usa
+01030097;Grasa de cerdo;Unto;000048;;Simple;No usa
+01030098;Descarte carne;;;;Simple;No usa
+01030099;Tercio medias Capon;desposte;;;Simple;No usa
+01030100;Tercio medias Cerdas;desposte;;;Simple;No usa
+01040001;Albóndigas x 12 Unid;;;2100003100009;Simple;No usa
+01040002;Chorizo bombon;;00005;;Simple;No usa
+01040003;Chorizo bombon de cerdo;;;;Simple;No usa
+01040004;Chorizo bombon de cerdo env.;Envasado al vacio 5k;;;Simple;No usa
+01040005;Chorizo criollo;;00012;;Simple;No usa
+01040006;Chorizo de cerdo;;00139;;Simple;No usa
+01040007;Chorizo de cerdo en bolsa 5 kg;;;2100023100003;Simple;No usa
+01040008;Chorizo especial;;00011;;Simple;No usa
+01040010;Hamburguesa premium x 4 Unid;Band x 4 Unid.;00161;2116102990007;Simple;No usa
+01040011;Hamburguesa premium x Unid;KG;00133;2113300365002;Simple;No usa
+01040012;Milanesa de cerdo;;00057;;Simple;No usa
+01040013;Milanesa de cerdo congelada;;00204;;Simple;No usa
+01040014;Salchicha parrillera;;00027;;Simple;No usa
+01040016;Oferta chorizo criollo;2kg (venta x unidad);;2100013100006;Simple;No usa
+01040017;Chorizo de cerdo picante;;00010;;Simple;No usa
+01040018;Pasta parrillera;;00018;;Simple;No usa
+01040019;Modulo Alimentario;;;;Simple;No usa
+01040020;Salame artesanal;;000098;;Simple;No usa
+01040021;Chorizo especial c/morron;;00051;;Simple;No usa
+01040022;Chorizo especial c/morron y queso;;00052;;Simple;No usa
+01040023;Chorizo especial c/roquefort;;00053;;Simple;No usa
+01040024;Nuggets de cerdo;;00094;;Simple;No usa
+01040025;Bastones de cerdo;;00095;;Simple;No usa
+01050001;Cabrito;;00145;;Simple;No usa
+01050002;Costillar Cabrito;;00207;;Simple;No usa
+01050003;Cuarto trasero de cabrito ;;;;Simple;No usa
+01050004;Morcilla;;00028;;Simple;No usa
+01050005;Morcilla bombon;;00092;;Simple;No usa
+01050006;Morcilla bombon env. al vacío;;00205;;Simple;No usa
+01050007;Morcilla picante;;00026;;Simple;No usa
+01050008;Arroz con carne x 500 gr;;;;Simple;No usa
+01050009;Arveja seca remojada x 340 gr;;;;Simple;No usa
+01050010;Carbonada x 500 gr;;;;Simple;No usa
+01050011;Cerdo en salsa x 500 gr;;;;Simple;No usa
+01050012;Fileto x 340 gr;;;;Simple;No usa
+01050013;Garbanzos x 340 gr;;;;Simple;No usa
+01050014;Guiso de lentejas x 500 gr;;;;Simple;No usa
+01050015;Lentejas x 340 gr;;;;Simple;No usa
+01050016;Locro x 500 gr;;;;Simple;No usa
+01050017;Pizza x 340 gr;;;;Simple;No usa
+01050018;Pollo a La portuguesa x 500 gr;;;;Simple;No usa
+01050019;Pomarola x 340 gr;;;;Simple;No usa
+01050020;Poroto alubia x 340 gr;;;;Simple;No usa
+01050021;Pulpa de tomate x 520 gr;;;;Simple;No usa
+01050022;Pure de tomate x 1020 gr;;;;Simple;No usa
+01050023;Sopa de vegetales x 500 gr;;;;Simple;No usa
+01050024;Salsa bolognesa x 500 gr;;;;Simple;No usa
+01050025;Salsa con pollo x 500 gr;;;;Simple;No usa
+01050026;Triturado x 950 Tapa Estrella ;;;;Simple;No usa
+01050027;Tomate triturado 8 Kg Lata;;;;Simple;No usa
+01050028;Triturado x 330 gr Albaca;;;;Simple;No usa
+01050029;Triturado x 330 gr Oregano;;;;Simple;No usa
+01050030;Triturado x 330 gr Picante;;;;Simple;No usa
+01050031;Triturado x 500 gr;;;;Simple;No usa
+01050032;Triturado x 500 gr Tapa Twist;;;;Simple;No usa
+01050033;Conejo Deshuesado;;00065;;Simple;No usa
+01050034;Conejo Entero;;00033;;Simple;No usa
+01050035;Hamburguesa de conejo;;00060;;Simple;No usa
+01050036;Lomo de conejo;;;;Simple;No usa
+01050037;Bife de lomo de Conejo;;00031;;Simple;No usa
+01050038;Cabrito Media Res;;00032;;Simple;No usa
+02010001;Dosis AG1010 Bisabuelo Roy;;;;Simple;No usa
+02010002;Dosis AG1020 Abuelo Roy;;;;Simple;No usa
+02010003;Dosis AGPIC337 IU Roy;;;;Simple;No usa
+02010004;Dosis AGPIC337 Roy;;;;Simple;No usa
+02010005;Dosis Línea Talent ;164;;;Simple;No usa
+02010006;Dosis Línea Talent PC;165;;;Simple;No usa
+02010007;Dosis Línea Tzzzz ;166;;;Simple;No usa
+02010008;Dosis Línea Tzzzz PC ;167;;;Simple;No usa
+02010009;Dosis Tzzzz Bisabuelo;;;;Simple;No usa
+02010010;Abuelas en regalías ;Topigs;;;Simple;No usa
+02010011;Dosis TLLL;;;;Simple;No usa
+02020001;Royalty lechon hembra;;;;Simple;No usa
+02020002;Royalty lechon macho;;;;Simple;No usa
+02020004;Servicio de genómica ;Toppigs;;;Simple;No usa
+03010001;Cateter chico;2;;;Simple;No usa
+03010002;Cateter post cervical;112;;;Simple;No usa
+03010003;Agua bidestilada;;;;Simple;No usa
+03020001;Tiamulina 20 % Hs ;;;;Simple;No usa
+03020002;Amoxicilina 50% Hs ;;;;Simple;No usa
+03020003;Tilmicosina 20 % Hs;;;;Simple;No usa
+03020004;Fenbendazole 4%;;;;Simple;No usa
+03020005;Florfenicol 10 %;;;;Simple;No usa
+03020006;Antitermico;;;;Simple;No usa
+03020007;Clortetraciclina 20%;;;;Simple;No usa
+03020008;Fosfomicina 25%;;;;Simple;No usa
+03020009;Doxiciclina 25%;;;;Simple;No usa
+03020010;Florfenicol 8%;;;;Simple;No usa
+03020011;Tiamulina 40% Hs ;;;;Simple;No usa
+03020012;Amoxicilina 57% Hs ;;;;Simple;No usa
+03020013;Tiamulina. 7,5% y Clortet. 20%;Tiaclor;;;Simple;No usa
+03030001;Vacuna Circumvent PCVM 50 ds;149;;;Simple;No usa
+03030002;Vacuna Ileítis Porcina 100ml;72;;;Simple;No usa
+03030003;Vacuna Pleuroneumonia 100 ml;131;;;Simple;No usa
+03030004;Vacuna glasser x25ds;168;;;Simple;No usa
+03030005;Toltrazuril 50 mg 250 ml;154;;;Simple;No usa
+03030006;Vacuna Inmunocastracion 50 ds;111;;;Simple;No usa
+03030007;Vacuna Inmunocastracion 125 ds;65;;;Simple;No usa
+03030008;Vacuna Parvovirosis 50 dosis;164;;;Simple;No usa
+03030009;Vacuna Parvovirosis 10 dosis;170;;;Simple;No usa
+03030010;Vacuna Inmunocastracion 100 ds;146;;;Simple;No usa
+03030011;Vacuna Rinitis AR-T DF x25ds;145;;;Simple;No usa
+03030012;Diclazuril 1.50 mg 250 ml;186;;;Simple;No usa
+03030013;Vacuna Circovirus PCVM 100 ds ;173;;;Simple;No usa
+03030014;Vacuna Mycoplasma ID 100 ds ;;;;Simple;No usa
+03030015;Vacuna Porcilis Begonia DF100d;;;;Simple;No usa
+03030016;Vacuna Forceris 100 ml x66 ds;;;;Simple;No usa
+03030017;Vac. Circov. y Mycoplasma 50ds;Unidosis 177;;;Simple;No usa
+03030018;Vacuna Forceris 250 ml x166ds;;;;Simple;No usa
+03030019;Vacuna Cirbloc MHYO 100 ml;179;;;Simple;No usa
+03030020;Arancel senasa ;179;;;Simple;No usa
+03030021;Vacuna Mycoplasma 100 ds intram. (monodosis);Monodosis;;;Simple;No usa
+03030022;Vacuna Rinitis x50ds;;;;Simple;No usa
+03030023;Vacuna glasser x50ds ;168;;;Simple;No usa
+03030024;Vacuna Diarrea Neonatal x25ds;E.Coli+Clostridium;;;Simple;No usa
+03030025;Vacuna Circovirus PCV 50ds intram. (monodosis);;;;Simple;No usa
+03040001;Curabichera;33;;;Simple;No usa
+03040002;Tiza paintstik caja x 12 unid.;11;;;Simple;No usa
+03040003;Guantes de latex x 100 unid.;12;;;Simple;No usa
+03040004;Aguja 25 x 12 Caja x 100 unid.;99;;;Simple;No usa
+03040005;Aguja 40 x 20 Caja x 100 unid.;;;;Simple;No usa
+03040006;Aguja 25 x 8 Caja x 100 unid.;3;;;Simple;No usa
+03040007;Jeringa 20 ml;7;;;Simple;No usa
+03040008;Jeringa 10 ml;6;;;Simple;No usa
+03040009;Aguja 50 x 12 Caja x 100 unid.;21;;;Simple;No usa
+03040010;Cubreobjetos 20 x 20;103;;;Simple;No usa
+03040011;Hoja bisturí N° 24 x 100;47;;;Simple;No usa
+03040012;Perfus microgotero ;23;;;Simple;No usa
+03040013;Pinza para caravana;58;;;Simple;No usa
+03040014;Guantes de tacto x 100 unid.;25;;;Simple;No usa
+03040015;Hilo de lino;39;;;Simple;No usa
+03040016;Litargirio x 250 gr.;91;;;Simple;No usa
+03040017;Glicerina x 250 gr.;95;;;Simple;No usa
+03040018;Señaladores para oreja N° 65;42;;;Simple;No usa
+03040019;Alcohol etílico liquido;40;;;Simple;No usa
+03040020;Caravana amarilla lisa x25u.;104;;;Simple;No usa
+03040021;Lápiz marcador caravana;106;;;Simple;No usa
+03040022;Pasta tatuaje 140 gr.;113;;;Simple;No usa
+03040023;Jeringa 5 ml.;151;;;Simple;No usa
+03040024;Alcohol en gel x Litro;132;;;Simple;No usa
+03040025;Aplicador eco matic 2 ml;157;;;Simple;No usa
+03040027;Gel lubricante x500ml;155;;;Simple;No usa
+03040028;Jeringa aut. Fix 50 cc;143;;;Simple;No usa
+03040029;Jeringa para improvac 2 ml;84;;;Simple;No usa
+03040030;Jeringa tuberculina x 100 ml;139;;;Simple;No usa
+03040031;Iodopovidona x 1L;161;;;Simple;No usa
+03040032;Termometro digital;133;;;Simple;No usa
+03040033;Tijera mayo recta 17 cm;138;;;Simple;No usa
+03040034;Gel lubricante x 1L;;;;Simple;No usa
+03040035;Aplicador 2 ml;123;;;Simple;No usa
+03040036;Aplicador 1 ml;128;;;Simple;No usa
+03040037;Autodosificador x 5 cc;120;;;Simple;No usa
+03040038;Portaobjetos 75 x 25;102;;;Simple;No usa
+03040040;Pasta tatuaje 30 gr.;159;;;Simple;No usa
+03040041;Aguja 40 x 12 Caja x 100 unid.;5;;;Simple;No usa
+03040042;Vinagre p/ farmacia ;168;;;Simple;No usa
+03040043;Guantes reforz. x100 farmacia;162;;;Simple;No usa
+03040044;Navaja corta cola y dep de gas;;;;Simple;No usa
+03040045;Caravana roja lisa x 25 unid.;163;;;Simple;No usa
+03040046;Caravana azul lisa x25unid.;105;;;Simple;No usa
+03040047;Caravana botón verde sig x 25 ;;;;Simple;No usa
+03040048;Caravana tarjeta roja c/ sigla;x 25 unid;;;Simple;No usa
+03040049;Caravana tarjeta verde c/sigla;x 25 unid;;;Simple;No usa
+03040050;Caravana botón roja num x 25 ;;;;Simple;No usa
+03040051;Iodopovidona x 10L;153;;;Simple;No usa
+03040052;Barra p/ marcar x 10un;;;;Simple;No usa
+03040053;Iodopovidona x 5L;;;;Simple;No usa
+03040054;Corta cola a gas;;;;Simple;No usa
+03040055;Gas butano p/ cortacola;;;;Simple;No usa
+03040056;Mango p/ bisturí ;;;;Simple;No usa
+03040057;Líquido de purificación IDAL ;;;;Simple;No usa
+03040058;Pinza p/ tatuaje ;;;;Simple;No usa
+03040059;Dígitos p/ pinza tatuadora;;;;Simple;No usa
+03040060;Jeringa para forceris 1.5ml ;;;;Simple;No usa
+03040061;Corta cola eléctrico;;;;Simple;No usa
+03040062;Cuchilla p/ corta cola elect. ;;;;Simple;No usa
+03040063;Jeringa tuberculina x 1 ml;;;;Simple;No usa
+03040064;Caravana boton verde lisa x25u;;;;Simple;No usa
+03040065;Formol x 5L;;;;Simple;No usa
+03040066;Autodosificador x 2 cc;;;;Simple;No usa
+03040067;Descornador;P/colonia;;;Simple;No usa
+03040068;Jeringa p/ cirbloc 2ml;;;;Simple;No usa
+03040069;Caravana botón roja lisa x 25 ;197;;;Simple;No usa
+03040070;Jeringa p/ ceva valora;7;;;Simple;No usa
+03040072;Aplicador de Glasser-Porcilis;;;;Simple;No usa
+03050001;Penicilina y estreptom. 100 ml;182;;;Simple;No usa
+03050002;Gentamicina 40 mg100 ml;86;;;Simple;No usa
+03050003;Enrofloxacina al 10% 250 ml;94;;;Simple;No usa
+03050004;Ceftiofur y ketoprofeno 100ml ;129;;;Simple;No usa
+03050005;Oxitetraciclina 20% 250 ml;161;;;Simple;No usa
+03050006;Florfenicol y diclofenac 1L;155;;;Simple;No usa
+03050007;Tulathromicin 50 ml;;;;Simple;No usa
+03050008;Amoxicilina 15 gr 100 ml;174;;;Simple;No usa
+03050010;Cloprostenol 20 ml;188;;;Simple;No usa
+03050011;Florfenicol y diclofenac 100ml;177;;;Simple;No usa
+03050012;Tilosina 20gr ;84;;;Simple;No usa
+03050013;Tilvalosina 85 %;181;;;Simple;No usa
+03050014;Amox 200 mg y ácido clav 50 mg;110;;;Simple;No usa
+03050015;Cefalexina 250 ml ;171;;;Simple;No usa
+03050016;Amoxicilina 20mg x 100ml;187;;;Simple;No usa
+03050017;Enrofloxacina al 5%  100 ml;175;;;Simple;No usa
+03050018;Ceftiofur 0.5g 100ml LA;194;;;Simple;No usa
+03050019;Penicilina y estreptom. 20ml;193;;;Simple;No usa
+03050020;Enrofloxacina al 10% 100 ml;195;;;Simple;No usa
+03060001;Ketoprofeno 10% 50ml ;102;;;Simple;No usa
+03060002;Dexametasona 50 ml;148;;;Simple;No usa
+03060003;Meglumina de flunixin 5%;184;;;Simple;No usa
+03060004;Meloxicam 2.0g;191;;;Simple;No usa
+03060005;Triamcinolona 0.2g 100ml;192;;;Simple;No usa
+03060006;Dexametasona 100ml;196;;;Simple;No usa
+03070001;Clorhidrato de lidocaína 100ml;109;;;Simple;No usa
+03080001;Dipirona 100 ml;81;;;Simple;No usa
+03090001;Vitamina K1 50 ml;183;;;Simple;No usa
+03100001;Membutona 100 mg 100 ml;88;;;Simple;No usa
+03100002;Alcachofa y cloruro de colina;30 gr - 28 gr;;;Simple;No usa
+03100003;Butafosfan y Vitamina B12;190;;;Simple;No usa
+03110001;Oxitocina pituitaria 50 ml;85;;;Simple;No usa
+03110002;Progestágeno sint. 540 ml;107;Regumate;;Simple;No usa
+03110003;Cloprostenol 75% 20 ml;169;;;Simple;No usa
+03110004;Gonadotrofina Ecg + Hcg 25ml;167;;;Simple;No usa
+03110005;Dinoprost y trometamina 5 mg;189;;;Simple;No usa
+03120001;Hierro 20g 100 ml ;100;;;Simple;No usa
+03120002;Vitamínico ADE 3 250 ml;121;;;Simple;No usa
+03120003;Compl. vitam. roborante 250 ml;173;;;Simple;No usa
+03120004;Vitamina B12 100 ml;;;;Simple;No usa
+03120005;Vitamina A, D y E 250 ml;121;;;Simple;No usa
+03120006;Com. vitamínico y aminoácidos;185;;;Simple;No usa
+03130001;Mosquicida x1 kg;13;;;Simple;No usa
+03130004;Rodenticida x 1 kg;156;;;Simple;No usa
+03130006;Mosquicida x 400 gr ;127;;;Simple;No usa
+03130007;Mosquicida x 5kg;160;;;Simple;No usa
+03130008;Rodenticida x 10 kg;129;;;Simple;No usa
+03130009;Desengrasante y desinfectante;136;;;Simple;No usa
+03130010;Desinfectante;158;;;Simple;No usa
+03130011;Desinfectante virucida polvo;KG;;;Simple;No usa
+03130012;Mosquicida x 250 gr;;;;Simple;No usa
+04010001;Maíz ;;;;Simple;No usa
+04010002;Expeller de soja;;;;Simple;No usa
+04010003;Pellet de alfa;;;;Simple;No usa
+04010004;Azúcar p/ fórmula;;;;Simple;No usa
+04010005;Aceite de soja desgomado;;;;Simple;No usa
+04010006;Soja;;;;Simple;No usa
+04010007;Fibra sintética ;;;;Simple;No usa
+04010008;Trigo;;;;Simple;No usa
+04020001;Fase 1;;;;Simple;No usa
+04020002;Fase 2;;;;Simple;No usa
+04020003;Fase 3;;;;Simple;No usa
+04020004;Fase 4;;;;Simple;No usa
+04020005;Terminador;;;;Simple;No usa
+04020006;Desarrollo;;;;Simple;No usa
+04020007;Gestación;;;;Simple;No usa
+04020008;Lactancia;;;;Simple;No usa
+04020009;Reposición ;;;;Simple;No usa
+04020010;Talco secante;;;;Simple;No usa
+04020011;Secuestrante;;;;Simple;No usa
+04020012;Cobrefarms;;;;Simple;No usa
+04020013;Super lechón;;;;Simple;No usa
+04020014;Saborizante;;;;Simple;No usa
+04020015;Fase 0;;;;Simple;No usa
+04020016;Inactivador de Micotoxinas;;;;Simple;No usa
+04020017;Desarrollo Cachorra;;;;Simple;No usa
+04020018;Aditivo p/ lactancia;;;;Simple;No usa
+04020019;Complejo Enzimático ;;;;Simple;No usa
+04020020;Inactivador de Micotoxinas Fumo;;;;Simple;No usa
+05010001;Nafta Producción;;;;Simple;No usa
+05010002;Gasoil Producción;;;;Simple;No usa
+05010003;Gas propano producción;;;;Simple;No usa
+05010004;Gas envasado;;;;Simple;No usa
+05010005;Leña producción;;;;Simple;No usa
+05010006;No grav comb producción;;;;Simple;No usa
+05010007;Impuesto al Co2 productivo;;;;Simple;No usa
+05020001;Nafta comercialización;;;;Simple;No usa
+05020002;Gasoil comercialización;;;;Simple;No usa
+05020003;No Grav Comb Comercialización;;;;Simple;No usa
+05030001;Nafta operativa;;;;Simple;No usa
+05030002;Gasoil operativo;;;;Simple;No usa
+05030003;No grav comb operativos;;;;Simple;No usa
+05030004;Impuesto al Co2 operativo;;;;Simple;No usa
+06010001;Flete a Frig La Pompeya;;;;Simple;No usa
+06010002;Flete a Frig Cdllsa;;;;Simple;No usa
+06010003;Flete a La Piamontesa A Giacos;;;;Simple;No usa
+06010004;Flete a Frig Amancay;;;;Simple;No usa
+06010005;Flete a Frig Neida Srl;;;;Simple;No usa
+06010006;Movimiento interno de granja;;;;Simple;No usa
+06010007;Retorno flete;;;;Simple;No usa
+06010008;Lavado en Frigorífico;;;;Simple;No usa
+06010009;Flete Chepes - Ulapes ;;;;Simple;No usa
+06010010;Flete Ulapes - FCDLL ;;;;Simple;No usa
+06010011;Flete a Frig Cerdos Andes;;;;Simple;No usa
+06010012;Flete a Frig Rafaela Alimentos;;;;Simple;No usa
+06010013;Flete a Frig El Meridiano;;;;Simple;No usa
+06010014;Gastos de Flete Animales vivos;;;;Simple;No usa
+06010015;Flete a Frig Catamarca ;;;;Simple;No usa
+06010016;Flete a Frig La Piara ;;;;Simple;No usa
+06010017;Flete a Frig Carnes Vireyes;;;;Simple;No usa
+06010018;Flete a Frig Los Juncos ;;;;Simple;No usa
+06010019;Flete a Frig Gonzalez Hermanos;;;;Simple;No usa
+06010020;Flete a Frigorifico Paladini;;;;Simple;No usa
+06010021;Gastos Flete Animales Vivos NG;;;;Simple;No usa
+06010022;Flete a Magros Porcinos ;;;;Simple;No usa
+06010023;Flete a Tucumán;;;;Simple;No usa
+06010024;Flete a Frig Caucete-Gambeta ;;;;Simple;No usa
+06020001;Transporte de Media Res LR;;;;Simple;No usa
+06030001;Transporte de Cortes LR;;;;Simple;No usa
+06040001;Flete Maíz;;;;Simple;No usa
+06040002;Flete Expeller;;;;Simple;No usa
+06040003;Flete Pellet de Alfa;;;;Simple;No usa
+06040004;Flete Azúcar;;;;Simple;No usa
+06040005;Flete Aceite de Soja;;;;Simple;No usa
+06040006;Flete de soja;;;;Simple;No usa
+06040007;Flete Trigo;;;;Simple;No usa
+06050001;Transporte de art e insumos;;;;Simple;No usa
+06050002;No grav transp. de art e ins.;;;;Simple;No usa
+06050003;Transporte marítimo art e ins.;;;;Simple;No usa
+06050004;Trans. marítimo No Grav;;;;Simple;No usa
+07010001;Viandas;;;;Simple;No usa
+07010002;Capacitaciones;;;;Simple;No usa
+07010003;Exámenes preocupacionales;;;;Simple;No usa
+07010004;Bidón x 20L Agua mineral;;;;Simple;No usa
+07010005;Servicio de dispenser agua;;;;Simple;No usa
+07010006;Programa de bienestar;;;;Simple;No usa
+07010007;Suscripción Editorial Errepar;;;;Simple;No usa
+07010008;Agasajo al personal;;;;Simple;No usa
+07010009;Comestibles varios;;;;Simple;No usa
+07010012;Artículos de cocina;;;;Simple;No usa
+07010013;Servicio de transporte;;;;Simple;No usa
+07010014;Obsequios al personal;;;;Simple;No usa
+07010015;Comestibles varios 10,5;;;;Simple;No usa
+07010016;Gas envasado administración ;;;;Simple;No usa
+07010017;Obsequios al personal 10.5;;;;Simple;No usa
+07010018;Otros gastos del personal ;;;;Simple;No usa
+07010019;Capacitaciones Exentas;;;;Simple;No usa
+07010020;Comestibles varios NG;;;;Simple;No usa
+07010021;Viandas 10.5;;;;Simple;No usa
+07010022;Cajas Navideñas ;;;;Simple;No usa
+07010023;Agasajo al personal NG;;;;Simple;No usa
+07010024;Beneficio farmanor ;;;;Simple;No usa
+07020001;Calzado de trabajo;;;;Simple;No usa
+07020002;Pantalón de trabajo;;;;Simple;No usa
+07020003;Chaleco;;;;Simple;No usa
+07020004;Buzo friza;;;;Simple;No usa
+07020005;Uniformes;;;;Simple;No usa
+07020006;Etiqueta de tela;;;;Simple;No usa
+07020007;Remera;;;;Simple;No usa
+07020008;Campera;;;;Simple;No usa
+07020009;Bordado de indumentaria;;;;Simple;No usa
+07020010;Guardapolvo ;;;;Simple;No usa
+07020011;Mameluco de trabajo;;;;Simple;No usa
+07020012;Gorra;;;;Simple;No usa
+07020013;Estampado de indumentaria;;;;Simple;No usa
+07030001;Servicio seg e higiene;;;;Simple;No usa
+07030002;Toalla;;;;Simple;No usa
+07030003;Toallón;;;;Simple;No usa
+07030004;Lentes de protección;;;;Simple;No usa
+07030005;Bota pvc larga;;;;Simple;No usa
+07030006;Guantes multiflex;;;;Simple;No usa
+07030007;Guantes de soldador;;;;Simple;No usa
+07030008;Protectores oculares;;;;Simple;No usa
+07030009;Piloto de lluvia;;;;Simple;No usa
+07030010;Delantal de pvc blanco;;;;Simple;No usa
+07030011;Mascara fotosensible;;;;Simple;No usa
+07030012;Guantes de nitrilo Caja x 100;;;;Simple;No usa
+07030014;Protector auditivo;;;;Simple;No usa
+07030015;Guante anticorte;;;;Simple;No usa
+07030016;Arnes De Seguridad ;;;;Simple;No usa
+07030017;Cascos De Seguridad;;;;Simple;No usa
+07030018;Protector lumbar;;;;Simple;No usa
+07030019;Antiparra;;;;Simple;No usa
+07030020;Guante de agarre;;;;Simple;No usa
+07030021;Artículos de botiquín 21%;;;;Simple;No usa
+07030022;Cartelería de riesgo;;;;Simple;No usa
+07030023;Máscara respiratoria facial;P/ fumigar;;;Simple;No usa
+07030024;Artículos de botiquín Exento;;;;Simple;No usa
+07030025;Mameluco descartable ;;;;Simple;No usa
+07030026;Artículos de botiquín 10.5%;;;;Simple;No usa
+07030027;Guante dieleléctrico;;;;Simple;No usa
+07030028;Guante alta temp. 40cm ;;;;Simple;No usa
+07030029;Guante rugoso 100° alta temp.;;;;Simple;No usa
+07030030;Cabo de vida ;;;;Simple;No usa
+07040001;Servicio medicina laboral;;;;Simple;No usa
+07050001;Viáticos;;;;Simple;No usa
+07050002;Viáticos no gravados;;;;Simple;No usa
+07050003;Viáticos 10.5;;;;Simple;No usa
+08010001;Honorarios asesoramiento;;;;Simple;No usa
+08020001;Honorarios prof de terceros;;;;Simple;No usa
+08020004;Servicios de desinfección ;;;;Simple;No usa
+08020006;Hon. prof terceros no grav.;;;;Simple;No usa
+08020007;Honorarios prof de terceros NG;;;;Simple;No usa
+09010001;Glensol Bfa A x 25Kg;;;;Simple;No usa
+09010002;"Filtro Dgd 4.5"" X 20""";;;;Simple;No usa
+09010003;Glensol 3901;;;;Simple;No usa
+09010004;Glensol K429;;;;Simple;No usa
+09010005;Glensol Sc X Litro;;;;Simple;No usa
+09010006;Glensol K430  X Litro;;;;Simple;No usa
+09010007;Glensol Roc3  X Litro;;;;Simple;No usa
+09010008;Glensol K55  X Litro;;;;Simple;No usa
+09010009;Glensol Cit  X  Kg;;;;Simple;No usa
+09010010;Glensol Roc 8  X  Kg;;;;Simple;No usa
+09010011;Amoi 300;;;;Simple;No usa
+09010012;Voda 1310;;;;Simple;No usa
+09010013;Smbs-20;;;;Simple;No usa
+09010014;Amoi Reg. ;;;;Simple;No usa
+09010015;Amoi 511 ;;;;Simple;No usa
+09010016;Amoi 510;;;;Simple;No usa
+09010017;"Filtro 30""x2.5"" x10u";;;;Simple;No usa
+09010018;Bacterias 3901;169;;;Simple;No usa
+09010019;Glensol Cit x25 kg;;;;Simple;No usa
+09010020;Membranas baja presión ;Planta Osmosis;;;Simple;No usa
+09020001;Servicio técnico para osmosis;;;;Simple;No usa
+09020002;Rotametro Med de flujo Cd110;;;;Simple;No usa
+09020003;Rotametro med de flujo Cd150;;;;Simple;No usa
+09020004;"Filtro 30""X2,5";;;;Simple;No usa
+09020005;"Filtro 20""X5";;;;Simple;No usa
+09020006;"Filtro Dgd 4,5""X20";;;;Simple;No usa
+09020007;"Traba exterior tapa housing 8""";;;;Simple;No usa
+09020008;Piezas para osmosis;;;;Simple;No usa
+09020009;Kit rep. cabezal p/osmosis ;;;;Simple;No usa
+10010001;Sal Entrefina;;;;Simple;No usa
+10010002;Ligante;;;;Simple;No usa
+10010003;Provenzal;;;;Simple;No usa
+10010004;Oregano;;;;Simple;No usa
+10010005;Ajo;;;;Simple;No usa
+10010006;Pimienta;;;;Simple;No usa
+10010007;Nuez Moscada;;;;Simple;No usa
+10010008;Tripa Calibre 38 P/ Chorizo;;;;Simple;No usa
+10010009;Tripa Calibre 23 P/Salchicha;;;;Simple;No usa
+10010010;Hilo Choricero;;;;Simple;No usa
+10010011;Rojo Carmin;;;;Simple;No usa
+10010012;Pan Rallado;;;;Simple;No usa
+10010013;Tinta P/ Media Res;;;;Simple;No usa
+10010014;Vino Blanco;;;;Simple;No usa
+10010015;Unit Pack Hf;;;;Simple;No usa
+10010016;Natured Fresh;;;;Simple;No usa
+10010017;Vinagre;;;;Simple;No usa
+10010018;Aditivo p/ milanesa ;;;;Simple;No usa
+10010019;Aditivo p/ hamburguesa;;;;Simple;No usa
+10010020;Rebozador ;;;;Simple;No usa
+10010021;Pimentón;;;;Simple;No usa
+10010022;Ají molido ;;;;Simple;No usa
+10010023;Integral Hamburguesa ;;;;Simple;No usa
+10010024;Integral Morcilla ;;;;Simple;No usa
+10010025;Anticoagulante p/sangre fresca;;;;Simple;No usa
+10010026;Integral p/ nugget;;;;Simple;No usa
+10010027;Lactato;;;;Simple;No usa
+10010028;Harina de trigo ;;;;Simple;No usa
+10010029;Almidón de maíz;;;;Simple;No usa
+10010030;Integral Salame ;;;;Simple;No usa
+10010031;Integral Bondiola ;;;;Simple;No usa
+10010032;Tripa fibrosa regular 42x30mt;;;;Simple;No usa
+10010033;Red de hilo p/ bondiola;;;;Simple;No usa
+10010034;Cultivo Iniciador x 50kg;;;;Simple;No usa
+10010035;Queso Tybo;;;;Simple;No usa
+10010036;Queso Roquefort;;;;Simple;No usa
+10010037;Morron;;;;Simple;No usa
+10010038;Vino Tinto;;;;Simple;No usa
+1002;Agitador magnético N°3;;;;Simple;No usa
+10020001;Acido Clorhidrico 37%;;;;Simple;No usa
+10020002;Cinta Ph Reactiva;;;;Simple;No usa
+10020003;Probeta De Vidrio 50 ml C/Base;;;;Simple;No usa
+10020004;Pipeta Vidrio 10 ml;;;;Simple;No usa
+10020005;Pipeta Vidrio 25 ml;;;;Simple;No usa
+10020006;Propipeta De Goma;;;;Simple;No usa
+10020007;Placa De Petris 60X15 Vidrio;;;;Simple;No usa
+10020008;Agua Destila P/ Laborat;;;;Simple;No usa
+10020009;Pepsina 1:10000 Nf;;;;Simple;No usa
+10020010;Rojo fenol;;;;Simple;No usa
+10020011;"Tubo cristal transparente 3/4""";;;;Simple;No usa
+10020012;Rep. agitador magnético N°3;;;;Simple;No usa
+10020013;Micropipeta 121° 10-100 µL;;;;Simple;No usa
+10020014;Micropipeta 121° 20-200µL;;;;Simple;No usa
+10020015;Tubo eppendorf 1.5ml bolsax500;;;;Simple;No usa
+10020016;Tips p/micropipeta ;;;;Simple;No usa
+10020018;Gradilla polipropileno;;;;Simple;No usa
+10020019;Ampolla decantación 2L;;;;Simple;No usa
+10020020;Filtro de papel ;;;;Simple;No usa
+10020021;Vaso precipitado;;;;Simple;No usa
+10020022;Ácido Clorhídrico;;;;Simple;No usa
+10020023;Kit de micotoxinas;;;;Simple;No usa
+10020024;Balanza gramera precisión ;;;;Simple;No usa
+10020025;Molinillo p/ laboratorio;;;;Simple;No usa
+10020026;Cinta para autoclaves ;;;;Simple;No usa
+10020027;Procesadora p/ laboratorio ;;;;Simple;No usa
+10020028;Kit de micotoxinas No Grav.;;;;Simple;No usa
+10020029;Ampollas control de esporas;;;;Simple;No usa
+10020030;Frasco graduado 100ml;;;;Simple;No usa
+10020031;Tubo kanh ;p/ laboratorio;;;Simple;No usa
+10030001;Bolsa Camiseta;;;;Simple;No usa
+10030002;Bolsa Precorte;;;;Simple;No usa
+10030003;Bolsa de Residuos;;;;Simple;No usa
+10030004;Etiqueta Autoadhesiva;;;;Simple;No usa
+10030005;Paños Absorbentes;;;;Simple;No usa
+10030006;Bandeja Descartables;;;;Simple;No usa
+10030007;Vasos Descartables;;;;Simple;No usa
+10030008;Films;;;;Simple;No usa
+10030009;Cofias;;;;Simple;No usa
+10030010;Toallas de Papel Paq. x10 unid;;;;Simple;No usa
+10030011;Papel Limpia Mano;;;;Simple;No usa
+10030012;Barbijo;;;;Simple;No usa
+10030013;Separadores Folex;;;;Simple;No usa
+10030014;Papel Higienico;;;;Simple;No usa
+10030015;Servilletas de Papel;;;;Simple;No usa
+10030016;Bolsa precorte 25/50;;;;Simple;No usa
+10030017;Bolsa camiseta 40/50;;;;Simple;No usa
+10030018;Rollo etiqueta adhesiva redond;;;;Simple;No usa
+10030019;Bolsa de vacío 40x50;;;;Simple;No usa
+10030020;Bandeja p/ milanesas 25x15 ;;;;Simple;No usa
+10030021;Rollo numérico;;;;Simple;No usa
+10030022;Caja de cartón ;P/ módulo;;;Simple;No usa
+10030023;Barbijo No Grav;;;;Simple;No usa
+10030024;Elementos de producción varios;;;;Simple;No usa
+11010001;Mother gigabyte;;;;Simple;No usa
+11010002;Ticketera termica;;;;Simple;No usa
+11010003;Impresora zt230 zebra;;;;Simple;No usa
+11010004;Cargador universal notebook;;;;Simple;No usa
+11010005;Grasa siliconada;;;;Simple;No usa
+11010006;Toner;;;;Simple;No usa
+11010007;Tinta epson 544 negro;;;;Simple;No usa
+11010008;Tinta original hp;;;;Simple;No usa
+11010009;Inyector poe ubiquiti;;;;Simple;No usa
+11010010;Cámara de seguridad ;;;;Simple;No usa
+11010011;Conector plug rg45;;;;Simple;No usa
+11010012;Bobina de utp cat 5e furukawa;;;;Simple;No usa
+11010013;Cable serial fiscal;;;;Simple;No usa
+11010014;Cable rs 232;;;;Simple;No usa
+11010015;Cable alargue rs232 db9 HH;;;;Simple;No usa
+11010016;Cable alargue rs232 db9 MH;;;;Simple;No usa
+11010017;Cable extensor usb MH;;;;Simple;No usa
+11010018;X10u conector ;;;;Simple;No usa
+11010019;Rollo termico;;;;Simple;No usa
+11010020;Rollo cln;;;;Simple;No usa
+11010021;Ribbons cera resina;;;;Simple;No usa
+11010022;Rollo cable lan;;;;Simple;No usa
+11010023;Cable HDMI ;;;;Simple;No usa
+11010024;Funda p/ notebook;;;;Simple;No usa
+11010025;Rollo ribbons 110x74mm;;;;Simple;No usa
+11010026;Adaptador de red satelital;;;;Simple;No usa
+11010027;Balún cctv;;;;Simple;No usa
+11010028;Plug alimentación cámara;;;;Simple;No usa
+11010029;Accesorios p/ celulares;;;;Simple;No usa
+11010030;Pendrive ;;;;Simple;No usa
+11020001;Almohadilla P/ Sello;;;;Simple;No usa
+11020002;Abrochadora;;;;Simple;No usa
+11020003;Biblioratos;;;;Simple;No usa
+11020004;Broches p/ engrampadora;;;;Simple;No usa
+11020005;Nepaco;;;;Simple;No usa
+11020006;Grampas P/Abroc;;;;Simple;No usa
+11020007;Carpetas;;;;Simple;No usa
+11020008;Cinta Adhesiva Papel;;;;Simple;No usa
+11020009;Cinta Transparente;;;;Simple;No usa
+11020010;Clips Metalicos;;;;Simple;No usa
+11020011;Corrector;;;;Simple;No usa
+11020012;Engrapadora Broches;;;;Simple;No usa
+11020013;Folios;;;;Simple;No usa
+11020014;Goma de borrar;;;;Simple;No usa
+11020015;Impresion Talonarios Varios;;;;Simple;No usa
+11020016;Lapiceras;;;;Simple;No usa
+11020017;Marcador;;;;Simple;No usa
+11020018;Papel Vegetal;;;;Simple;No usa
+11020019;Regla;;;;Simple;No usa
+11020020;Resaltador;;;;Simple;No usa
+11020021;Resma Papel;;;;Simple;No usa
+11020022;Marcadores Para Pizarras ;;;;Simple;No usa
+11020023;Libretas De Bolsillos ;Anotadores ;;;Simple;No usa
+11020024;Perforadoras Para Papel;;;;Simple;No usa
+11020025;Pizarra Blanca 0.80 X 0.60;;;;Simple;No usa
+11020026;Carpetas A4 Tapa Transparente;;;;Simple;No usa
+11020027;Block Anotador De Colores; por 250 Hojas ;;;Simple;No usa
+11020028;Cinta Adhesiva 40Mm;;;;Simple;No usa
+11020029;Bandas elásticas;;;;Simple;No usa
+11020030;Tinta p/ sello de goma ;;;;Simple;No usa
+11020031;Cuadernos A5;;;;Simple;No usa
+11020032;Sobre papel madera ;;;;Simple;No usa
+11020033;Broches 21/06 ;p/ abrochadora;;;Simple;No usa
+11020034;Tijera p/ oficina ;;;;Simple;No usa
+11020035;Plasticola;;;;Simple;No usa
+11020036;Caja de cartón p/ archivo;;;;Simple;No usa
+11020037;Broches 10/50;p/ abrochadora;;;Simple;No usa
+11020038;Libro de actas ;;;;Simple;No usa
+11020039;CD Virgen;;;;Simple;No usa
+11020040;Art. Libreria Varios ;;;;Simple;No usa
+11020041;Bandeja organizadora archivos;;;;Simple;No usa
+11020042;Sello automático;;;;Simple;No usa
+11020043;Tabla portapapel ;;;;Simple;No usa
+11030001;Lavandina;;;;Simple;No usa
+11030002;Lampazo;;;;Simple;No usa
+11030003;Pulverizador ;;;;Simple;No usa
+11030004;Sendeco 08;;;;Simple;No usa
+11030005;Detergente Neutro;;;;Simple;No usa
+11030006;Desengrasante P/ Roldanas;;;;Simple;No usa
+11030007;Jabon P/ Manos Neutro;;;;Simple;No usa
+11030008;Jabon En Polvo;;;;Simple;No usa
+11030009;Cloro En Polvo;;;;Simple;No usa
+11030010;Desodorante Para Piso;Concentrado;;;Simple;No usa
+11030011;Desodorante De Ambiente;;;;Simple;No usa
+11030012;Lustramueble;;;;Simple;No usa
+11030013;Rejilla De Cocina;;;;Simple;No usa
+11030014;Cabo De Madera P/Cepillo;;;;Simple;No usa
+11030015;Mopa;;;;Simple;No usa
+11030016;Guantes de goma;;;;Simple;No usa
+11030017;Naftalina;;;;Simple;No usa
+11030018;Cloro liquido;;;;Simple;No usa
+11030019;Desengrasante;;;;Simple;No usa
+11030020;Cloro en pastillas;;;;Simple;No usa
+11030021;Esponja;;;;Simple;No usa
+11030022;Virulana;;;;Simple;No usa
+11030023;Secador de Piso;;;;Simple;No usa
+11030024;Shampo;;;;Simple;No usa
+11030025;Aromatizador;;;;Simple;No usa
+11030026;Trapo De Piso;;;;Simple;No usa
+11030027;Franela;;;;Simple;No usa
+11030028;Escobillon De Alambre;;;;Simple;No usa
+11030029;Jabon Corporal;;;;Simple;No usa
+11030030;Limpia Vidrios;;;;Simple;No usa
+11030031;Cepillo P/ Barrer;;;;Simple;No usa
+11030032;Broches p/ ropa;;;;Simple;No usa
+11030033;Pastilla P/ Inodoro;;;;Simple;No usa
+11030034;Cepillo P/ Lavar;;;;Simple;No usa
+11030035;Plumero;;;;Simple;No usa
+11030036;Jabon Liquido P/ Ropa;;;;Simple;No usa
+11030037;Balde;;;;Simple;No usa
+11030038;Dispenser De Jabon;;;;Simple;No usa
+11030039;Dispenser Toalla Papel;;;;Simple;No usa
+11030040;Cesto Residuos;;;;Simple;No usa
+11030041;Cepillo De Alambre;;;;Simple;No usa
+11030042;Esponja Acero;;;;Simple;No usa
+11030043;Jabón Desengrasante X 20 Lts ;Por Bidón;;;Simple;No usa
+11030044;Dispenser Para Jabon Liquido;;;;Simple;No usa
+11030045;Desengrasante Indus. Limpia +;Industrial;;;Simple;No usa
+11030046;Bolsa de residuos 60x90 ;;;;Simple;No usa
+11030047;Bolsa de residuos 50x70;;;;Simple;No usa
+11030048;Bolsa de residuos 90x120;;;;Simple;No usa
+11030049;Bobina de papel industrial ;;;;Simple;No usa
+11030051;Insecticida en aerosol;;;;Simple;No usa
+11030052;Cabo de plástico p/ cepillo;;;;Simple;No usa
+11030053;Bolsa precorte 70x50;Transparente;;;Simple;No usa
+11030054;Pala plástica;;;;Simple;No usa
+11030055;Sendeco 03 ;;;;Simple;No usa
+11030056;Sendeco 09;;;;Simple;No usa
+11030057;Dispenser p/ alcohol en gel ;;;;Simple;No usa
+11030058;Clax 100 OB (Jabon);;;;Simple;No usa
+11030059;Articulos de Limpieza ;;;;Simple;No usa
+11030060;Canasto plástico p/ local ;;;;Simple;No usa
+11030061;Secador limpia vidrios;;;;Simple;No usa
+11030062;Cif cremoso ;;;;Simple;No usa
+11030063;Quitasarro ;;;;Simple;No usa
+11030064;Cepillo p/ inodoro;;;;Simple;No usa
+11030065;Jabon blanco;;;;Simple;No usa
+11030066;Gamuza;;;;Simple;No usa
+11030067;Rollo fibra vegetal verde;;;;Simple;No usa
+11030068;Desoxidante p/ Roldanas;;;;Simple;No usa
+11030069;Ácido p/ roldanas;;;;Simple;No usa
+11030070;Deseng. Desoxidant p/ Roldanas;;;;Simple;No usa
+11030071;Mopa c/ soporte;;;;Simple;No usa
+11030072;Cabo de madera ;;;;Simple;No usa
+11030073;Cera p/ piso;;;;Simple;No usa
+11030074;Canasto p/ ropa grande;;;;Simple;No usa
+11030075;Embudo N°31;;;;Simple;No usa
+11030076;Tapa p/ inodoro ;;;;Simple;No usa
+11030077;Detergente ;;;;Simple;No usa
+11030078;Balde escurridor;;;;Simple;No usa
+11030079;Sopapa;;;;Simple;No usa
+11030080;Cebo en gel p/cucaracha x caja;;;;Simple;No usa
+11030081;Lampazo industrial 80cm ;;;;Simple;No usa
+11030082;Limpia vidrios ;;;;Simple;No usa
+11030083;Cabo de madera p/ barrendero ;;;;Simple;No usa
+11030084;Shampo (x litros);;;;Simple;No usa
+11030085;Jabón corporal  (x litros);;;;Simple;No usa
+11030086;Alcohol etílico (x litro) ;;;;Simple;No usa
+11030087;Toallas intercaladas (paquete);;;;Simple;No usa
+11030088;Escobillon Barrendero ;;;;Simple;No usa
+11030089;Escobillon Anden 80cm;;;;Simple;No usa
+11030090;Cabo extensible;;;;Simple;No usa
+11030091;Cabo metálico ;;;;Simple;No usa
+11030092;Removedor de Particulas ;;;;Simple;No usa
+11030093;Kit de PH y Cloro;;;;Simple;No usa
+11030094;Líquido p/ lampazo;;;;Simple;No usa
+11030095;Tender p/ ropa;;;;Simple;No usa
+11030096;Agua oxigenada;;;;Simple;No usa
+11030097;Desengrasante Alcalino P/ Roldanas;Lubridual;;;Simple;No usa
+11040001;Insecticida p/ maíz;;;;Simple;No usa
+11040002;Insecticida líquido p/fumigar ;;;;Simple;No usa
+11040003;Fosfuro de aluminio ;;;;Simple;No usa
+11040004;Repelente p/ mosquitos ;;;;Simple;No usa
+11040005;Mochila p/ fumigar;;;;Simple;No usa
+11040006;Trampa doble atrapa moscas ;;;;Simple;No usa
+11040007;Arenosa vector Uv p/ moscas;C/placa pegamento;;;Simple;No usa
+11040008;Insecticida p/ hormigas;;;;Simple;No usa
+11040009;Ácido láctico p/ desinfeccion ;;;;Simple;No usa
+11040010;Desinfectante Mant. ;;;;Simple;No usa
+11040011;Balde trampa p/ moscas ;;;;Simple;No usa
+11040012;Cebo líquido p/ moscas ;Fly hunt;;;Simple;No usa
+11040013;Plancha adhesiva ecotrap;;;;Simple;No usa
+11040014;Pegamento p/ roedor.;;;;Simple;No usa
+11040015;Desincrustante alcalino ;p/ frigorífico ;;;Simple;No usa
+11040016;Desincrust. alcalino clorado;p/ granja;;;Simple;No usa
+11050001;Fardo de viruta ;;;;Simple;No usa
+12010001;Rack 6u;;;;Simple;No usa
+12010002;Router tp link;;;;Simple;No usa
+12010003;Placa wifi usb;;;;Simple;No usa
+12010004;Placa wifi pci;;;;Simple;No usa
+12010005;Cpu amd;;;;Simple;No usa
+12010006;Camara web  hd 1080p;;;;Simple;No usa
+12010007;Cpu intel core i;;;;Simple;No usa
+12010008;Estabilizador de tension forza;;;;Simple;No usa
+12010009;Cooler;;;;Simple;No usa
+12010010;Fuente de alim certificada;;;;Simple;No usa
+12010011;Fuente de alim estandar;;;;Simple;No usa
+12010012;Disco ssd 240 - 480gb;;;;Simple;No usa
+12010013;Apu  ups;;;;Simple;No usa
+12010014;Switch 16 bocas;;;;Simple;No usa
+12010015;Memorias ram 2-4-8-16;;;;Simple;No usa
+12010016;Switch tp link;;;;Simple;No usa
+12010017;Placa pci 2 puertos;;;;Simple;No usa
+12010018;Monitor 19 - 27 estandar;;;;Simple;No usa
+12010019;Monitor 19 pulgadas tactil;;;;Simple;No usa
+12010020;Monitor 26 pulgadas estandar;;;;Simple;No usa
+12010021;Impresora;;;;Simple;No usa
+12010022;Lector cod barras;;;;Simple;No usa
+12010023;Escaner;;;;Simple;No usa
+12010024;Teclado y mouse;;;;Simple;No usa
+12010025;Microprocesador;;;;Simple;No usa
+12010026;Mouse;;;;Simple;No usa
+12010027;Pads p/ Mouse;;;;Simple;No usa
+12010028;Kit internet satelital;;;;Simple;No usa
+12010029;Comandera ;;;;Simple;No usa
+12010030;Dvr 4CH;;;;Simple;No usa
+12010031;Dvr 8CH;;;;Simple;No usa
+12010032;Router extensor de rango;;;;Simple;No usa
+12010033;Aire comprimido aerosol;;;;Simple;No usa
+12010034;Pc Intel completa ssd;i5, i3, i7;;;Simple;No usa
+12010035;Pc Intel Core l5-10400;completa;;;Simple;No usa
+12010036;Reloj de marcación ;;;;Simple;No usa
+12010037;Disco externo usb;;;;Simple;No usa
+12010038;Access Point;;;;Simple;No usa
+12010039;Cargador celular;Tipo C ;;;Simple;No usa
+12020001;Maquina Inverter Lhn 242-I;;;;Simple;No usa
+12020002;Auto-Bomba 12V;Para Combustibles ;;;Simple;No usa
+12020003;Tanque De Presión Hidro Neum.;Neumático 240L. ;;;Simple;No usa
+12020004;Balanza Digital Con Celdas ;;;;Simple;No usa
+12020005;Electrobombas Completas ;;;;Simple;No usa
+12020006;Piedra de Afilar;;;;Simple;No usa
+12020007;Chaira estriada;;;;Simple;No usa
+12020008;Chaira Lisa ;;;;Simple;No usa
+12020009;Cuchillo 1060.15;;;;Simple;No usa
+12020010;Cuchillo 1070.18;;;;Simple;No usa
+12020011;Cuchillo 1040.12;;;;Simple;No usa
+12020012;Cuchillo 1050.16;;;;Simple;No usa
+12020013;Sierra de mano p/ hoja  65cm;;;;Simple;No usa
+12020014;Hoja de sierra 65 cm/ 1 cm anc;;;;Simple;No usa
+12020015;Hoja de sierra 81,5cm x 6,5cm ;;;;Simple;No usa
+12020016;Cuchillo 1070.16;;;;Simple;No usa
+12020017;Hoja de sierra Kas 05-300;;;;Simple;No usa
+12020018;Hoja de sierra;;;;Simple;No usa
+12020019;Guía de sierra completa;;;;Simple;No usa
+12020020;Bandeja para picadora;;;;Simple;No usa
+12020021;Carretilla plástica ;;;;Simple;No usa
+12020022;Cuchilla para picadora;;;;Simple;No usa
+12020023;Disco para picadora;;;;Simple;No usa
+12020024;Rueda p/carro;;;;Simple;No usa
+12020025;Balde p/ tripas;;;;Simple;No usa
+12020026;Cajón ventilado apilable;;;;Simple;No usa
+12020027;Balanza Electrónica 30kg ;;;;Simple;No usa
+12020028;Tambor 200lts c/ tapa;;;;Simple;No usa
+12020029;Gancho p/ desposte;;;;Simple;No usa
+12020030;Arco de sierra de mano N°25;;;;Simple;No usa
+12020031;Estuche plástico p/ cuchillo;;;;Simple;No usa
+12020032;Selladora de films;;;;Simple;No usa
+12020033;Bandeja para batea ;;;;Simple;No usa
+12020034;Tabla para corte;;;;Simple;No usa
+12020035;Mesa de apoyo;;;;Simple;No usa
+12020036;Carro porta insumos;S1;;;Simple;No usa
+12020037;Cortina PVC;;;;Simple;No usa
+12020038;Contenedor pvc 660lts;;;;Simple;No usa
+12020039;Electrobomba comp. 10.5%;;;;Simple;No usa
+12020040;Moldes formadores ;;;;Simple;No usa
+12020041;Placa Plástica - Arreador;;;;Simple;No usa
+12020042;Olla aluminio 98L;;;;Simple;No usa
+12020043;Bandeja apilable p/ nuggets;;;;Simple;No usa
+12020044;Caja registradora;;;;Simple;No usa
+12020045;Gazebo;;;;Simple;No usa
+12030001;Pava eléctrica;;;;Simple;No usa
+1203002;Organizador Plástico ;;;;Simple;No usa
+1203003;Bomba presurizadora de red;;;;Simple;No usa
+1203004;Gancho acero inox p/ pesuñas;;;;Simple;No usa
+1203005;Recipiente plástico ;;;;Simple;No usa
+1203006;Bomba centrífuga de ¼”  hp;;;;Simple;No usa
+1203007;Calador Sonda ;;;;Simple;No usa
+1203008;Estufa ;;;;Simple;No usa
+1203009;Detector billetes falsos;;;;Simple;No usa
+1203010;Bomba S.Speroni1000-1 ¼-1.34HP;;;;Simple;No usa
+1203011;Ventilador de pie;;;;Simple;No usa
+1203012;Máquina espumadora ;;;;Simple;No usa
+1203013;Soporte de pared p/ TV ;;;;Simple;No usa
+1203014;Ozonizador ;;;;Simple;No usa
+1203015;Extractor 1400rpm 40x40;Entrada 220;;;Simple;No usa
+1203016;Máquina de contar billetes;;;;Simple;No usa
+13010001;Alquileres;;;;Simple;No usa
+13020001;Anabolicos Sinteticos;;;;Simple;No usa
+13020002;Aines-Antinflamatorios;;;;Simple;No usa
+13020003;Bencimidazoles G3;;;;Simple;No usa
+13020004;Betalactamicos Y Cefalosporina;;;;Simple;No usa
+13020005;Corticoides G2;;;;Simple;No usa
+13020006;Nitroimidazoles;;;;Simple;No usa
+13020007;Colistina A+B;;;;Simple;No usa
+13020008;Tetraciclinas G3;;;;Simple;No usa
+13020009;Analisis Microbiologic de Agua;;;;Simple;No usa
+13020010;Analisis Plomo;;;;Simple;No usa
+13020011;Analisis Cadmio;;;;Simple;No usa
+13020012;Analisis Aujeszky;;;;Simple;No usa
+13020013;Analisis Brucelosis;;;;Simple;No usa
+13020014;Toltrazuril;;;;Simple;No usa
+13020015;Quinolonas;;;;Simple;No usa
+13020016;Macrolidos G1;;;;Simple;No usa
+13020017;Beta Agonistas G3;;;;Simple;No usa
+13020018;Análisis Bacteriológicos ;;;;Simple;No usa
+13020019;Análisis histopatológicos;;;;Simple;No usa
+13020020;Análisis Coproparasitológico ;;;;Simple;No usa
+13020021;Análisis Necropsia;;;;Simple;No usa
+13020022;Análisis Diarrea ;;;;Simple;No usa
+13020023;Análisis Genes Virulencia PCR;;;;Simple;No usa
+13020024;Análisis Lawsonia PCR ;;;;Simple;No usa
+13020025;Control Biológico de Est. ;;;;Simple;No usa
+13020026;Análisis Clostridium;;;;Simple;No usa
+13020027;Análisis PCR poliserositis;;;;Simple;No usa
+13020028;Análisis Antibiogramas;;;;Simple;No usa
+13020029;Toma de muestra sangre;;;;Simple;No usa
+13030001;Servicio Interbanking;;;;Simple;No usa
+13030002;Servicio Mercado Pago;;;;Simple;No usa
+13030003;Servicio Veraz;;;;Simple;No usa
+13030004;Servicio Posnet;;;;Simple;No usa
+13030005;Comision de Tarjetas 21% ;;;;Simple;No usa
+13030006;Comision de Tarjetas 10.5%;;;;Simple;No usa
+13030007;Gasto Tarjeta YPF ;;;;Simple;No usa
+13030008;Servicio Payway;;;;Simple;No usa
+13030009;Comisión de Tarjetas No gravad;;;;Simple;No usa
+13040001;Software;;;;Simple;No usa
+13040002;No Gravados Software;;;;Simple;No usa
+13040003;Servicio de Hosting;;;;Simple;No usa
+13050001;Seguros De Vehiculos;;;;Simple;No usa
+13050002;Seguros De Vehiculos No Gravad;;;;Simple;No usa
+13050003;Seguro flete internacional ;;;;Simple;No usa
+13050004;Seguros Varios;;;;Simple;No usa
+13050005;Seguros Varios No Gravad;;;;Simple;No usa
+13060001;Comisiones Bancarias;;;;Simple;No usa
+13060002;Impuestos y otras tasas;;;;Simple;No usa
+13060003;Gasto Por Cheque Rechazado;;;;Simple;No usa
+13060004;Cheques Rechazados Terceros;;;;Simple;No usa
+13060005;No Grav Gasto Cheque Rechazado;;;;Simple;No usa
+13060006;Comisiones Bancarias Exentas;;;;Simple;No usa
+13060007;Débito 33%;;;;Simple;No usa
+13060008;Débito Gasto;;;;Simple;No usa
+13060009;Crédito 33%;;;;Simple;No usa
+13060010;Crédito Gasto;;;;Simple;No usa
+13060011;Sircreb ;;;;Simple;No usa
+13060012;Int. Financieros por desc. ;;;;Simple;No usa
+13060013;Cheques Rechazados Propios ;s/ iva ;;;Simple;No usa
+13060014;Comisiones Bancarias 10.5;;;;Simple;No usa
+13060015;Cheques Rechazados Terceros;interno;;;Simple;No usa
+13070001;Recargo Financiero;;;;Simple;No usa
+13070002;Int. por financiación Bice ;;;;Simple;No usa
+13070003;Comisión por financiamiento ;;;;Simple;No usa
+13080001;Servicio De Mensajeria Y Encom;;;;Simple;No usa
+13080002;Serv. No grav de Mens. y Encom;;;;Simple;No usa
+13090001;Energia Electrica;;;;Simple;No usa
+13090002;Energia Electrica No Gravado;;;;Simple;No usa
+13090003;Agua residencial y cloacas;;;;Simple;No usa
+13090004;Agua resid y cloacas No Grav;;;;Simple;No usa
+13090005;Abono de Internet;;;;Simple;No usa
+13090006;Servicio de telefonia coorp;;;;Simple;No usa
+13090007;Serv De Telef Coorp No Gravado;;;;Simple;No usa
+13090008;Alarmas;;;;Simple;No usa
+13090009;Estacionamiento y lavado;;;;Simple;No usa
+13090010;Serv. Telefonía  Corp. al 27%;;;;Simple;No usa
+13090011;Abono de Internet 27%;;;;Simple;No usa
+13100001;Publicidad;;;;Simple;No usa
+13100002;Publicidad exento ;;;;Simple;No usa
+13100003;Ploteos ;;;;Simple;No usa
+13100004;Cartelería ;;;;Simple;No usa
+13100005;Serv. Comunicación Integral ;;;;Simple;No usa
+13110001;Interés obra social directorio;;;;Simple;No usa
+13110002;Obra Social Directorio ;;;;Simple;No usa
+13110003;Obra Social Empleados No Grav;;;;Simple;No usa
+13110004;Int obra social emp. No grav ;;;;Simple;No usa
+13120001;Certificaciones y Formularios;;;;Simple;No usa
+13120002;Comisión por compra maíz ;;;;Simple;No usa
+13120003;Recolección residuos patógenos;;;;Simple;No usa
+13120004;Seg. satelital de flota;;;;Simple;No usa
+13120005;Serv. vigilancia ;;;;Simple;No usa
+13120006;Gastos de terminal ;;;;Simple;No usa
+13120007;Impuestos y tasas aduaneras ;;;;Simple;No usa
+13120008;Imp. y tasas aduaneras no grav;;;;Simple;No usa
+13120009;Imp. y tasas aduaneras 10.5;;;;Simple;No usa
+1401;Manguera p/ riego ;;;;Simple;No usa
+14010001;Abrazadera Estampada 70-90 ;;;;Simple;No usa
+14010002;Abrazadera Estampada 21-38 ;;;;Simple;No usa
+14010003;Grampas P/ Salidas De Silos ;;;;Simple;No usa
+14010004;"Grampas P/Salidas De Kg.4 1/2""";;;;Simple;No usa
+14010005;Fuelle P/ Inodoros ;;;;Simple;No usa
+14010006;Bolla P/ Flotante Usadas ;;;;Simple;No usa
+14010007;"Varilla Para Flotante  1/2""";;;;Simple;No usa
+14010008;"Bulón 3/8"" X 4"" ";;;;Simple;No usa
+14010009;"Bulón 3/8"" X 1/2""";;;;Simple;No usa
+14010010;"Bulón 5/16"" X 1"" Cabeza Exag.";P/Silos ;;;Simple;No usa
+14010011;"Bulón 1/2"" X 2 1/2""";;;;Simple;No usa
+14010012;"Tornillo Auto Perfor.T1-14X1"" ";Punta Mecha ;;;Simple;No usa
+14010013;"Tornillo Auto Perfor.T1  8X1"" ";Punta Mecha ;;;Simple;No usa
+14010014;"Varilla Roscada  3/8""";;;;Simple;No usa
+14010015;"Arandela Planas 5/16"" ";;;;Simple;No usa
+14010016;"Arandela Planas 3/8"" ";;;;Simple;No usa
+14010017;"Arandela Grower 5/16""";;;;Simple;No usa
+14010018;Cable Acerado Hg 6X7 X 3Mm;;;;Simple;No usa
+14010019;Litargirio X 250Gs Epoxi;;;;Simple;No usa
+14010020;Glicerina X 500 Gas Epoxi;;;;Simple;No usa
+14010021;Propanotral X 150 Gas;;;;Simple;No usa
+14010022;Hilo P/ Boyero X Metro Aprox.;;;;Simple;No usa
+14010023;Disco De Corte 230X3,0 ;;;;Simple;No usa
+14010024;Disco De Corte 305X3,2X25,4Mm ;;;;Simple;No usa
+14010025;"Tuerca Autofrenantes 5/16"" ";;;;Simple;No usa
+14010026;Gancho En Forma S ;;;;Simple;No usa
+14010028;Alambre P/Soldadora Mig ;Por Rollo 0,9Mm ;;;Simple;No usa
+14010029;Cepillo De Alambre Para Banco ;Esmeril;;;Simple;No usa
+14010030;"Varilla Roscada  3/16""";;;;Simple;No usa
+14010031;"Varilla Roscada 1/4"" ";;;;Simple;No usa
+14010032;"Varilla Roscada  1/2""";;;;Simple;No usa
+14010033;"Arandela Planas 1/4"" ";;;;Simple;No usa
+14010034;"Tuerca  Zincada 3/8"" ";;;;Simple;No usa
+14010035;"Tuerca Autofrenantes 3/8""";;;;Simple;No usa
+14010036;"Bulón 1/4"" X 1/2""";;;;Simple;No usa
+14010037;"Bulón 5/16"" X 3/4"" ";;;;Simple;No usa
+14010038;Tirafondo Nº8 X 2”1/2 ;;;;Simple;No usa
+14010039;"Tuerca Zincada 5/8""";;;;Simple;No usa
+14010040;"Bulón 5/16""X 1/2"" ";;;;Simple;No usa
+14010041;"Tuerca Autofrenantes 3/16""";;;;Simple;No usa
+14010042;"Tuerca Zincada 1/4""";;;;Simple;No usa
+14010043;"Tuerca  Zincada 5/16"" (Gris)";;;;Simple;No usa
+14010044;Arandela Planas 3/16 ;;;;Simple;No usa
+14010045;"Arandela Grower 1/4 """;;;;Simple;No usa
+14010046;"Taco De Anclaje Metál N° 5/16""";Metálicos;;;Simple;No usa
+14010047;"Bulón 1/4"" X 1"" Inoxidable.";;;;Simple;No usa
+14010048;"Jota Para Techos 1/4""X 90Mm";Metálicos;;;Simple;No usa
+14010049;"Bulón 3/8"" X 3 1/2""";;;;Simple;No usa
+14010050;"Bulón 3/8"" X 3” ";;;;Simple;No usa
+14010051;Sika Floor Liquida P/Reboques ;Por litros;;;Simple;No usa
+14010052;"Tirafondo Nº 10  1/4"" X 2"" ";Cabeza exagonal;;;Simple;No usa
+14010053;Lija Nº 60 ;;;;Simple;No usa
+14010054;Mecha De Acero Rapido Nº 13.50;Nº 13.50-160Mm;;;Simple;No usa
+14010055;"Tuerca Auto/Frenante 1/4""";;;;Simple;No usa
+14010056;Conexión Fuelle Para Mochila;;;;Simple;No usa
+14010057;Mezcla Adhesiva Concén. X30Kg;Concéntrica imper.;;;Simple;No usa
+14010058;Esmalte Sintetico ;;;;Simple;No usa
+14010059;Válvula De Admisión;;;;Simple;No usa
+14010060;Cinta De Papel 50Mm;P/Enmascarar ;;;Simple;No usa
+14010061;Rodillos De Lana Natural ;P/Pintura;;;Simple;No usa
+14010062;Thiner X Litro;;;;Simple;No usa
+14010063;Soporte Nivelador De Pvc ;Para Platina ;;;Simple;No usa
+14010064;Omega 3/4;;;;Simple;No usa
+14010065;"Tornillo Auto Perfor.T1 8X1/2""";Mecha;;;Simple;No usa
+14010066;Grilon Barra 19Mm X 100Mm ;(1 Metro);;;Simple;No usa
+14010067;Sika Ligante Cim;;;;Simple;No usa
+14010068;Cepillo Copa Bpt 100Mm;Trenzado Acero ;;;Simple;No usa
+14010069;Cepillo Copa Metálico X 100Mm;Rizado De Bronce ;;;Simple;No usa
+14010070;Disco Desbaste X 115;;;;Simple;No usa
+14010071;Guante Moteados;;;;Simple;No usa
+14010072;Precinto 160MmX4,8MmX 100 Un.;;;;Simple;No usa
+14010073;Mecha De Acero Rápido 6,05;;;;Simple;No usa
+14010074;Pintura Triple Acción -1 Litro; (3 En 1);;;Simple;No usa
+14010075;Desoxidante - 1 Litro;;;;Simple;No usa
+14010076;"Pincel - 2""";;;;Simple;No usa
+14010077;Imprégnate P/ Madera -  Litros;;;;Simple;No usa
+14010078;Soporte /Elementos De Limpieza;;;;Simple;No usa
+14010079;"Orrin De Goma -1""";;;;Simple;No usa
+14010080;Porta Candados;;;;Simple;No usa
+14010081;"Tornillo Aut.Perf.T1 14X1 1/2""";Punta Mecha ;;;Simple;No usa
+14010082;Mecha-Broca Escalonada 4Mm;32Mm;;;Simple;No usa
+14010083;"Bulón 1/2"" X 1 1/4""";;;;Simple;No usa
+14010084;Base Pvc P/Escopeta Platina ;;;;Simple;No usa
+14010085;Hilo Lupolino;;;;Simple;No usa
+14010086;"Tuerca Autofrenantes 1/2""";;;;Simple;No usa
+14010087;Grillete Prensacables  8Mm;De Acero;;;Simple;No usa
+14010088;Material Desplegable 2,20X1,20;25X25X2Mm ;;;Simple;No usa
+14010089;Rollo Cinta Reflectaría ;(Peligro);;;Simple;No usa
+14010090;"Clavos 2 1/2""";;;;Simple;No usa
+14010091;Tanza -3Mm Cuadrada ;;;;Simple;No usa
+14010092;Flor Para Duchas;;;;Simple;No usa
+14010093;Veneno Para Hormigas X Kg.;;;;Simple;No usa
+14010094;Pasadores Con Traba Y Resorte ;;;;Simple;No usa
+14010095;Terminales Tubular 1 X 4Mm ;;;;Simple;No usa
+14010096;Mecha Sds Plus Ø 24 X 450Mm;;;;Simple;No usa
+14010097;Bisagras Para Gabinetes;;;;Simple;No usa
+14010098;Trabasil 15 Gs. P/Roscas ;Metalicas ;;;Simple;No usa
+14010099;Pilas Aaa;;;;Simple;No usa
+14010100;Tacos Fischer  N°10;P/Ladrillo Hueco;;;Simple;No usa
+14010101;Tacos Fischer  N°8;P/Ladrillo Hueco;;;Simple;No usa
+14010102;Disco Flap 115;;;;Simple;No usa
+14010103;"Bulon 5/16"" X 1 1/2"" Inoxid.";;;;Simple;No usa
+14010104;"Arandelas 5/16"" Inoxidable";;;;Simple;No usa
+14010105;Bases Adhesivas P/ Precintos ;;;;Simple;No usa
+14010106;Balde De Albañil;;;;Simple;No usa
+14010107;Roldanas De Hierro;;;;Simple;No usa
+14010108;Aislante Autohadesivo P/Caños ;;;;Simple;No usa
+14010109;"Rosca Macho 3/8""";;;;Simple;No usa
+14010110;"Bulon 3/8"" X 2"" Prisioneros ";;;;Simple;No usa
+14010111;Separadores Para Apliques Sica;;;;Simple;No usa
+14010112;Mecha De Acero Rapido N°12;;;;Simple;No usa
+14010113;Soga De Polipropileno 3Mm;;;;Simple;No usa
+14010114;Hidrófugo X 20 Litros Sika 1 ;;;;Simple;No usa
+14010115;Brocas N° 12;;;;Simple;No usa
+14010116;"Bulón  3/8"" X 1""";;;;Simple;No usa
+14010117;"Bulón  1/4"" X 1/4""";;;;Simple;No usa
+14010118;"Bulón  1/4"" X 1/4"" ";Cabeza De Tanque ;;;Simple;No usa
+14010119;"Bulón  1/2"" X 1 1/2""  ";;;;Simple;No usa
+14010120;Rollos Film Strech 10Cn.;;;;Simple;No usa
+14010121;Mecha Sds Plus Ø 12Mm X 160Mm;;;;Simple;No usa
+14010122;"Tornillo Punta Aguja 6 X 2""";;;;Simple;No usa
+14010123;Remaches Pop 3,5 X 20Mm;;;;Simple;No usa
+14010124;Rollo De Film Strech X25 Cnt.;;;;Simple;No usa
+14010125;Protex Acelerante X Litro ;;;;Simple;No usa
+14010126;Cinta Helicoidal 6Mm;;;;Simple;No usa
+14010127;Mecha Sierra Copa 14Mm ;;;;Simple;No usa
+14010128;Mecha Sierra Copa 22Mm ;;;;Simple;No usa
+14010129;"Tornillo Punta Aguja 6X2 1/2""";;;;Simple;No usa
+14010130;Cadena Hg Anudada X Metros ;;;;Simple;No usa
+14010131;Picos Para Grasera 4 Uñas ;;;;Simple;No usa
+14010132;Bisagras De Acero Para Soldar; Con Alas 30Mm;;;Simple;No usa
+14010133;"Omega 1/2""";;;;Simple;No usa
+14010134;Manguera Para Gas - 8Mm;;;;Simple;No usa
+14010135;"Omega 1/4""";;;;Simple;No usa
+14010136;Porta Rollo ;;;;Simple;No usa
+14010137;Soga Gratificada ;;;;Simple;No usa
+14010138;"Bulón 5/16""X 1"" ";;;;Simple;No usa
+14010139; Ligante X 20 Litros ;sección;;;Simple;No usa
+14010140;Tacos Fischer Con Tope Nº 6 ;;;;Simple;No usa
+14010141;Hilo De Polietileno P/Cortinas; (Plastico Negro);;;Simple;No usa
+14010142;Pilas Doble Aa;;;;Simple;No usa
+14010143;Pila Cr 2032;;;;Simple;No usa
+14010144;Brocas N° 10 ;;;;Simple;No usa
+14010145;Mecha De Acero Rapido Nº 10  ;;;;Simple;No usa
+14010146;Mecha De Acero Rapido Nº 8  ;;;;Simple;No usa
+14010147;Abrazadera Estampada 12-22 ;;;;Simple;No usa
+14010148;Disco De Corte 115X1,6-22,23 ;;;;Simple;No usa
+14010149;Candado 40 Mm;;;;Simple;No usa
+14010150;"Varilla Roscada  5/16""";;;;Simple;No usa
+14010151;Silicona En Pomo X 250 ;;;;Simple;No usa
+14010152;Tubo Nº13 ;;;;Simple;No usa
+14010153;Llave Nº 15 ;;;;Simple;No usa
+14010154;Llave Nº 13 ;;;;Simple;No usa
+14010155;Llave T Nº 11 ;;;;Simple;No usa
+14010156;Pinza Punta Aislada 600/1000V.;;;;Simple;No usa
+14010157;Destornilladores Planos;;;;Simple;No usa
+14010158;Pala Ancha Cabo Corto ;;;;Simple;No usa
+14010159;Centro De Extractor Eu56;;;;Simple;No usa
+14010160;"Bocas De Llave Magnética 3/8""";;;;Simple;No usa
+14010161;"Bocas De Llave Magnética 5/16""";;;;Simple;No usa
+14010162;Escuadra Aluminio 35Cn;;;;Simple;No usa
+14010163;Escuadra Magnetica ;;;;Simple;No usa
+14010164;Maza X 3 Kg.;;;;Simple;No usa
+14010165;Martillo;;;;Simple;No usa
+14010166;Llave T N°14;;;;Simple;No usa
+14010167;"Llave Francesa 18""";;;;Simple;No usa
+14010168;"Llave T 1/4""";;;;Simple;No usa
+14010169;"Llave T 3/16""";;;;Simple;No usa
+14010170;Boca Llave Magnetica 11Mm;;;;Simple;No usa
+14010171;"Boca Llave Magnetica 3/8"" 48Mm";;;;Simple;No usa
+14010172;Boca Llave Magnética 10Mm;;;;Simple;No usa
+14010173;Acrílico Para Tubos Usados ;;;;Simple;No usa
+14010174;Manguera Cristal X 1/4;;;;Simple;No usa
+14010175;Pinza Amperometrica;;;;Simple;No usa
+14010176;Krikert;;;;Simple;No usa
+14010177;Limpia Contactos En Aerosol;w80 X 240Ml;;;Simple;No usa
+14010178;Puntas Philip Para Taladro ;;;;Simple;No usa
+14010179;"Cuerda Siliconada 1/2""";;;;Simple;No usa
+14010180;Reguladores Para Gas ;;;;Simple;No usa
+14010181;Potenciometro 24Mm 5K Ohmios;;;;Simple;No usa
+14010182;Bidon Reforzado 25 Litros ;Para Combustible ;;;Simple;No usa
+14010183;Mecha Sds Plus Ø 6 X 160Mm;;;;Simple;No usa
+14010184;Hausing + 6 Accesorios;;;;Simple;No usa
+14010185;Medidor De Tension Multimetro ;Mod:Aob292Z-9;;;Simple;No usa
+14010186;Contrapeso De Hormigon ;;;;Simple;No usa
+14010187;Recera Para Cajetin ;;;;Simple;No usa
+14010188;Descargador Doble Ø55 Rotec;;;;Simple;No usa
+14010189;Junta Plana Eva Ø80Mm;;;;Simple;No usa
+14010190;Calentador Eléctrico Hpc002 ;Hamilton ;;;Simple;No usa
+14010191;Cable Acerado Hg 6X7 X 6,3 Mm;;;;Simple;No usa
+14010192;Diluyente para epoxi x litro;;;;Simple;No usa
+14010193;Tirafondo Cbza hexagonal¼”x2 ½;;;;Simple;No usa
+14010194;"Bulon 1/42""x2"" cbza hexagonal";;;;Simple;No usa
+14010195;Alambre N°14;;;;Simple;No usa
+14010196;Espiga doble 1/2;;;;Simple;No usa
+14010197;Tee triple espiga 1/2;;;;Simple;No usa
+14010198;Espiga rosca macho 1/2;;;;Simple;No usa
+14010199;Conexión de tanque 3/4;;;;Simple;No usa
+14010200;Espiga rosca macho 3/4;;;;Simple;No usa
+14010201;Soga plástica x 4 mts;;;;Simple;No usa
+14010202;Cierre puerta M.8803;;;;Simple;No usa
+14010203;Esmalte Sintetico ;Gris Aluminio;;;Simple;No usa
+14010204;Espuma de poliuretano;;;;Simple;No usa
+14010205;Sika group x25 kg ;;;;Simple;No usa
+14010206;Electrodos 2 1/2;;;;Simple;No usa
+14010207;Amoladora ;115 mm;;;Simple;No usa
+14010208;Wd-40 Lubricante antioxidante;;;;Simple;No usa
+14010209;Estaño eximetal 1mm 60/40;;;;Simple;No usa
+14010210;Precintos 20cm;;;;Simple;No usa
+14010211;Pintura en aerosol;;;;Simple;No usa
+14010212;Sella rosca verde;;;;Simple;No usa
+14010213;Silicona transparente;;;;Simple;No usa
+14010214;Tornillo p/taco fischer N°8;;;;Simple;No usa
+14010215;Mecha p/ pared;;;;Simple;No usa
+14010216;Disco diamantado 115mm;;;;Simple;No usa
+14010217;Soplete c/ gatillo;;;;Simple;No usa
+14010218;Copia de llave cerradura;;;;Simple;No usa
+14010219;Pinza;;;;Simple;No usa
+14010220;Tenaza;;;;Simple;No usa
+14010221;Electrodos 308 p/acero inox ;;;;Simple;No usa
+14010222;Disco De Corte 180x1.6x22-23mm;;;;Simple;No usa
+14010223;Piedra recta p/amoladora banco;"6""x 1""x 3/4""";;;Simple;No usa
+14010224;Electrodo 6013 - 13A - 2,5Mm;;;;Simple;No usa
+14010225;Bulón ø O Paso ½” X 2. ¾” ;;;;Simple;No usa
+14010226;Tuerca Hexagonal Zincada ½” ;;;;Simple;No usa
+14010227;Tuerca hexagonal zincada ½” ;;;;Simple;No usa
+14010228;Bulón ½ x 2 ¾”;;;;Simple;No usa
+14010229;Pico regador regulable;Punta Mecha ;;;Simple;No usa
+14010230;Mecha sds plus 24 x160 mm;;;;Simple;No usa
+14010231;Pila LR 44;;;;Simple;No usa
+14010232;Clavos espiralados x1 ½”;;;;Simple;No usa
+14010233;"Disco de corte p/mad. 9""x230mm";;;;Simple;No usa
+14010234;Linterna ;;;;Simple;No usa
+14010235;Acelerante de fragüe ;Sika;;;Simple;No usa
+14010236;Disco diamantado 180mm;;;;Simple;No usa
+14010237;Art. de ferretería varios; ;;;Simple;No usa
+14010238;Electrodo 6013 3,25Mm;;;;Simple;No usa
+14010239;Bola fundida hueca 75mm;;;;Simple;No usa
+14010240;Bola fundida hueca 55mm;;;;Simple;No usa
+14010241;Antióxido ;;;;Simple;No usa
+14010242;Kit de reparación de lona ; lona p/australiano;;;Simple;No usa
+14010243;Precintos numerados 40cm;;;;Simple;No usa
+14010244;Buscapolo ;;;;Simple;No usa
+14010245;Destornillador philips;;;;Simple;No usa
+14010246;Alicate corte diagonal ;;;;Simple;No usa
+14010247;Antiadherente p/ soldaduras;;;;Simple;No usa
+14010248;"Disco de corte p/mad. 180mm 7""";;;;Simple;No usa
+14010249;Alambre N°17;;;;Simple;No usa
+14010250;Abrazadera 30-45 ;;;;Simple;No usa
+14010251;Elect. de cementac 1400x3.25MM;;;;Simple;No usa
+14010252;Pistola p/ pintar ;compresor;;;Simple;No usa
+14010253;Llave combinada 22mm;;;;Simple;No usa
+14010254;Llave combinada 19mm;;;;Simple;No usa
+14010255;Llave combinada 9/16;;;;Simple;No usa
+14010256;Llave combinada 11mm;;;;Simple;No usa
+14010257;Llave combinada 10mm;;;;Simple;No usa
+14010258;"Pinza de presión 10""";;;;Simple;No usa
+14010259;"Rosca macho 3/16""";;;;Simple;No usa
+14010260;Rosca macho ¼”;;;;Simple;No usa
+14010261;Mecha de Acero Rápido 4mm;;;;Simple;No usa
+14010262;Cutter ;;;;Simple;No usa
+14010263;Hojas p/ cutter;;;;Simple;No usa
+14010264;Tapacanto esquinero ;;;;Simple;No usa
+14010265;Escobilla burlete p/ puerta;;;;Simple;No usa
+14010266;Pila redonda LR44;;;;Simple;No usa
+14010267;Mecha SDS Plus 160 x 8 mm;;;;Simple;No usa
+14010268;Mecha SDS Plus 160 x10 mm;;;;Simple;No usa
+14010269;Mecha SDS Plus 270 x 08 mm;;;;Simple;No usa
+14010270;Mecha SDS Plus 270 x 10 mm;;;;Simple;No usa
+14010271;Soga De Polipropileno n°16 ;;;;Simple;No usa
+14010272;Cerradura y Picaporte;;;;Simple;No usa
+14010273;Anchada c/ cabo ;;;;Simple;No usa
+14010274;Rastrillo 14 dientes c/cabo;;;;Simple;No usa
+14010275;Broche p/ media sombra ;;;;Simple;No usa
+14010276;"Tornillo ace. inox. ½""";;;;Simple;No usa
+14010277;"Tuerca 1/2""";;;;Simple;No usa
+14010278;Arandela Grower ;;;;Simple;No usa
+14010279;Escalera ;;;;Simple;No usa
+14010280;Soldador de Estaño; ;;;Simple;No usa
+14010281;Pala punta corazón cabo largo;;;;Simple;No usa
+14010282;Pala punta cuadrada cabo largo;;;;Simple;No usa
+14010283;Tanza 0.8mm x 100mts;;;;Simple;No usa
+14010284;Cortaperno 24 ;profesional;;;Simple;No usa
+14010285;Nivel de aluminio 50cm ;;;;Simple;No usa
+14010286;Fratacho 12x30cm ;;;;Simple;No usa
+14010287;Pico punta y pala c/cabo 90cm;;;;Simple;No usa
+14010288;Maza 1kg;;;;Simple;No usa
+14010289;Nivel 3 burbujas 1 mts  ;;;;Simple;No usa
+14010290;Nivel 3 burbujas 60cm;;;;Simple;No usa
+14010291;Manguera Cristal 9/12x25mts;;;;Simple;No usa
+14010292;Llave combinada 7mm;;;;Simple;No usa
+14010293;Llave combinada 9mm;;;;Simple;No usa
+14010294;Disco de corte widia 230;;;;Simple;No usa
+14010295;Espátula ; ;;;Simple;No usa
+14010296;Disco de corte widia 180;;;;Simple;No usa
+14010297;Abrazadera estampada 40-60;;;;Simple;No usa
+14010298;Conj. ménsula N°5 ; ;;;Simple;No usa
+14010299;"Tuerca 1/4""";;;;Simple;No usa
+14010300;Orificio danfoss N°3;;;;Simple;No usa
+14010301;Soldadura de plata ; ;;;Simple;No usa
+14010302;Bulón 8x80 ;;;;Simple;No usa
+14010303;Tuerca 8mm autofrenante ;;;;Simple;No usa
+14010304;Abrazadera 32- 50;;;;Simple;No usa
+14010305;Torcha completa MIG350;;;;Simple;No usa
+14010306;Juego de picos cortadora plasm;;;;Simple;No usa
+14010307;Brocas N° 20;;;;Simple;No usa
+14010308;Caja de herramientas 30cm ; ;;;Simple;No usa
+14010309;Convertidor 3 en 1;Gris Aluminio;;;Simple;No usa
+14010310;Juego de llave allen;;;;Simple;No usa
+14010311;Tornillo Auto Perfor. T1 14 x 2;Punta Mecha ;;;Simple;No usa
+14010312;Abrazadera 50- 70;;;;Simple;No usa
+14010313;Electrodo 7018;;;;Simple;No usa
+14010314;Electrodo 1400;;;;Simple;No usa
+14010315;Cable p/ pinza soldar 1x25mm;;;;Simple;No usa
+14010316;Mecha sds plus 25 x 260mm;;;;Simple;No usa
+14010317;Precinto7.2mm;;;;Simple;No usa
+14010318;Precinto 3.5mm;;;;Simple;No usa
+14010319;Precinto 2.5mm;;;;Simple;No usa
+14020001;Manguera 6Mm P/ Compresor 6X1;;;;Simple;No usa
+14020002;Ruleman Zml 6202 ;;;;Simple;No usa
+14020003;Ruleman Uc 205 -16;;;;Simple;No usa
+14020004;"Tensor Zb 3/8"" X 295-R-211Mm ";;;;Simple;No usa
+14020005;"Manguera Mayada De 1/2""";Por 25 metros;;;Simple;No usa
+14020006;Turbina Impulsora Nº 23 ;;;;Simple;No usa
+14020007;Turbina Impulsora Base 72 ;Vulcano;;;Simple;No usa
+14020008;Aletas De Ventilación Vulcano ;;;;Simple;No usa
+14020009;Empaquetadura P/ Bomba. ;;;;Simple;No usa
+14020010;"Porta Filtro Ent.Agua1 1/2""R-M";Entrada de agua;;;Simple;No usa
+14020011;Filtros Para Entradas De Agua ;Metalizados;;;Simple;No usa
+14020012;Filtros Combustible ;;;;Simple;No usa
+14020013;Filtro De Aceite;Parts-4226293 M1;;;Simple;No usa
+14020014;Filtro De Aire;Amarok;;;Simple;No usa
+14020015;Filtro Combustible ;Parts 1259765 Hx;;;Simple;No usa
+14020016;Descargador Polim.12Kv 10 KXU;Polimérico;;;Simple;No usa
+14020017;Filtro De Aceitecnh- 47425202;;;;Simple;No usa
+14020018;Filtro De Aceite Darmet - G362;;;;Simple;No usa
+14020019;Filtro De Aceite Darmet -G1323;;;;Simple;No usa
+14020020;Filtro De Aceite Ft5724;;;;Simple;No usa
+14020021;"Tensor Americano 5/16"" M12";;;;Simple;No usa
+14020022;Orrin De Goma P/Caños Pvc X250;;;;Simple;No usa
+14020023;Manguera R2 X 5/16 ;C/ acople 3/8 R-H;;;Simple;No usa
+14020024;Filtro De Aire-Cnh- 86982523;;;;Simple;No usa
+14020025;Filtro De Aire-87682999-08 E ;;;;Simple;No usa
+14020026;Filtro De Aire-Ca- 4950;;;;Simple;No usa
+14020027;Filtro De Aire;;;;Simple;No usa
+14020028;Filtro De Aire  Ca 3291;;;;Simple;No usa
+14020029;Filtro De Combustible  P4549 A;;;;Simple;No usa
+14020030;Filtro De Combustible  G372;;;;Simple;No usa
+14020031;Filtro De Combustible G374;;;;Simple;No usa
+14020032;Filtro De Combustible  Db 008;;;;Simple;No usa
+14020033;Reten De Nitrilo 50X72X10;;;;Simple;No usa
+14020034;Reten De Nitrilo 25X50X10;;;;Simple;No usa
+14020035;Reten De Nitrilo 30X47X7;;;;Simple;No usa
+14020036;Lanza Hd (0,85 Mts) ;;;;Simple;No usa
+14020037;Filtro De Aceite Ph8B;;;;Simple;No usa
+14020038;Aceite Hidraulico 10W30 ;Por litros;;;Simple;No usa
+14020039;Sello Para Bombas Grunfos;;;;Simple;No usa
+14020040;Ruleman 627 Rs;;;;Simple;No usa
+14020041;Junta Plana Eva Ø50Mm;;;;Simple;No usa
+14020042;Tubo 02 P/Autógena;;;;Simple;No usa
+14020043;Carburo;;;;Simple;No usa
+14020044;Lubricantes P/Cadenas  415Cn;Chain Lube;;;Simple;No usa
+14020045;Lanza 900 Mm P/Hidrolavadoras;;;;Simple;No usa
+14020046;Voltimetro Y Amperimetro ;Ojo De Buey;;;Simple;No usa
+14020047;Ruleman Zml 6206;;;;Simple;No usa
+14020048;Platillos Sujeta Piedras; P/Amol. De Banco;;;Simple;No usa
+14020049;Bujia Rosca Corta ;P/ Moto Guadaña;;;Simple;No usa
+14020050;Filtros Para Hidro ;;;;Simple;No usa
+14020051;Carbones Para Amoladora 115;;;;Simple;No usa
+14020052;Manguera De Poliuretano 12Mm;;;;Simple;No usa
+14020053;Carton Para Juntas;;;;Simple;No usa
+14020054;Manguera De Poliur. 12X12Mm;Poliuretano;;;Simple;No usa
+14020055;Manguera De Poliur.10X1,5Mm;Poliuretano;;;Simple;No usa
+14020056;Manguera De Poliur.10X1Mm;Poliuretano;;;Simple;No usa
+14020057;Manguera De Poliur.8X1,25Mm;Poliuretano;;;Simple;No usa
+14020058;Manguera De Poliur. 7Mm;Poliuretano;;;Simple;No usa
+14020059;Ruleman Skf 6203 ;;;;Simple;No usa
+14020060;Rulemanes Zml 6204  ;;;;Simple;No usa
+14020061;Fastix Alta Temperatura ;;;;Simple;No usa
+14020062;Eje P/Extract. Engor.27X25,4Mm;Extractor Engorde;;;Simple;No usa
+14020063;Manómetro -0-10 Bar;;;;Simple;No usa
+14020064;Manómetro -0-1 Bar;;;;Simple;No usa
+14020065;Aspas Metálicas P/Extractores;Unidades ;;;Simple;No usa
+14020066;"Tensor De Correa Extractor 50""";11641 (Estirador);;;Simple;No usa
+14020067;Reja p/Interior De Extractores;  Amarillas;;;Simple;No usa
+14020068;Presostato S W Tch Kpi35 ; (Preresure) ;;;Simple;No usa
+14020069;Rotámetro De 100 A 450 LtsXMin;;;;Simple;No usa
+14020070;Porta Filtro M.K6;;;;Simple;No usa
+14020071;Pre Filtro De Aire Dinám.Kc 91;Línea;;;Simple;No usa
+14020072;Pre Filtro De Aire Dinám.Kc 41;Línea ;;;Simple;No usa
+14020073;Carcasa Porta Elem.Filtrante;En Seco M. Ah 2021;;;Simple;No usa
+14020074;Batería X 12V. X 175Amp;;;;Simple;No usa
+14020075;Perno P/ Cuchilla De Desmal.;Desmalezadora;;;Simple;No usa
+14020076;Acople Rapido Neumatico R-M;;;;Simple;No usa
+14020077;Correa  Ax-54;;;;Simple;No usa
+14020078;Filtro De Aceite  P559128;;;;Simple;No usa
+14020079;Filtro De Aire B105006;;;;Simple;No usa
+14020080;Válvula De Solenoide;;;;Simple;No usa
+14020081;Sensores Capacitivos De Alim.; Eq E 225235-1Rd5;;;Simple;No usa
+14020082;Conos Hg P/ Extractores Y Acc.;Accesorios;;;Simple;No usa
+14020083;Filtro De Aire  140131;;;;Simple;No usa
+14020084;Filtro De Aceite P554407;;;;Simple;No usa
+14020085;Polea De Fundicion 19Mmx50Mm Ø;;;;Simple;No usa
+14020086;Manometro 0 -7 Rosca Inferior ;;;;Simple;No usa
+14020087;Manometro 0-20 Rosca Inferior ;;;;Simple;No usa
+14020088;"Adaptador P/Hidro 1 Mts.X 1/4""";;;;Simple;No usa
+14020089;Manometros Con Gliserina 0-20;R-Posterior;;;Simple;No usa
+14020090;Correa  Ax-58;;;;Simple;No usa
+14020091;Transformador 220 X 24V. ;Potencia 75;;;Simple;No usa
+14020092;Transformador 220 X 24V.; Potencia 125;;;Simple;No usa
+14020093;Chicotes Armados C/Accesorios ;Para Hidrolavadoras;;;Simple;No usa
+14020094;Tabaqueras Porta Fusib. Psr-20; Fusib.1 A 25 Amp.;;;Simple;No usa
+14020095;Lenguetas Para Dosificadores ;;;;Simple;No usa
+14020096;Ejes P/ Extractor 400Mm X 24,5;;;;Simple;No usa
+14020097;Bobina P/Contactor  Laex12B7;;;;Simple;No usa
+14020098;Correa  B-52;;;;Simple;No usa
+14020099;Correa  B-46;;;;Simple;No usa
+14020100;Correa  B-45;;;;Simple;No usa
+14020101;Correa  B-69;;;;Simple;No usa
+14020102;Correa  B-73;;;;Simple;No usa
+14020103;Correa  B-67;;;;Simple;No usa
+14020104;Correa  B-71;;;;Simple;No usa
+14020105;Correa  B-68;;;;Simple;No usa
+14020106;Correa  A-58;;;;Simple;No usa
+14020107;Correa  B-58;;;;Simple;No usa
+14020108;Correa  A-64;;;;Simple;No usa
+14020109;Correa  B-44;;;;Simple;No usa
+14020110;Ruleman Yar 212;;;;Simple;No usa
+14020111;Ruleman Uc 210;;;;Simple;No usa
+14020112;Ruleman Uc 207;;;;Simple;No usa
+14020113;Ruleman Uc 206;;;;Simple;No usa
+14020114;Ruleman 32013;;;;Simple;No usa
+14020115;Ruleman 30208;;;;Simple;No usa
+14020116;Ruleman 30207 J2/Q;;;;Simple;No usa
+14020117;Ruleman 30212;;;;Simple;No usa
+14020118;Ruleman 6309-C3;;;;Simple;No usa
+14020119;Ruleman 6309-2R5C3;;;;Simple;No usa
+14020120;Porta Ruleman F -212;;;;Simple;No usa
+14020121;Porta Ruleman Ucf - 206;;;;Simple;No usa
+14020122;Porta Ruleman Ucf - 210;;;;Simple;No usa
+14020123;Paleta Ventilador Motor;;;;Simple;No usa
+14020124;Cadena 80 R2 X 10Ft ;;;;Simple;No usa
+14020125;Cadena 50 R1 ;;;;Simple;No usa
+14020126;Cadena 60 R2;;;;Simple;No usa
+14020127;Seguros Para Cadenas N°100;;;;Simple;No usa
+14020128;Seguros Para Cadenas N°50;;;;Simple;No usa
+14020129;Seguros Para Cadenas N°60;;;;Simple;No usa
+14020130;Cilindro Neum.Dsbc-80-500;Ppva-N31383344 Mo14;;;Simple;No usa
+14020131;Cilindro Neum.Dsbc-80-300;Ppva-N32126600N514;;;Simple;No usa
+14020132;Cilindro Neum. Dsbc-63-350;Ppva-N3-1463483P230;;;Simple;No usa
+14020133;Cilindro Neum.Dsbc-50-350;Ppva-N31463766 N530;;;Simple;No usa
+14020134;Cilindro Neum. Dsbc-50-300;Ppva-N32098975 Mo14;;;Simple;No usa
+14020135;Repuesto  Nº 11886 Co13;Marca Festo;;;Simple;No usa
+14020136;Indicador Nivel Torex Spa ;S/N22-16-2016325;;;Simple;No usa
+14020137;"Manguera Hidraulica 1"" X R-H-H"; 3,3 Mts;;;Simple;No usa
+14020138;"Manguera Hidraulica 1"" X R-H-H"; 1,7 Mts;;;Simple;No usa
+14020139;"Manguera Enmayetada Ø11/2""";;;;Simple;No usa
+14020140;"Manguera Hidraulica 1/4""XR-H-H";Por 1,56 Mts.;;;Simple;No usa
+14020141;"Manguera Hidraulica1/4""XR-H-H ";;;;Simple;No usa
+14020142;"Manguera Hidraulica1/4""XR-H-H ";Por 0,58 Mts.;;;Simple;No usa
+14020143;"Manguera Hidraulica1/4""XR-H-H ";Por 3,3 Mts.;;;Simple;No usa
+14020144;"Manguera Hidraulica1/4""XR-H-H";Por 3,6 Mts.;;;Simple;No usa
+14020145;Reductor 4,75:1-Fl Nema 8984 ;" ""Transtecno""";;;Simple;No usa
+14020146;Resorte P/Comed. 1,5*12*150Mm;Comederos;;;Simple;No usa
+14020147;Eje P/ Extractores 37 X 25,4Mm;;;;Simple;No usa
+14020148; Boquilla Turbo Hd (055-060);;;;Simple;No usa
+14020149;Polea De Fundición 200Mm Ø ;Eje Mecaniz.25,4Mm;;;Simple;No usa
+14020150;Filtro De Aire Ca9246 ;(Gen. Movil Ulapes);;;Simple;No usa
+14020151;Tanque Hidroneumatrico  24L.;;;;Simple;No usa
+14020152;Centro De Aspas Mecanizadas ;Simil Indiv;;;Simple;No usa
+14020153;Recarga De Co2;;;;Simple;No usa
+14020154;Recargas De O2;;;;Simple;No usa
+14020155;Porta Boquilla Largo;;;;Simple;No usa
+14020156;Boquilla 25072;;;;Simple;No usa
+14020157;Filtro De Combustible Comun ;;;;Simple;No usa
+14020158;Martillo Para Molinos Juegos;Por 48 Un.Dab 15,000;;;Simple;No usa
+14020159;Juegos De 12 Pernos P.Martillo;P/ Molino Dab 15,000;;;Simple;No usa
+14020160;Service de Equipos;;;;Simple;No usa
+14020161;Filtro Comb. separador de agua;R120lj.0m;;;Simple;No usa
+14020162;Batería 12 V. 180 A;;;;Simple;No usa
+14020163;Arandela para picadora;;;;Simple;No usa
+14020164;Calibración de balanzas;;;;Simple;No usa
+14020165;Ruleman 6205-2rsh/c3 skf ;;;;Simple;No usa
+14020166;Ruleman 6204 skf;;;;Simple;No usa
+14020167;Motor p/ cámara;;;;Simple;No usa
+14020168;Cuchilla P/ Desmal. + Perno ;Desmalezadora;;;Simple;No usa
+14020169;Acople elástico c/maza p/ pela;;;;Simple;No usa
+14020170;Rep. cilindro neum. Dsbc-125;Ppva Festo ;;;Simple;No usa
+14020171;Rejilla p/ paleta cámara;;;;Simple;No usa
+14020172;Pinza p/ noqueador ;;;;Simple;No usa
+14020173;Recarga de matafuego;;;;Simple;No usa
+14020174;Acople Rápido 1/4;;;;Simple;No usa
+14020175;"Pico rotojet p/ hidro R-H3/8""";;;;Simple;No usa
+14020176;Gas R-134;;;;Simple;No usa
+14020177;Carbones Para Amoladora 230;;;;Simple;No usa
+14020178;Resistencia + termóstato ;P/termotanque ;;;Simple;No usa
+14020179;"Bulón 5/16""x2"" grado 8";;;;Simple;No usa
+14020180;Zaranda p/ molino 2.5mm ;;;;Simple;No usa
+14020181;Cañón espumador p/ hidrolav.;;;;Simple;No usa
+14020182;Paleta p/ peladora;;;;Simple;No usa
+14020183;Pinza de masa p/ soldadora;;;;Simple;No usa
+14020184;Paleta p/ peladora;;;;Simple;No usa
+14020185;Cable porta electrodo p/soldad;;;;Simple;No usa
+14020186;Caja encarriladora p/ guinche;;;;Simple;No usa
+14020187;Válvula de inyección 0-20L/h;;;;Simple;No usa
+14020188;Juego aspas plásticas p/extrac;"Multifan 50""";;;Simple;No usa
+14020189;Carbones p/ taladro atorn.;;;;Simple;No usa
+14020190;Cuchilla P/ Desmal. 2 puntas;;;;Simple;No usa
+14020191;Cabezal carretel p/ desmalez.;;;;Simple;No usa
+14020192;Kit Correa/ Cangilones/Bulones;;;;Simple;No usa
+14020193;Matafuego 1kg;;;;Simple;No usa
+14020194;Service de Equipos No gravado;;;;Simple;No usa
+14020195;Batería 12 V. 60 A;;;;Simple;No usa
+14020196;Gas R 404;;;;Simple;No usa
+14020197;Elem. termostático ;;;;Simple;No usa
+14020198;Cabezal Placa Base;;;;Simple;No usa
+14020199;Aceite p/ refrigeración;;;;Simple;No usa
+14020200;Juego de juntas ;;;;Simple;No usa
+14020201;Orificio sanhua ;Pi válvula de expans;;;Simple;No usa
+14020202;Gas R-141;;;;Simple;No usa
+14020203;Filtro de Gas ;;;;Simple;No usa
+14020204;Colizas de bronce p/ sierra;;;;Simple;No usa
+14020205;Cruceta de serrucho ;;;;Simple;No usa
+14020206;Buje de bronce p/ biela ;;;;Simple;No usa
+14020207;Biela de serrucho ;;;;Simple;No usa
+14020208;Volante excéntrico p/ serrucho;;;;Simple;No usa
+14020209;Perno p/ fileteadora;;;;Simple;No usa
+14020210;Tornillo para bombo;;;;Simple;No usa
+14020211;Cuchillas para fileteadora;;;;Simple;No usa
+14020212;Aceite Dieléctrico x 1lt;;;;Simple;No usa
+14020213;Sello mecánico empaq. p/ bomba;;;;Simple;No usa
+14020214;Cepillo p/ rascasuela;;;;Simple;No usa
+14020215;Aceite de corte x 1L;Por litros;;;Simple;No usa
+14020216;Piñon Z22;Noria Dab-80;;;Simple;No usa
+14020217;Eje cabezal p/ noria Dab-80;;;;Simple;No usa
+14020218;Tubo 220mm;15 mts;;;Simple;No usa
+14020219;Polea superior y cabezal ;Noria Dab-80;;;Simple;No usa
+14020220;Cadena doble ASA80;Noria Dab-80;;;Simple;No usa
+14020221;Quemador redondo ;Calef. gasolec;;;Simple;No usa
+14020222;Filtro de polvo ;Calef. gasolec;;;Simple;No usa
+14020223;Bobina interior ;Calef. gasolec;;;Simple;No usa
+14020224;Anillo p/ tubo quemador;Calef. gasolec;;;Simple;No usa
+14020225;Malla de tubo quemador ;Calef. gasolec;;;Simple;No usa
+14020226;Manguera p/ lámpara;Calef. gasolec;;;Simple;No usa
+14020227;Pinza porta electrodo;;;;Simple;No usa
+14020228;Bobina p/ solenoide ;;;;Simple;No usa
+14020229;Caño cobre x kg ;;;;Simple;No usa
+14020230;"Trampa de líquido 3/4""";;;;Simple;No usa
+14020231;Aislante p/ caño cobre;;;;Simple;No usa
+14020232;Manchon gummi A70;;;;Simple;No usa
+14020233;Cangilón plástico unipol 220;;;;Simple;No usa
+14020234;Burlete de goma de encastre ;;;;Simple;No usa
+14020235;Guía central hoja p/sierra;;;;Simple;No usa
+14020236;Defensa delantera p/ sierra ;;;;Simple;No usa
+14020237;Guía delantera p/ sierra ;;;;Simple;No usa
+14020238;Arco p/ sierra ;;;;Simple;No usa
+14020239;Tapa manija p/ sierra ;Frigorífico;;;Simple;No usa
+14020240;Manija p/ sierra ;Frigorífico;;;Simple;No usa
+14020241;Gatillo p/ sierra ;Frigorífico;;;Simple;No usa
+14020242;Reductor de ejes FA127/G AM225;;;;Simple;No usa
+14020243;Motor p/ empanadora ;0.5 cv 1500rmp;;;Simple;No usa
+14020244;Gas R-22;;;;Simple;No usa
+14020245;Curva 180° 5/8°;;;;Simple;No usa
+14020246;"Curva 90° 5/8""";;;;Simple;No usa
+14020247;Protector térmico CED2746;Ojo De Buey;KLIXON CED2746;;Simple;No usa
+14020248;Turbina hidrilavadora Karcher;5.500-000.0;;;Simple;No usa
+14020249;Sensor p/ mezcladora PAB;;;;Simple;No usa
+14020250;Placa policarbonato compacto ;P/bateas;;;Simple;No usa
+14020251;"Acople a levas hembra 4"" espiga macho";;;;Simple;No usa
+14020252;Rodamiento 22213 EK-SKF;;;;Simple;No usa
+14020253;Manguito H313 – SKF;;;;Simple;No usa
+14020254;Reten DBH 60X75X8;;;;Simple;No usa
+14020255;Reten p/ sierra media res;;;;Simple;No usa
+14020256;Tapa carter p/ sierra ;;;;Simple;No usa
+14020257;Bobina p/ sierra ;;;;Simple;No usa
+14020258;Empuñadura p/ sierra;;;;Simple;No usa
+14020259;Ánodo de magnesio (termotanque);;;;Simple;No usa
+14020260;Placa Sumadora;;;;Simple;No usa
+14030001;Teee Pvc Ø110Mm;;;;Simple;No usa
+14030002;Teee Pvc Ø75Mm;;;;Simple;No usa
+14030003;Teee Pvc Ø63Mm;;;;Simple;No usa
+14030004;Teee Pvc Ø40Mm;;;;Simple;No usa
+14030005;Teee Pvc Ø32Mm ;;;;Simple;No usa
+14030006;"Teee Pvc Ø1 1/2""  R-H ";;;;Simple;No usa
+14030007;Cupla Pvc Ø90Mm ;;;;Simple;No usa
+14030008;Cupla Pvc Ø40Mm;;;;Simple;No usa
+14030009;Cupla Pvc Ø32Mm;;;;Simple;No usa
+14030010;Cupla Pvc Ø25Mm;;;;Simple;No usa
+14030011;"Cupla Pvc Ø25Mm C/R-H 1/2""";;;;Simple;No usa
+14030012;Cupla C/Red.  Ø110 Mm X Ø90 Mm;Concéntrica c/ junta;;;Simple;No usa
+14030013;Cupla C/Red. Ø110 Mm X Ø63 Mm;Concéntrica c/ junta;;;Simple;No usa
+14030014;Cupla C/Red. Ø90 Mm X Ø75 Mm;Concéntrica c/ junta;;;Simple;No usa
+14030015;Cupla C/Red.Ø90 Mm - Ø63 Mm  ;Concéntrica cloacal;;;Simple;No usa
+14030016;Cupla Pvc Ø110 Mm - Ø75 Mm;;;;Simple;No usa
+14030017;Mango Porta Brida Pvc Ø75 Mm;;;;Simple;No usa
+14030018;Mango Porta Brida Pvc Ø63Mm;;;;Simple;No usa
+14030019;Mango Pvc Ø90 Mm - Ø75Mm;" Jp X Ø3"" R-M";;;Simple;No usa
+14030020;"Mango Pvc Ø75 Mm Jp Red. Ø3"""; R-M;;;Simple;No usa
+14030021;Mango Pvc Ø75-63 Mm;" Jp Red. Ø2"" R-M";;;Simple;No usa
+14030022;Cupla Pvc Concent Ø63 X 50 Mm ;Gris;;;Simple;No usa
+14030023;"Cupla Pvc Ø50 Mm Jp Red Ø1""1/2";R-H;;;Simple;No usa
+14030024;"Mango Pvc Ø50 Mm Jp RedØ1""1/2 ";R-M;;;Simple;No usa
+14030025;Mango Pvc 20 C/Red 1/2 R-H;;;;Simple;No usa
+14030026;Brida Giratorias De Pvc X110Mm;;;;Simple;No usa
+14030027;Brida Giratorias De Pvc 90;;;;Simple;No usa
+14030028;Brida C/Mango Fijo Pvc 63;;;;Simple;No usa
+14030029;Brida C/Junta De Expansión 65;Pvc;;;Simple;No usa
+14030030;Reducción Concéntrica 75 X 63;Pvc;;;Simple;No usa
+14030031;"Niple Espiga Pead 2  1/2""";;;;Simple;No usa
+14030032;"Niple Espiga Pead 1""";;;;Simple;No usa
+14030033;"Niple Espiga Pead 3/4""";;;;Simple;No usa
+14030034;"Niple Espiga Pead 1/2""";;;;Simple;No usa
+14030035;"Teee Espiga Pead Ø3/4""";;;;Simple;No usa
+14030036;"Teee Espiga Pead Ø1  1/2""";;;;Simple;No usa
+14030037;"Teee Espiga Pead Ø1/2""";;;;Simple;No usa
+14030038;"Espiga Pead R-M  1 1/2""";;;;Simple;No usa
+14030039;"Espiga Pead R-H 3/4""";;;;Simple;No usa
+14030040;"Espiga Pead R-M 1"" ";;;;Simple;No usa
+14030041;"Teee Hg Ø3""";;;;Simple;No usa
+14030042;"Niple Hg 20Cm 3""";;;;Simple;No usa
+14030043;"Curva Hg  Ø80  45º 3""";;;;Simple;No usa
+14030044;"Codo Hg 1/2"" 90° R H-H ";;;;Simple;No usa
+14030045;"Codo Hg 1"" R-M-H";;;;Simple;No usa
+14030046;"Codo Hg 1/2"" 90° R-M-H";;;;Simple;No usa
+14030047;"Entre Rosca Hg  2 1/2""";;;;Simple;No usa
+14030048;"Entre Rosca Hg 1/2""";;;;Simple;No usa
+14030049;"Válvula Esférica Hg 2 1/2""";;;;Simple;No usa
+14030050;"Válvula Esférica Hg 2""";;;;Simple;No usa
+14030051;"Válvula Esférica  Pvc 1""";;;;Simple;No usa
+14030052;"Válvula Esféricas Hg 1 1/4""";;;;Simple;No usa
+14030053;"Entre Rosca Hg 1 1/4""";;;;Simple;No usa
+14030054;"Reducción Hg 1"" A 3/4""";;;;Simple;No usa
+14030055;"Cupla Hg 80 - 3""";;;;Simple;No usa
+14030056;"Cupla Hg 1/2""";;;;Simple;No usa
+14030057;"Codo Largo Hg 1 1/2"" A 90º";;;;Simple;No usa
+14030058;Teee Pvc Ø40Mm C/Junta De Goma;;;;Simple;No usa
+14030059;Ramal Y Pc C/Junta 50 A 45ºmm;;;;Simple;No usa
+14030060;Ramal Y Pc C/Junta 40 A 45ºmm;;;;Simple;No usa
+14030061;Curva Pvc C/Junta 63 A 45ºmm;;;;Simple;No usa
+14030062;Curva Pvc C/Junta 50 A 45ºmm;;;;Simple;No usa
+14030063;"Montura Ø 110 C/Derv.- 1""";;;;Simple;No usa
+14030064;"Montura Ø 63 C/Derv - 1""";;;;Simple;No usa
+14030065;"Montura Ø 63 C/Derv - 3/4""";;;;Simple;No usa
+14030066;"Montura Ø 63 C/Derv - 1/2""";;;;Simple;No usa
+14030067;"Espiga Pead R-M 1 1/2""";;;;Simple;No usa
+14030068;"Espiga Pead R-M 3/4""";;;;Simple;No usa
+14030069;"Espiga Pead R-H 1""";;;;Simple;No usa
+14030070;Turbina Impulsora Nº 26 ;;;;Simple;No usa
+14030071;Turbina Impulsora Nº 24 ;;;;Simple;No usa
+14030072;Hidrociclones ;;;;Simple;No usa
+14030073;Buje Red. 110 X 90 Mm Pvc;;;;Simple;No usa
+14030074;Buje Red. 90 X 75Mm Pvc;;;;Simple;No usa
+14030075;Buje Red. 75 X 63Mm Pvc;;;;Simple;No usa
+14030076;Buje Red. 63 X 40 Mm - Pvc;;;;Simple;No usa
+14030077;Buje Red. 50 X 40Mm Pvc;;;;Simple;No usa
+14030078;Buje Red. 40 X 32 Mm - Pvc;;;;Simple;No usa
+14030079;Buje Red. 32 X 25 Mm - Pvc;;;;Simple;No usa
+14030080;Codo De Pvc  90- 90º;;;;Simple;No usa
+14030081;Codo De Pvc  75 -90º;;;;Simple;No usa
+14030082;Codo De Pvc  50-90º;;;;Simple;No usa
+14030083;Codo De Pvc  40- 90º;;;;Simple;No usa
+14030084;Codo De Pvc  32 - 90º;;;;Simple;No usa
+14030085;Codo De Pvc  110 - 45º;;;;Simple;No usa
+14030086;Codo De Pvc  63 - 45º;;;;Simple;No usa
+14030087;Curva De Pvc  110 - 45º Larga; H-H ;;;Simple;No usa
+14030088;Curva De Pvc Cloacal 110- 45º ;M-H ;;;Simple;No usa
+14030089;Curva De Pvc  0,75 - 45º H-H;;;;Simple;No usa
+14030090;Curva De Pvc  40 - 45º;;;;Simple;No usa
+14030091;Unión Doble - Pvc Ø63Mm;;;;Simple;No usa
+14030092;Unión Doble - Pvc Ø32Mm;;;;Simple;No usa
+14030093;"Válvula Esférica 50Mm- 1 1/2""";Pvc;;;Simple;No usa
+14030094;"Válvula Esférica D.75-2 1/2""";Pvc;;;Simple;No usa
+14030095;"Válvula Esférica 40Mm-1 1/4""";Pvc;;;Simple;No usa
+14030096;"Válvula Esférica Pvc  1/2""";;;;Simple;No usa
+14030097;"Válvula De Retención75 -2 1/2""";Pvc;;;Simple;No usa
+14030098;Juntamas Ø75Mm;;;;Simple;No usa
+14030099;Juntamas Ø63Mm;;;;Simple;No usa
+14030100;Junta Plana Eva Ø110Mm;;;;Simple;No usa
+14030101;Teee Ø110Mm C/Junta De Goma;Pvc;;;Simple;No usa
+14030102;Caño Pvc -200 K6;;;;Simple;No usa
+14030103;Caño Pvc 50 Mm;;;;Simple;No usa
+14030104;Caño Pvc 63 K6;;;;Simple;No usa
+14030105;Caño Pvc 32Mm;;;;Simple;No usa
+14030106;Curvas De Pvc /Alimento-75-45º;;;;Simple;No usa
+14030107;"Llave Esférica Hg 1 1/2""";;;;Simple;No usa
+14030108;Teee Pvc Ø110 M-H;;;;Simple;No usa
+14030109;Codo De Pvc X 90 A 45º;;;;Simple;No usa
+14030110;Cupla De Pvc  250-50 Cnn;;;;Simple;No usa
+14030111;Cupla De Pvc 250-40 Cnn;;;;Simple;No usa
+14030112;Curva De Pvc X 250-4,9;;;;Simple;No usa
+14030113;Teee Pvc Ø250-4,9;;;;Simple;No usa
+14030114;Caño Pvc X 110  Junta Elástica;;;;Simple;No usa
+14030115;Caño 75 Termo Fusión Pvc;;;;Simple;No usa
+14030116;Mango Porta Brida Pvc X 90Mm;;;;Simple;No usa
+14030117;Unión Doble - Pvc Ø40Mm;;;;Simple;No usa
+14030118;Pileta De Patio Pvc X 50 X 63;;;;Simple;No usa
+14030119;Caño Pvc 90;;;;Simple;No usa
+14030120;Caño Pvc 40Mm;;;;Simple;No usa
+14030121;"Entre Roscas Hg 1 1/2""";;;;Simple;No usa
+14030122;"Curva Hg Ø80  90º 3""";;;;Simple;No usa
+14030123;Varilla Para Flotante X 3/4 ;;;;Simple;No usa
+14030124;Juntamas Ø90Mm;;;;Simple;No usa
+14030125;"Mango Pvc 40 C/Red.1""1/4 R-M";;;;Simple;No usa
+14030126;"Válvula De Retención Pvc 1""1/2";;;;Simple;No usa
+14030127;Unión Doble Epoxi  1/2;;;;Simple;No usa
+14030128;Unión Doble Epoxi  3/4;;;;Simple;No usa
+14030129;"Niple De Epoxi 1"" X 10 Cn";;;;Simple;No usa
+14030130;"Entre Rosca Hg  1-1/4""";;;;Simple;No usa
+14030131;Palanca P/Descarga De Mochila ;Ferrum;;;Simple;No usa
+14030132;Tapon Valvula Descarga Mochila;Ferrum;;;Simple;No usa
+14030133;Espiga De Bronce Machos 3/8;;;;Simple;No usa
+14030134;Cupla Concent. 110-90 X63 Mm;Concéntrica ;;;Simple;No usa
+14030135;"Niple Espiga(Enchufe) X 1 1/2""";;;;Simple;No usa
+14030136;"Teee Espiga Pead Ø2""";;;;Simple;No usa
+14030137;"Codo Espiga  X 1 1/2""";Doble enchufe ;;;Simple;No usa
+14030138;"Codo Espiga  X 1 1/2""";Enchufe- R-H;;;Simple;No usa
+14030139;Canilla Esférica Mariposa  1/2;Bce;;;Simple;No usa
+14030140;"Buje Red. Bce M-H 1/2""-1/4";;;;Simple;No usa
+14030141;Brida Giratorias De Pvc X 50Mm;;;;Simple;No usa
+14030142;Mango Porta Brida Pvc X 50Mm;;;;Simple;No usa
+14030143;Junta Plana Eva Ø75Mm;;;;Simple;No usa
+14030144;Buje Red. (Corto) Pvc 110 -63;;;;Simple;No usa
+14030145;"Espiga Pead R-M X 1 1/2""";;;;Simple;No usa
+14030146;"Flexible Pvc  X 50 Cn 1/2""";;;;Simple;No usa
+14030147;"Manguera Pead 1""";;;;Simple;No usa
+14030148;Válvula De Retencion Pvc 63Mm;;;;Simple;No usa
+14030149;Caño Cloacal Blanco Ø160Mmx3,2;Pvc;;;Simple;No usa
+14030150;"Caño Hg 0,40Cm C- R Macho 1/2""";;;;Simple;No usa
+14030151;"Boca Llave Magnetica 1/2""-65Mm";;;;Simple;No usa
+14030152;" Válvula De Drenaje 220V. 1/2""";Para Compresor;;;Simple;No usa
+14030153;Válvula Esferica J-P Pvc 32Mm;;;;Simple;No usa
+14030154;Codo De Pvc 63- 90º;;;;Simple;No usa
+14030155;Unión Doble - Pvc Ø75Mm;;;;Simple;No usa
+14030156;Unión Doble - Pvc Ø110Mm;;;;Simple;No usa
+14030157;Curva De Pvc 75 - 45º M-H;;;;Simple;No usa
+14030158;Cupla Pvc Ø50Mm;;;;Simple;No usa
+14030159;Cupla Pvc Ø 63Mm;;;;Simple;No usa
+14030160;Cupla Pvc Ø75Mm;;;;Simple;No usa
+14030161;Espiga Pead R-M 1/2;;;;Simple;No usa
+14030162;"Buje Red. Epoxi X 1"" X 3/4";;;;Simple;No usa
+14030163;Entre Rosca De Epoxi 1/2;;;;Simple;No usa
+14030164;"Niple De Epoxi 1"" X 15Cn";;;;Simple;No usa
+14030165;"Manguera Pead 1/2""K6";;;;Simple;No usa
+14030166;"Codo Hg 2 1/2""";;;;Simple;No usa
+14030167;Teee Pvc Ø50Mm;;;;Simple;No usa
+14030168;Reducción Concéntrica  63 X 50;Pvc;;;Simple;No usa
+14030169;Mango Porta Brida Pvc X 110Mm;;;;Simple;No usa
+14030170;"Mango Pvc 50-40X1"" R-M";;;;Simple;No usa
+14030171;"Mango Pvc 40-32 C/Red. 1"" R-M";;;;Simple;No usa
+14030172;"Teee Pvc Ø20 X R-1/2""";;;;Simple;No usa
+14030173;Juntamas Ø50Mm;;;;Simple;No usa
+14030174;Caño Pvc Ø20Mm X 1,3Mm;;;;Simple;No usa
+14030175;Unión Doble Pvc 25Mm;;;;Simple;No usa
+14030176;"Cupla Polipropileno R H-H 4""";;;;Simple;No usa
+14030177;Tee Espiga Enchufe 3/4;C/Derivacion R-H 3/4;;;Simple;No usa
+14030178;"Codo Espiga 90° X 3/4""";;;;Simple;No usa
+14030179;"Union Doble Polipropileno 2"" ";H-H ;;;Simple;No usa
+14030180;"Cupla Polipropileno 2""";;;;Simple;No usa
+14030181;"Acople A Leva R-M 1 1/2""";Con Palamcas Bronce;;;Simple;No usa
+14030182;"Acople  A Leva  A R-M 1 1/2"" ";Espiga (Bronce);;;Simple;No usa
+14030183;"Teee Polipropileno 1/2"""; Termo Fusión;;;Simple;No usa
+14030184;"Codo Polipropileno 90°RH-H3/4""";;;;Simple;No usa
+14030185;"Codo Polipropileno 90°R-H-H 1""";;;;Simple;No usa
+14030186;"Codo Polipropileno90°RH-H1/2"" ";;;;Simple;No usa
+14030187;"Entre Rosca Polipropileno 1""";;;;Simple;No usa
+14030188;"Entre Rosca Polipropileno 3/4""";;;;Simple;No usa
+14030189;"Buje Red.Polip. 1"" C/Red. 3/4""";Polipropileno;;;Simple;No usa
+14030190;"Cupla De Polipropil.  R-2 1/2""";Polipropileno;;;Simple;No usa
+14030191;"Cupla De Polipropil. R-1 1/2""";Polipropileno;;;Simple;No usa
+14030192;"Cupla De Epoxi 3/4""";;;;Simple;No usa
+14030193;Válvula Gas Nº 12 (17-81-01);Epoxi;;;Simple;No usa
+14030194;Válvula Gas Nº 8 (17-81-03) ;Epoxi;;;Simple;No usa
+14030195;Quemadores Epoxi;;;;Simple;No usa
+14030196;"Codo Polip. 90° R-H-H 1 1/2"" ";Polipropileno;;;Simple;No usa
+14030197;"Codo Polip. 90° R-M-H 2""";Polipropileno;;;Simple;No usa
+14030198;"Depresor R-M 1"" Pvc ";;;;Simple;No usa
+14030199;"Buje Red.Polip. 2""C/Red 1 1/2""";Polipropileno;;;Simple;No usa
+14030200;"Codo Polip. 90° R-M-H 1 1/2"" ";Polipropileno;;;Simple;No usa
+14030201;"Conexión De Tanque Polip.R-2"" ";Polipropileno;;;Simple;No usa
+14030202;"Caño Polipropileno 3/4""";;;;Simple;No usa
+14030203;Unión De Caño Metal ;;;;Simple;No usa
+14030204;"Unión Doble Polip. 1"" R-H-H ";;;;Simple;No usa
+14030205;"Entre Rosca Polipropileno 1/2""";;;;Simple;No usa
+14030206;"Caño Polipropileno  1 1/2""";;;;Simple;No usa
+14030207;Codo Epoxi 3/4 R H-H;;;;Simple;No usa
+14030208;Codo Epoxi 3/4 Rm-H;;;;Simple;No usa
+14030209;Tapón Epoxi X 1/2;;;;Simple;No usa
+14030210;"Teee Epoxi Ø3/4""";;;;Simple;No usa
+14030211;"Buje Red.Polip. 2""C/Red 1 1/4""";Polipropileno;;;Simple;No usa
+14030212;"Buje Red.Polip. 1""C/Red 1/2""";Polipropileno;;;Simple;No usa
+14030213;"Conexión De Tanque PolipR-1/2""";Polipropileno;;;Simple;No usa
+14030214;Termocuplas X 50 Mm ;;;;Simple;No usa
+14030215;"Buje Red.Polip. 1/2""C/Red3/8""";Polipropileno;;;Simple;No usa
+14030216;"Conexión De Tanque Polip.R-4""";Polipropileno;;;Simple;No usa
+14030217;"Válvula De Retención Bronce 1""";;;;Simple;No usa
+14030218;Codo De Pvc 50Mm A 45°;;;;Simple;No usa
+14030219;"Boyas De Tergo Pol 3/4""";;;;Simple;No usa
+14030220;"Teee Epoxi Ø1/2""";;;;Simple;No usa
+14030221;"Caño Epoxi 1/2""";;;;Simple;No usa
+14030222;"Buje Red.Polip.3""C/Red 2 1/2""";Polipropileno;;;Simple;No usa
+14030223;"Válvula Esférica 1 1/2"""; De Bronce;;;Simple;No usa
+14030224;Valvula De Entrada De Agua ;P-Mochila ;;;Simple;No usa
+14030225;"Acople  Leva C/Palancas R-H 4""";;;;Simple;No usa
+14030226;Griferia Cuadro De Ducha;;;;Simple;No usa
+14030227;Acople Leva C/ Palancas ;Espiga 42;;;Simple;No usa
+14030228;Codo De Pvc 45°-110 Cloacal;;;;Simple;No usa
+14030229;Bollas De Tergopol P/Flotantes;;;;Simple;No usa
+14030230;"Codo Espiga 90° X 1""";;;;Simple;No usa
+14030231;"Cupla De Polipropileno R- 1""";;;;Simple;No usa
+14030232;"Entre Rosca Polipropileno 2""";;;;Simple;No usa
+14030233;"Entre Rosca Polip. 2 1/2""";Polipropileno;;;Simple;No usa
+14030234;"Entre Rosca Polip. 1 1/4""  ";Polipropileno;;;Simple;No usa
+14030235;"Entre Rosca Hg - 3/4""";;;;Simple;No usa
+14030236;Buje Red.Ø90Mm - 63Mm;;;;Simple;No usa
+14030237;"Válvula De Retencion Pvc 1""";;;;Simple;No usa
+14030238;Juego De Griferia P/. Ducha;Complleto;;;Simple;No usa
+14030239;"Buje Red.Polip. 1"" C/Red 1/2""";Polipropileno;;;Simple;No usa
+14030240;"Teee Espiga C/ Rosca M- 1/2""";;;;Simple;No usa
+14030241;"Montura Ø 40 C/Derv.- 1/2""";;;;Simple;No usa
+14030242;"Acople Leva M- C/Rosca H- 4""";;;;Simple;No usa
+14030243;"Cupla De Polipropileno R-3""";;;;Simple;No usa
+14030244;"Buje Corto Red. 1/2""A 3/8""";Bronce;;;Simple;No usa
+14030245;"Montura Ø 32 C/Derv.- 1/2""";;;;Simple;No usa
+14030246;"Caño Polipropileno 1/2""";;;;Simple;No usa
+14030247;"Teee De Polipropileno 1/2"" ";;;;Simple;No usa
+14030248;"Unión Doble Polip. 3/4"" R-H-H ";Polipropileno;;;Simple;No usa
+14030249;"Codo Polip. 90° R-M-H 1  1/4""";Polipropileno;;;Simple;No usa
+14030250;"Buje Red.Polip. 3/4""C/Red 1/2""";Polipropileno;;;Simple;No usa
+14030251;Teflón X 3/4 X 50 Mts ;;;;Simple;No usa
+14030252;Adhesivo P/Tubos De Pvc ;por 1000 Cc.;;;Simple;No usa
+14030253;"Caño De Polipropileno 1""";;;;Simple;No usa
+14030254;"Buje Red.Polip. 1 1/4""C/Red 1""";Polipropileno;;;Simple;No usa
+14030255;Caño Pvc Ø63Mm X 40 Cn ;;;;Simple;No usa
+14030256;"Unión Vital-Ranura 1 1/2""";;;;Simple;No usa
+14030257;"Válvulas Hexagonales 1/4""";;;;Simple;No usa
+14030258;"Tapon Ppn 1 1/2""";;;;Simple;No usa
+14030259;"Teee Hg Ø1/2""";;;;Simple;No usa
+14030260;"Buje Red.Pol.1 1/2""c/Red 1 1/4";Polipropileno;;;Simple;No usa
+14030261;"Espiga Pead R-H 1/2""";;;;Simple;No usa
+14030262;Comando de nivel/ flotante;Cn-no;;;Simple;No usa
+14030263;Tapón PVC de ø90;;;;Simple;No usa
+14030264;"Llave de paso medio giro 1/2"" ";Plástica;;;Simple;No usa
+14030265;"Flotante plástico 1/2""";;;;Simple;No usa
+14030266;"Niple Espiga Pead 2""";;;;Simple;No usa
+14030267;"Niple Espiga Pead 1 ¼ """;;;;Simple;No usa
+14030268;"Tee Espiga Pead 1 ¼ """;;;;Simple;No usa
+14030269;"Tee Espiga Pead C/deriv R-H¾ """;;;;Simple;No usa
+14030270;Teee HG 1 ½ “;;;;Simple;No usa
+14030271;Codo HG 1” R H-H 90 º;;;;Simple;No usa
+14030272;Codo HG ½ ” R M-H 45 º;;;;Simple;No usa
+14030273;Cupla HG 1”;;;;Simple;No usa
+14030274;Buje Reducción (corto) HG 1”-½;;;;Simple;No usa
+14030275;Unión Doble  HG 1 ½“;;;;Simple;No usa
+14030276;Unión Doble HG ½“ ;;;;Simple;No usa
+14030277;Niple Espiga HG R-M ¾“;;;;Simple;No usa
+14030278;Niple HG R-M ½“ x 50mm;;;;Simple;No usa
+14030279;Cable Acerado HG 6x19x10mm;;;;Simple;No usa
+14030280;Cable Acerado HG 6x1x8mm ;;;;Simple;No usa
+14030281;Teee  Pvc Ø 25mm;;;;Simple;No usa
+14030282;Cupla  Pvc Ø 110mm;;;;Simple;No usa
+14030283;Cupla Pvc Ø 20mm ;;;;Simple;No usa
+14030284; Caño hg ½” x 1.20 cm      ;;;;Simple;No usa
+14030285;Cupla  Pvc Ø 32mm RH – 1”;;;;Simple;No usa
+14030286;Cupla  Pvc Ø 20mm RH – ½ ”;;;;Simple;No usa
+14030287;Codo de Pvc 25mm a 90 º;;;;Simple;No usa
+14030288;Codo de Pvc 25mm RH ¾ “ a 90°;;;;Simple;No usa
+14030289;Codo de Pvc 20mm a 90 º;;;;Simple;No usa
+14030290;Cupla Reduc. concént. PVCØ63;50mm cloacal ;;;Simple;No usa
+14030291;Buje Reduc. corto PVC Ø63-50mm;;;;Simple;No usa
+14030292;Buje Reduc. corto PVC Ø25-20mm;;;;Simple;No usa
+14030293;Mango Pvc Ø 110mm RM–4;;;;Simple;No usa
+14030294;"Mango Pvc  Ø 25mm RM–¾"" ";;;;Simple;No usa
+14030295;"Válvula Esférica Pvc Ø 25mm–¾""";;;;Simple;No usa
+14030296;Válvula Esférica Pvc Ø 63mm;;;;Simple;No usa
+14030297;Bridas Giratorias De Pvc x75mm;;;;Simple;No usa
+14030298;Bridas Giratorias De Pvc x63mm;;;;Simple;No usa
+14030299;Junta Plana Eva Ø 90mm;;;;Simple;No usa
+14030300;Junta Plana Eva Ø 63mm;;;;Simple;No usa
+14030301;Montura de PvcØ 75mm c/deriv 1;;;;Simple;No usa
+14030302;Tapón De Pvc Ø 75mm ;;;;Simple;No usa
+14030303;Tapón De Pvc Ø 63mm ;;;;Simple;No usa
+14030304;Tapón De Pvc Ø 40mm ;;;;Simple;No usa
+14030305;Tapón De Pvc Ø 32mm;;;;Simple;No usa
+14030306;Cupla Concéntrica c/ junta ;Junta 110-95-75 mm;;;Simple;No usa
+14030307;Curva Larga Pvc HH-75mm x 45°;;;;Simple;No usa
+14030308;Curva Larga Pvc   75mm – 90°;;;;Simple;No usa
+14030309;"Salida tanque PP 1/2""";;;;Simple;No usa
+14030310;"Salida tanque PP 3/4""";;;;Simple;No usa
+14030311;"Tuerca 3/8"" ";;;;Simple;No usa
+14030312;"Arandela Epam 3/8""x7/8""";;;;Simple;No usa
+14030313;"Bulón 3/8"" grado 8.8";;;;Simple;No usa
+14030314;Membrana de Reposición 40L ;;;;Simple;No usa
+14030315;Válvula Esférica ¾”R-H-H;;;;Simple;No usa
+14030316;Curva PVC 45° 55mm  ;;;;Simple;No usa
+14030317;Curva PVC 45° 75mm  ;;;;Simple;No usa
+14030318;Codo espiga 90° - ½” ;;;;Simple;No usa
+14030319;Codo PVC 90° 50mm cloacal;;;;Simple;No usa
+14030320;Caño PVC 50mm cloacal ;;;;Simple;No usa
+14030321;Unión Doble polipropileno ½”;;;;Simple;No usa
+14030322;Válvula esférica 63 mm;termofusión ;;;Simple;No usa
+14030323;Te 2 ½” (termofusión);termofusión ;;;Simple;No usa
+14030324;Cupla 2 ½” (termofusión);termofusión ;;;Simple;No usa
+14030325;Tapa 63mm pvc;;;;Simple;No usa
+14030326;Tubos 63mm pvc cloacal;;;;Simple;No usa
+14030327;Manguera Pead  ¾” ;rollo x100mts;;;Simple;No usa
+14030328;Tee Espiga doble enchufe ¾”;;;;Simple;No usa
+14030329;Caño A-53 c/costura;;;;Simple;No usa
+14030330;Válvula esférica p/vapor 1 1/4;;;;Simple;No usa
+14030331;Vástago p/ griferia ;;;;Simple;No usa
+14030332;Volante p/ducha c/ inserto;;;;Simple;No usa
+14030333;Rejilla metálica p/ baño;;;;Simple;No usa
+14030334;Juego de dados termofusora 1';termofusión ;;;Simple;No usa
+14030335;"Conector 1"" a macho ½ plástico";;;;Simple;No usa
+14030336;Espiga macho de 1” a ½;;;;Simple;No usa
+14030337;"Unión doble Hembra 1""";;;;Simple;No usa
+14030338;Válvula angular acero inox 1/2;A presión de 1/2 FV;;;Simple;No usa
+14030339;Junta plana teflon exp 10x25mm;;;;Simple;No usa
+14030340;Tubo pvc K10 250mm c/junta ela;C/ junta elástica;;;Simple;No usa
+14030341;"Niple HG 3"" de 20cm ";;;;Simple;No usa
+14030342;Teflón alta densidad 19mm x 0,1mm x 40m x 0,7g ;;;;Simple;No usa
+14030343;Manguito PVC de 40mm;;;;Simple;No usa
+14030344;Reducción concéntrica 63x50;;;;Simple;No usa
+14030345;Caño PVC 75mm cloacal;;;;Simple;No usa
+14030346;Termocupla punta con rosca;;;;Simple;No usa
+14040001;Sintético - 4 Litros ;;;;Simple;No usa
+14040002;Sintético X 1 Litro;;;;Simple;No usa
+14040003;Clip P/Instalac.De Extractores;;;;Simple;No usa
+14040004;Chupete Pico Pato Para Lechon ;;;;Simple;No usa
+14040005;Solenoide Mas Válvula (Epoxi);;;;Simple;No usa
+14040006;Ruleman  6205 ;;;;Simple;No usa
+14040007;Rollo De Tela Anti Pájaro ;(F. Hexag) X Rollo ;;;Simple;No usa
+14040008;Rollo De Tela Anti Pájaro ;(F. Cuad.) X Rollo  ;;;Simple;No usa
+14040009;Cemento ;;;;Simple;No usa
+14040010;Parrilla Metál.4,2 X3X2 -25X20;Metálica;;;Simple;No usa
+14040011;Perfil C Negro 100Mm;;;;Simple;No usa
+14040012;Hierro Liso N°8;;;;Simple;No usa
+14040013;Caño Estruct.30X20X2,5X2Mm ;Estructural;;;Simple;No usa
+14040014;Hierro Nervado N°6;;;;Simple;No usa
+14040015;Latex Blanco  X 20 Litros ;;;;Simple;No usa
+14040016;Pintura Asfaltica Litros;;;;Simple;No usa
+14040017;Hierro Liso N°12;;;;Simple;No usa
+14040018;Chapas T 101 X 6,5 ;;;;Simple;No usa
+14040019;Chapas T 101 X 4;;;;Simple;No usa
+14040020;Viguetas Prensada X 2 Metros ;;;;Simple;No usa
+14040021;Hierro Cuadrado N°14;;;;Simple;No usa
+14040022;Chapón N°16 Liso;;;;Simple;No usa
+14040023;Pintura Epoxi-4 Litros;;;;Simple;No usa
+14040024;Cable Canal Ranurado 40 X 40;;;;Simple;No usa
+14040025;Cable Canal Ranurado 25 X 40 ;;;;Simple;No usa
+14040026;Planchuela 32Mm X 5Mm ;"(1 1/4"" X 3/16"")";;;Simple;No usa
+14040027;Planchuela  12Mm X 3Mm  ;"(1/2""X1/8"") ";;;Simple;No usa
+14040028;Planchuela 32Mm X 3Mm;"  ( 1 1/4"" X 1/8"")";;;Simple;No usa
+14040029;Planchuela 22Mm X 5Mm;;;;Simple;No usa
+14040030;"Tubing 2 7/8"" X 950 Mts.";;;;Simple;No usa
+14040031;Naylon  500 Micrones;;;;Simple;No usa
+14040032;Planiseal 88;;;;Simple;No usa
+14040033;Chapa T101 zinc C25X6,50;;;;Simple;No usa
+14040034;Perfil C Negro 200-60-20-25Mm;;;;Simple;No usa
+14040035;Ladrillo Ceramico P/Techo N°12;;;;Simple;No usa
+14040036;Block Vibrado 9X19X39;;;;Simple;No usa
+14040037;Block Prensado 15;;;;Simple;No usa
+14040038;Látex  X  Litros ;Rojo teja ;;;Simple;No usa
+14040039;Membrana Liquida X 2O Litros.;;;;Simple;No usa
+14040040;Montantes 7 X 3 X2;;;;Simple;No usa
+14040041;Solera 70Mm;;;;Simple;No usa
+14040042;Cerámica Esmaltada 43x43; Blanca 17 Unidxcaja;;;Simple;No usa
+14040043;Block Prensado N°10;;;;Simple;No usa
+14040044;Acople Rakord 75Mm;;;;Simple;No usa
+14040045;Soleras 35 Mm;;;;Simple;No usa
+14040046;Montantes 35Mm;;;;Simple;No usa
+14040047;Hierro Liso N°14;;;;Simple;No usa
+14040048;Hierro Liso N°10;;;;Simple;No usa
+14040049;Block Prensado N°13;;;;Simple;No usa
+14040050;Caño Hg 34Mm X 2Mm ;;;;Simple;No usa
+14040051;Caño Estructural 40X40;;;;Simple;No usa
+14040052;Chapon Calibre 14X2,40X1,22;;;;Simple;No usa
+14040053;Chupete Seco-Humedo ;Para Comederos ;;;Simple;No usa
+14040054;Poliuretano 3M 750Mm ;;;;Simple;No usa
+14040055;Cal Hidratada;;;;Simple;No usa
+14040056;Sica Grout 212*25 Kg ;;;;Simple;No usa
+14040057;Perfil C Negro 80 Mm ;;;;Simple;No usa
+14040058;Tela Esmeril 60;;;;Simple;No usa
+14040059;"Tubo Estructural  5/8""X2X 6 ";;;;Simple;No usa
+14040060;Bacha Para Alimentación ;De Acero Inoxidable;;;Simple;No usa
+14040061;Caño Hg 45Mm X 2Mm;;;;Simple;No usa
+14040062;Grampas p/ Fijar Tela;Anti Pájaro;;;Simple;No usa
+14040063;Cupla Jp-Rh Para Platinas ;;;;Simple;No usa
+14040064;Fijación De Platina C-R Macho;P/Pisos De Lechon;;;Simple;No usa
+14040065;Boyero ;;;;Simple;No usa
+14040066;Traba Mangos P/Desarme Cort.;Cortinas;;;Simple;No usa
+14040067;Caño Pvc 75Mm 2.2 Reforzado K6;;;;Simple;No usa
+14040068;Tejido Olimpico X Rollo ;;;;Simple;No usa
+14040069;Manguera Para  Hidro 20 Mts ;;;;Simple;No usa
+14040070;Chupete Pico  Pato Para Madre ;;;;Simple;No usa
+14040071;Dosificadores P. Alimentos ;Abrazadera 51-64;;;Simple;No usa
+14040072;Fijaciones Doble U ;(Maternidad);;;Simple;No usa
+14040073;Turbina Impulsora 100W.; Q 2,2-4P;;;Simple;No usa
+14040074;Piso Para Lechón;;;;Simple;No usa
+14040075;"Grampas U Bolt  2 1/2"" R 5/16""";Mas Tuerca Y arand.;;;Simple;No usa
+14040076;"Grampas U Bolt  3"" R 3/8"" ";Mas Tuerca Y Arand.;;;Simple;No usa
+14040077;Chapa Acanaladas P/ Tanque; De Reserva;;;Simple;No usa
+14040078;"Grampas U Bolt 1"""; C/ Tuercas Y Arand.;;;Simple;No usa
+14040079;Frente De Jaula Fondo Metál.; Hg 0,50X1,80;;;Simple;No usa
+14040080;Comederos Para Jaulas ;De Maternidad;;;Simple;No usa
+14040081;Slat De Hormigón2,50X0,50X0,10;Parta Engorde;;;Simple;No usa
+14040082;Slat De Hormigón 2 X 33 X 9,5 ;Cachorrera ;;;Simple;No usa
+14040083;Slat De Hormigón2,40X0,60X12 ;Gestación 2 ;;;Simple;No usa
+14040084;Slat De Hormigón3,06 X1,05X9,5;Gestación 1;;;Simple;No usa
+14040085;Motor  - 0,5Hp;;;;Simple;No usa
+14040086;Motor - 1,5Hp;;;;Simple;No usa
+14040087;Panel Lateral Para Jaula ;Gestación ;;;Simple;No usa
+14040088;Puerta Delantera C/Pernos  ;P Jaulas Gestación;;;Simple;No usa
+14040089;Puerta Traseras C/Pernos  ;P. Gestación;;;Simple;No usa
+14040090;CañoDescarga De Alimento; Ø63Mm;;;Simple;No usa
+14040091;Escopeta Pvc P/ Bajada De Alim; Gestación;;;Simple;No usa
+14040092;Placas De Policarbonato ;;;;Simple;No usa
+14040093;Batea De Gestac. Tramos 3000Mm;Gestación;;;Simple;No usa
+14040094;Batea De Gestac. Tramos 1800Mm;Gestación;;;Simple;No usa
+14040095;Batea De Gestac. Tramos 600Mm;Gestación;;;Simple;No usa
+14040096;Union De Bateas ;;;;Simple;No usa
+14040097;Tapa para Batea;;;;Simple;No usa
+14040098;Curva Pvc Ø55 X 30° 1,5 Mts.;;;;Simple;No usa
+14040099;Caño Pvc P/ Alimentos Ø55 ;Blanco;;;Simple;No usa
+14040100;Caño Pvc P/ Alimentos Ø75 ;Blanco;;;Simple;No usa
+14040101;Dosificadores Five;;;;Simple;No usa
+14040102;Bandejas P/ Alim. 3000Mm ;Inoxidable;;;Simple;No usa
+14040103;Unión De Bandejas Inox.;;;;Simple;No usa
+14040104;Tapa Para Bandeja Inox.;;;;Simple;No usa
+14040105;"Extractores  Fibra 54"" C/Cono";;;;Simple;No usa
+14040106;Tubo Bajada De Agua X 60 Cnt. ;Largo ;;;Simple;No usa
+14040107;Motoreductor  1Hp 380V.;;;;Simple;No usa
+14040108;Tubo Gestación 2 Niple L600;;;;Simple;No usa
+14040109;Comedero 8X2 Para Recría ;;;;Simple;No usa
+14040110;Grampas -Tubos De Agua Gest.;"1/4"" X 45Mm";;;Simple;No usa
+14040111;"Persiana Extractor 56"" ";Agromarau Gsi ;;;Simple;No usa
+14040112;Frente Para Parideras ;;;;Simple;No usa
+14040113;Cortinas Para Tunel 11 Mts. ;Por 2,20 De Ancho ;;;Simple;No usa
+14040114;Grampas p/bajada de agua;Parideras;;;Simple;No usa
+14040115;Bajadas de agua p/parideras;Parideras;;;Simple;No usa
+14040116;Lámparas infrarrojas 250 W.;;;;Simple;No usa
+14040117;Servicios Mant Perforaciones;;;;Simple;No usa
+14040118;Cortina sanitaria ;;;;Simple;No usa
+14040119;Caño hg 33mm x 2;;;;Simple;No usa
+14040120;Caño hg 33mm x 3 mm;;;;Simple;No usa
+14040121;Tela mosquitera;;;;Simple;No usa
+14040122;"Planchuela 1/2"" x 0.32mm";;;;Simple;No usa
+14040123;Planchuela 2.1/2”x 3.96 mm ;;;;Simple;No usa
+14040124;Angulo 1 ½”x 1 ½” x ¼” espesor;;;;Simple;No usa
+14040125;Estopa ;;;;Simple;No usa
+14040126;Goma en plancha c/ tela 2mmx1;;;;Simple;No usa
+14040127;Caño PVC K10 110mm ;;;;Simple;No usa
+14040128;Codo PVC 90º 110mm;;;;Simple;No usa
+14040129;Vidrio p/ ventana ;;;;Simple;No usa
+14040130;Picaporte;;;;Simple;No usa
+14040131;Aceite lubricante p/ roldanas;;;;Simple;No usa
+14040132;Válvula de palanca manual ;;;;Simple;No usa
+14040133;Hierro Liso ø20mm x12 mts;;;;Simple;No usa
+14040134;Tubo plástico cristal ;Pun-H-8x1.25-bl;;;Simple;No usa
+14040135;Tanque tricapa 200 lt;;;;Simple;No usa
+14040136;Cortina black out ;;;;Simple;No usa
+14040137;Cortina panel ;;;;Simple;No usa
+14040138;Cortina blanca;;;;Simple;No usa
+14040139;Malacate manual Mmw725kg;;;;Simple;No usa
+14040140;Polea de fundición ø 90 mm;;;;Simple;No usa
+14040141;Malla sima elec. ;ø6mm 15-15comp 6x2,4;;;Simple;No usa
+14040142;Hierro Nervado ø8mm; ;;;Simple;No usa
+14040143;Horas máquina ;;;;Simple;No usa
+14040144;Pegamento p/ cerámica ;;;;Simple;No usa
+14040145;Pastina blanca;;;;Simple;No usa
+14040146;Ángulo 1”x1”x1/8”      ;;;;Simple;No usa
+14040147;Chupete pico biteball madre ;;;;Simple;No usa
+14040148;Ionizador p/ cisterna;;;;Simple;No usa
+14040149;Kit de react. x100 det. ;Cloro libre;;;Simple;No usa
+14040150;"Tubing 2 7/8"" x 6.4Mts.";;;;Simple;No usa
+14040151;"Persiana metalica p/ extr 50""";Apert. y cierre aut.;;;Simple;No usa
+14040152;Electroválvula ¾”-220v.;;;;Simple;No usa
+14040153;Conjunto de riego;;;;Simple;No usa
+14040154;Chimenea p/ caldera ;;;;Simple;No usa
+14040155;Gasto de Decoración ;;;;Simple;No usa
+14040156;Placa caída de cortina ;;;;Simple;No usa
+14040157;Lockers ;;;;Simple;No usa
+14040158;Turbina Impulsora 5032/200;16x200;;;Simple;No usa
+14040159;Perfil aluminio 16x16mm x2.5mt;;;;Simple;No usa
+14040160;Escritorio;;;;Simple;No usa
+14040161;Babero blanco p/ cortina ;;;;Simple;No usa
+14040162;Pantalla galponera alum. 30 cm;;;;Simple;No usa
+14040163;Slat de Hormigón 1.2x0.6 x0.1;Gestación 2 ;;;Simple;No usa
+14040164;Chapa zinc T101 C25X2,50mts;;;;Simple;No usa
+14040165;Display cont. Rotem ac-2000 ;;;;Simple;No usa
+14040166;Riel p/ cortina black out;comedores;;;Simple;No usa
+14040167;Perfil C 100x6mts galvanizado;;;;Simple;No usa
+14040168;Chapa zinc C25x3,5mts ;;;;Simple;No usa
+14040169;Puerta aluminio 90x2 mts;derecha;;;Simple;No usa
+14040170;Puerta aluminio 100x2 mts;Derecha;;;Simple;No usa
+14040171;Cielo raso pvc ;Derecha;;;Simple;No usa
+14040172;Lona p/ cortinas ;FCH;;;Simple;No usa
+14040173;Extractor 40x40, 1400rpm;Entrada 220;;;Simple;No usa
+14040174;Slat De Hormigón 2 x 33 x 0.09; Gestacion 3;;;Simple;No usa
+14040175;Malla elect. 40x40 galvanizada;;;;Simple;No usa
+14040176;Membrana ;;;;Simple;No usa
+14040177;Sistema de levante p/ cortinas;comedores;;;Simple;No usa
+14040178;Puerta placa 80 cm ;Derecha;;;Simple;No usa
+14040179;Puerta inyectada 80 cm;Izquierda;;;Simple;No usa
+14040180;Rollo aislante térmico 10mm (doble aluminio);;;;Simple;No usa
+14040181;Perfil galvanizado 25x14mts;;;;Simple;No usa
+14040182;Lona p/ embudo PAB;FCH;;;Simple;No usa
+14040183;"Caño HG 1/2""";;;;Simple;No usa
+14040184;Palita p/ Alimento; ;;;Simple;No usa
+14050001;Termómetro de máxima y mínima;;;;Simple;No usa
+14050002;Cinta métrica;;;;Simple;No usa
+14050003;"Caudalímetro rosca 1""";;;;Simple;No usa
+14050004;Kit Luxómetro+ Anemómetro+ Decibelímetro Ut353;;;;Simple;No usa
+14060001;Árido x metro ;;;;Simple;No usa
+14060002;Viruta fina p/construcción;;;;Simple;No usa
+14070001;Interruptor Dif. Disyuntor 63A;Tetrapolar ;;;Simple;No usa
+14070002;Interruptor Dif.Disyuntor 40A;Tetrapolar ;;;Simple;No usa
+14070003;Contactor  - Lc1D25M7 25A.;Schneider;;;Simple;No usa
+14070004;Guarda Motor  Gv2 Me06;Schnaider;;;Simple;No usa
+14070005;Fichas Indus.Steck Macho 32 A ;Industrial;;;Simple;No usa
+14070006;Fichas Hembra Steck 32 AX5P ; 4L+1T (Industrial) ;;;Simple;No usa
+14070007;Arrancador Ps 660-600-70 Abb ;Suave;;;Simple;No usa
+14070008;Relee Sobre Carga Weg Rrw17D;;;;Simple;No usa
+14070009;Termostato Th5-20;;;;Simple;No usa
+14070010;Protector Sobre Tension Cpt  ;Tipo 2+1 40K 230V N ;;;Simple;No usa
+14070011;Guarda Motor Gv2-Po8 2,5-4Amp.;Schneider ;;;Simple;No usa
+14070012;Fusible Baja Tension Nh000X50A;;;;Simple;No usa
+14070013;Fusible Baja Tension Nh-2X400A;;;;Simple;No usa
+14070014;Fusible Baja Tension Nh-3X400A;;;;Simple;No usa
+14070015;Fusible Baja Tension Nh 2X200A;;;;Simple;No usa
+14070016;Fusible Baja Tension Nh1 200A ;;;;Simple;No usa
+14070017;Fusible Baja Tension Nt 1X160A;;;;Simple;No usa
+14070018;Fusible  10 X 38 2A ;;;;Simple;No usa
+14070019;Fusible Baja Tension Nt 00X80A;;;;Simple;No usa
+14070020;Fusible Media Tension 3K ;;;;Simple;No usa
+14070021;Fusible Media Tension 2K ;;;;Simple;No usa
+14070022;Fusible Media Tension 10K ;;;;Simple;No usa
+14070023;Fusible Media Tension 7K ;;;;Simple;No usa
+14070024;Fusible Media Tension Xs 15K ;;;;Simple;No usa
+14070025;Fusible Baja Tension Nh3 X400A;;;;Simple;No usa
+14070026;Fusible Baja Tension Nh-2X225A;;;;Simple;No usa
+14070027;Fusible Baja Tension-Nt000X80 ;;;;Simple;No usa
+14070028;Fusible 5X20 Mm 3,15Amp.;;;;Simple;No usa
+14070029;Fusible 6X30 Mm Vidrio ;;;;Simple;No usa
+14070030;Contactor Af52-30-00-41 24-60V;50/60Hz ;;;Simple;No usa
+14070031;Capacitor Lm40 12,5W X 400V ;;;;Simple;No usa
+14070032;"Portalampara Ceramico 5/8""";C/ casquillo alum.;;;Simple;No usa
+14070033;Interruptor Termomag. 4XB10 A;;;;Simple;No usa
+14070034;Contactor Auxiliar ;Abb;;;Simple;No usa
+14070035;Relé Abb 24Ac Cr-M024Ac4L  ;1Svr 405 613R 100 ;;;Simple;No usa
+14070036;Descargador De Tensión Cpt40Ka;;;;Simple;No usa
+14070037;Descargador De Tensión 80 Ka ; Suger ;;;Simple;No usa
+14070038;Temporizador Chore Time ;;;;Simple;No usa
+14070039;Termostato Máxima Y Mínima ;;;;Simple;No usa
+14070040;Fusible T.E.A 2A 380V.;;;;Simple;No usa
+14070041;Foto Celula ;;;;Simple;No usa
+14070042;Peine Polar Abb X 3 ;;;;Simple;No usa
+14070043;Sonda Termica Indiv;;;;Simple;No usa
+14070044;Bornera De Conexión 4 Mm ;;;;Simple;No usa
+14070045;Burbuja Cubre Lámpara ;;;;Simple;No usa
+14070046;Cable Tpr 4 X2,5 Mm ;;;;Simple;No usa
+14070047;Cable Tpr 7X1 Mm;;;;Simple;No usa
+14070048;Cable Tpr 2X1,5 Mm X Mts;(Alargue);;;Simple;No usa
+14070049;Cable Subterráneo  4 X 4 ;;;;Simple;No usa
+14070050;Cable Desnudo Puesta  Tierra  ;X 10 Mts ;;;Simple;No usa
+14070051;Gancho Porta Lámparas 3/8 ;;;;Simple;No usa
+14070052;Fichas Hembra-10A Tres Patas ;;;;Simple;No usa
+14070053;Tubo Fluorescente ;;;;Simple;No usa
+14070054;Caño Eléctrico - 20 ;;;;Simple;No usa
+14070055;Caño Eléctrico - 30 ;;;;Simple;No usa
+14070056;Caño Eléctrico - 40 ;;;;Simple;No usa
+14070057;Conectores P/Cajas  Pase 40Mm ;Goma;;;Simple;No usa
+14070058;Cupla P/Conexiones Elect.20Mm ;;;;Simple;No usa
+14070059;Cupla P/Conexiones Elect.16Mm ;;;;Simple;No usa
+14070060;Cupla P/Conexiones Elect.32Mm ;;;;Simple;No usa
+14070061;Curvas 25 Xc 90º ;;;;Simple;No usa
+14070062;Terminal Ojal Conexión X185Mm ;1/2 ;;;Simple;No usa
+14070063;"Jabalina 2,5 Mts 3/8"" A/Cu ";;;;Simple;No usa
+14070064;Disyuntor Bipolar Ac 25A Abb ;;;;Simple;No usa
+14070065;Bobina Para Contactor 16 A ;Abb ;;;Simple;No usa
+14070066;Terminal Ojal Cobre  95/1/2 ;Estañado;;;Simple;No usa
+14070067;Terminal Ojal Cobre Scc 35/2;Estañado;;;Simple;No usa
+14070068;Terminal Ojal Cobre Secc.16Mm ;Estañado;;;Simple;No usa
+14070069;Terminal Ojal Cobre Secc.50Mm;Estañado;;;Simple;No usa
+14070070;"Termínales Ojo 3/8""  Nº 16 ";Estañado;;;Simple;No usa
+14070071;Terminal Ojal Cobre Secc.25Mm ;Estañado;;;Simple;No usa
+14070072;Termistol Para Roten ;;;;Simple;No usa
+14070073;Punta Sonda Térmica ;;;;Simple;No usa
+14070074;Peine Polar Pcz817004-400V.63A;;;;Simple;No usa
+14070075;Fusible 10 X 38 6A;;;;Simple;No usa
+14070076;Micro Switch Interruptor V-152;1,5 Tb-Cin;;;Simple;No usa
+14070077;Arrancadores P/ Tubos ;;;;Simple;No usa
+14070078;Bornera De Conexión 4Mmx3A ;En Block;;;Simple;No usa
+14070079;Fusible Mini Muelita 5 Amp.;;;;Simple;No usa
+14070080;Fichas Hembra16 A X 4P + 1T;Industrial ;;;Simple;No usa
+14070081;Cable Tpr 4 X 4 Mm ;;;;Simple;No usa
+14070082;Mango De Empalme Cobre X35 Mm ;Estañado;;;Simple;No usa
+14070083;Mango De Empalme Cobre X25 Mm ;Estañado;;;Simple;No usa
+14070084;Mango De Empalme Cobre X16 Mm ;Estañado;;;Simple;No usa
+14070085;Cable Subt. 3X35Mm+1X16Mm ;Subterraneo ;;;Simple;No usa
+14070086;Terminal Ojal Cobre Sec.C120Mm;(Cu/Sn) Estañado;;;Simple;No usa
+14070087;Fusible Baja Tension Nt1 250A ;;;;Simple;No usa
+14070088;Protector SobreTension2+1 40K ;Cpt  Tipo Cs1;;;Simple;No usa
+14070089;Capacitor 18 Mf X 450V ;;;;Simple;No usa
+14070090;Capacitor 18  Mf X 400V ;;;;Simple;No usa
+14070091;Baristol 14 Dc 21K;;;;Simple;No usa
+14070092;Disyuntor Diferencial 40 A ;Tetrapolar;;;Simple;No usa
+14070093;Fusible Baja Tension Nh1X80A;500 V;;;Simple;No usa
+14070094;Seccionador P/ Nh;;;;Simple;No usa
+14070095;Cable Tpr 2 X 1Mm;;;;Simple;No usa
+14070096;Alarmas X28 X 12V.;;;;Simple;No usa
+14070097;Sirena 12 V. ;;;;Simple;No usa
+14070098;Cooler 24 V.  9X9X2,5Cn;Para Soldadora;;;Simple;No usa
+14070099;Termo Contraible 55/16;;;;Simple;No usa
+14070100;Estabilizador Protec. Tensión;;;;Simple;No usa
+14070101;Micro SwitchNc-Na250V X5A;Interruptores;;;Simple;No usa
+14070102;Fusible Mini Muelitas 10A;;;;Simple;No usa
+14070103;Fusible Mini Muelitas 20A;;;;Simple;No usa
+14070104;Cajas De Pvc Aereas S/ Aplique;;;;Simple;No usa
+14070105;Bastidor Triple Puntos ;;;;Simple;No usa
+14070106;Selectora C/ Aro 2 Posiciones; Metálica ;;;Simple;No usa
+14070107;"Conector Preensacable 5/8"" Bsp"; Rango 10-14Mm;;;Simple;No usa
+14070108;Bornera De Conexión 35Mm;;;;Simple;No usa
+14070109;Bornera De Conexión 10Mm;;;;Simple;No usa
+14070110;Bornera De Conexión 06Mm;;;;Simple;No usa
+14070111;Empalme Aislados X 1,5Mm;;;;Simple;No usa
+14070112;"Prensa Cable  R- 5/8""";De Poliamida;;;Simple;No usa
+14070113;Luz De Ojo Buey Color Verde;;;;Simple;No usa
+14070114;Luz De Ojo Buey Color Amarillo;;;;Simple;No usa
+14070115;Terminales Manguitos 2,5/4Mm;Empalme ;;;Simple;No usa
+14070116;Terminales Mangos  Cobre 120Mm;Desnudo Estañado ;;;Simple;No usa
+14070117;Cable Tpr 5 X 4 Mm ;;;;Simple;No usa
+14070118;Fichas Industrial  Macho 32 A;Menenkes;;;Simple;No usa
+14070119;Interruptor Termomag.3X C16 A;;;;Simple;No usa
+14070120;Guarda Motor Abb  Ms116-1,6;;;;Simple;No usa
+14070121;Relevo Térmico Abb Tf 65-67;;;;Simple;No usa
+14070122;Transformador220-12+12V. 3Amp;Nielsen Corilux;;;Simple;No usa
+14070123;Rele Extraíble, 4 Cont 5A ;Bobina 24V Ca;;;Simple;No usa
+14070124;Zócalo P/Relé Auxiliar 4Co ;Montaje Din ;;;Simple;No usa
+14070125;Conmut, Tranf.Autom.630A ;Tetrapolar Motoriz. ;;;Simple;No usa
+14070126;Conmut, Tranf.Autom. 250A; Tetrapolar.Motoriz.;;;Simple;No usa
+14070127;Interruptor Termomag. 4XC20A;;;;Simple;No usa
+14070128;Cable Desnudo X 50Mm;;;;Simple;No usa
+14070129;"Jabalina 1,5M X1/2"" Normaliz.";C/Toma Cable;;;Simple;No usa
+14070130;Para Rayo Ipf 3P+N 20Ka ;A9L15693 Schneider;;;Simple;No usa
+14070131;Contactor Aux.No-Nc Gvae11 X 1; Schnaider;;;Simple;No usa
+14070132;Micro Switch Interrup10A No-Nc;Interruptores;;;Simple;No usa
+14070133;Interruptor Termomag. 4X63A;;;;Simple;No usa
+14070134;Cable Unipolar 10Mm ;Verde Amarillo;;;Simple;No usa
+14070135;Fichas Hembra 16 A3P1L+1N+1T ;Industrial ;;;Simple;No usa
+14070136;Rele Interface 6,2Mm250 V.; 6Amp. Relé 24V.;;;Simple;No usa
+14070137;Temporizador De Arranque ;;;;Simple;No usa
+14070138;Terminal Ojal Cobre Secc10Mm;Estañado;;;Simple;No usa
+14070139;Bornera Puesta A Tierra 16Mm;;;;Simple;No usa
+14070140;Cable Canal Ranurado 30X30;;;;Simple;No usa
+14070141;Conector C/Der.p/Puesta Tierra;Con derivador ;;;Simple;No usa
+14070142;Luminarias Perita Completa ;C/ Soportes Y Tulipa;;;Simple;No usa
+14070143;Conector Deriv 0,50Mn X0,75Mm;Rojo;;;Simple;No usa
+14070144;Conector Deriv.1Mm X 2,5Mm;Azul;;;Simple;No usa
+14070145;Conector Deriv.4Mm X 6Mm;Amarillo;;;Simple;No usa
+14070146;Relés Enchufable C/Zocalo 220V;;;;Simple;No usa
+14070147;Zocalo Para Relé ;;;;Simple;No usa
+14070148;Cable Plano  10 Conductores ;;;;Simple;No usa
+14070149;Cable Plano  14 Conductores ;;;;Simple;No usa
+14070150;Cable Plano  16 Conductores ;;;;Simple;No usa
+14070151;Cable Plano  20 Conductores ;;;;Simple;No usa
+14070152;Cable Tpr 2 X 2,5Mm;;;;Simple;No usa
+14070153;Cable Unipolar 1,5Mm Marrón ;;;;Simple;No usa
+14070154;Conectores P/Cajas Pase32Mm;;;;Simple;No usa
+14070155;Curva Pvc Ø32Mm 90° ;P/Inst. Electricas ;;;Simple;No usa
+14070156;Cable Unipolar P.A Tierra2,5Mm;Verde Amarillo;;;Simple;No usa
+14070157;Interruptor Termomag. 4X32 A;;;;Simple;No usa
+14070158;Morceto Para Jabalinas;;;;Simple;No usa
+14070159;Cable Unipolar -1 Mm Rojo;;;;Simple;No usa
+14070160;Cable Unipolar - 1Mm Blanco ;;;;Simple;No usa
+14070161;Terminales Mangos Desnudo70Mm;Cobre Estañado ;;;Simple;No usa
+14070162;Cable Unipolar X 1 Mm Negro;;;;Simple;No usa
+14070163;Cable Unipolar X 1 Mm Celeste ;;;;Simple;No usa
+14070164;Cable Subt.o 3X3,5Mm+1 T 16Mm;Subterraneo ;;;Simple;No usa
+14070165;Llave Compacta 80 Amp. ;Schneider;;;Simple;No usa
+14070166;Termo Contraible 22/6;;;;Simple;No usa
+14070167;Termo Contraible 33/8;;;;Simple;No usa
+14070168;Fusible Baja Tension Nh 00-50A;;;;Simple;No usa
+14070169;Tablero Para Tomas Europeos ;;;;Simple;No usa
+14070170;Llave Compacta 250 Amp.; Schneider ;;;Simple;No usa
+14070171;Fichas P-Embutir 16 A -2P + 1N;Industrial inclinada;;;Simple;No usa
+14070172;Cable Unipolar Multif. 120Mm;Multifilamneto;;;Simple;No usa
+14070173;Arandela Bimetal 5/8 Cu/Al;;;;Simple;No usa
+14070174;Cajas Apr 01 Porta Fusibles ;;;;Simple;No usa
+14070175;Terminal Ojal 2,4Mm Secc.1,5Mm;Rojo;;;Simple;No usa
+14070176;Fichas Industrial Macho 32 A ;Scame;;;Simple;No usa
+14070177;Fichas Hembra 32A 5Pin3L+1N+1T; Industrial   Scame ;;;Simple;No usa
+14070178;Contactor Steck Sk 109A 10M;;;;Simple;No usa
+14070179;Rele Termico 0,16 - 0,25A;;;;Simple;No usa
+14070180;Caño Eléctrico 25Mm;;;;Simple;No usa
+14070181;"Terminal Ojal o 1/2"" X 185Mm ";Bimetal Estañad;;;Simple;No usa
+14070182;Baristol ;;;;Simple;No usa
+14070183;Bornera De Conexión 2,5 Mm ;;;;Simple;No usa
+14070184;Fusible Baja Tension Nh1 125A ;;;;Simple;No usa
+14070185;Fusible Baja Tension Nh3 500A ;;;;Simple;No usa
+14070186;Fusible Baja Tension Nh3 630A ;;;;Simple;No usa
+14070187;Cinta Helicoidal 12Mm;;;;Simple;No usa
+14070188;Contactor Steck  S-K1 18A 10;;;;Simple;No usa
+14070189;Guarda Motor  9-13 A;General Electric;;;Simple;No usa
+14070190;Cupla P/Conexiones Elect.25Mm;;;;Simple;No usa
+14070191;Conectores P/Cajas De Pase25Mm;;;;Simple;No usa
+14070192;Interruptor Termomag. 3XC6 A;;;;Simple;No usa
+14070193;Contactor Lc1Dlkm7Tesys-040182;Schneider;;;Simple;No usa
+14070194;Fusible Mini Muelita 75 Amp.;;;;Simple;No usa
+14070195;Pulsador Botonera Rasante;Rojo Y Verde ;;;Simple;No usa
+14070196;Bloque Contacto Auxiliar ;Rojo Y Verde ;;;Simple;No usa
+14070197;Capasitor 22 Microfaradios ;;;;Simple;No usa
+14070198;Botonera Arranque /Parada ;;;;Simple;No usa
+14070199;Monitor De Fase 3L + N ;(Finder);;;Simple;No usa
+14070200;Cable Plano Subt. 3 X 25Mm;Subterraneo ;;;Simple;No usa
+14070201;Guarda Motor Gv2 L20; (Tg. Planta Alim.);;;Simple;No usa
+14070202;Reflector 200W.;;;;Simple;No usa
+14070203;Reflector 20W;;;;Simple;No usa
+14070204;Terminal Ojal 5Mm ;Mod. C3 55-5/12-10 ;;;Simple;No usa
+14070205;Pulsador Botonera ;Contactor Aux. ;;;Simple;No usa
+14070206;Terminales Manguitos 5,5Mm;De Empalme  ;;;Simple;No usa
+14070207;Terminales Manguitos 1,5-2,5Mm;De Empalme Aislado;;;Simple;No usa
+14070208;Unión Aislado 4/6Mm;;;;Simple;No usa
+14070209;Unión Aislado 1,5/2,5Mm;;;;Simple;No usa
+14070210;Cable Multifilamento  7 X 1Mm;Mayado;;;Simple;No usa
+14070211;Caño Eléctrico 22 Mm;;;;Simple;No usa
+14070212;Cable Unipolar - 1Mm ;Marrón;;;Simple;No usa
+14070213;Plafon T8 Tipo Marea ;Para Tubo Led ;;;Simple;No usa
+14070214;Cajas De Pase 90X90X15;;;;Simple;No usa
+14070215;Modulo Llave 1 Punto;;;;Simple;No usa
+14070216;Apliques 1 Punto Y 1 Toma;;;;Simple;No usa
+14070217;Aplique Doble Toma X 10Amp. ;;;;Simple;No usa
+14070218;Termo Contraible 13 Mm;;;;Simple;No usa
+14070219;Termo Contraible 6,4Mm;;;;Simple;No usa
+14070220;Terminal Ojal 4Mm Azul B3 ;Secc1,5Mm Aislado ;;;Simple;No usa
+14070221;Tapas Ciegas Para Cajas ;octogonal;;;Simple;No usa
+14070222;Terminales Mangos1,5- 2,5Mm;;;;Simple;No usa
+14070223;Cajas Capsuladas C/Tapa S/Toma;;;;Simple;No usa
+14070224;Modulo TomX 20 Amp. P/ Aplique;C/Tapa;;;Simple;No usa
+14070225;Fusible Mini Muelita 25 Amp.;;;;Simple;No usa
+14070226;Cable Tpr 3 X 1 Mm;;;;Simple;No usa
+14070227;Fusible Mini Muelita 30 Amp.;;;;Simple;No usa
+14070228;Terminal Palita - H -  2,5 Mm;Aislado Completo ;;;Simple;No usa
+14070229;"Conector Prensacables R- 3/4"" ";Blanco;;;Simple;No usa
+14070230;"Conector Prensacables R- 1/2"" ";Blanco;;;Simple;No usa
+14070231;"Conector Prensacables R- 3/8"" ";Blanco;;;Simple;No usa
+14070232;Grampas P-Caños Elect. Ø25Mm;Electricos;;;Simple;No usa
+14070233;Grampas P-Caños Elect. Ø32Mm;Electricos;;;Simple;No usa
+14070234;Grampas P-Caños Elect. Ø40Mm;Electricos;;;Simple;No usa
+14070235;Lámparas Led  50 Wats R E27 ;;;;Simple;No usa
+14070236;Cinta Aisladora ;;;;Simple;No usa
+14070237;Contactores  Lc1E0910M 9Amp.;;;;Simple;No usa
+14070238;Bobina Disparo P/Caja Moldeada;3 Polos 630 Amp. ;;;Simple;No usa
+14070239;Submonitor;Protección  Tensión;;;Simple;No usa
+14070240;Interruptor  Okn 16,0 Amp.;;;;Simple;No usa
+14070241;Regulador De Voltaje Rnm617181;12V;;;Simple;No usa
+14070242;Seleccionador Rt 18-32 Amp. ;10 X 38 500V.;;;Simple;No usa
+14070243;Caja De Pase 2,44X2,30X141Mm;Pvc Azul ;;;Simple;No usa
+14070244;Guarda Motor Gv2P07 1,6-2,5A;;;;Simple;No usa
+14070245;Relés Termico Lrd32 Tesys ; 034685 23 - 32 Amp.;;;Simple;No usa
+14070246;Disparador Shunt Release For;Ba-630-800;;;Simple;No usa
+14070247;Protector De Tensión Trifásico;Rbc Sitel16A.;;;Simple;No usa
+14070248;Transformadores Pec24 -24V.;Macroled;;;Simple;No usa
+14070249;Contactor Sd 109 P1 Na 660V ;Bob 220;;;Simple;No usa
+14070250;Relevo Termico Sd 20,16-0,25;25Amp.;;;Simple;No usa
+14070251;Modulador Din Rut 33 F-Q;;;;Simple;No usa
+14070252;Protector De Face Rut33-1Q;;;;Simple;No usa
+14070253;Barramiento Isol 4P 125A ;;;;Simple;No usa
+14070254;Gabinete Ip65 ;Modelo Ge4030-16;;;Simple;No usa
+14070255;Gabinete 242X232X140 ;Polip.2001 Tab;;;Simple;No usa
+14070256;Gabinete Ip65 30X45X15;;;;Simple;No usa
+14070257;Transformador 230/230 v;;;;Simple;No usa
+14070258;Fichas macho tres patas -10 am;;;;Simple;No usa
+14070259;Contactor LC1k16-10M7 NO;;;;Simple;No usa
+14070260;Fichas industrial macho 16 A. ;;;;Simple;No usa
+14070261;Ganchos en susp. p/portalam5/8;;;;Simple;No usa
+14070262;Varistor 391 v D 20;;;;Simple;No usa
+14070263;"Conector Preensacable 5/8"" Bsc";Negro;;;Simple;No usa
+14070264;Micro Switch interruptor 15 A ;Alimentadores mater.;;;Simple;No usa
+14070265;Modulo toma 10 amper;;;;Simple;No usa
+14070266;Interruptor de horario digital;Modelo IHD3Y;;;Simple;No usa
+14070267;Terminal p/ cable cobre 1.5mm;Modelo IHD3Y;;;Simple;No usa
+14070268;Cable de red 2x1.50mm;;;;Simple;No usa
+14070269;Terminal aislado p/cable 2.5 ;tipo ojo;;;Simple;No usa
+14070270;Toma corriente doble ;;;;Simple;No usa
+14070271;Cable canal 20x10;;;;Simple;No usa
+14070272;Cable tpr 3x2.5mm2;;;;Simple;No usa
+14070273;Toma doble p/exterior;;;;Simple;No usa
+14070274;Termomagnética bipolar 16amp;;;;Simple;No usa
+14070275;Espiral p/ordenar cables;;;;Simple;No usa
+14070276;Luces de emergencia;;;;Simple;No usa
+14070277;Tubo led T8 18W;;;;Simple;No usa
+14070278;Térmica tetrapolar 25 amp ;;;;Simple;No usa
+14070279;Portalámpara RE27 cerámico c/p;c/ puente;;;Simple;No usa
+14070280;Contactor  LC1K09 10B7– 24V-NO;Schneider;;;Simple;No usa
+14070281;Capacitor 400 v x25 A;Schneider;;;Simple;No usa
+14070282;Fusible baja tensión NH NT ;000-50A-500V;;;Simple;No usa
+14070283;Fusible Baja Tens. NHNT1-500A;500V;;;Simple;No usa
+14070284;Fusible media tensión K-12;;;;Simple;No usa
+14070285;Compacta steck 3 x 160 A;;;;Simple;No usa
+14070286;Compacta TD100N Susol 100A;;;;Simple;No usa
+14070287;Interruptor termo magnético ;;;;Simple;No usa
+14070288;Capacitor contactor LC1DLKM7 ;;;;Simple;No usa
+14070289;Bobina p/ contac. A26 DA20-10;;;;Simple;No usa
+14070290;Bobina para contactor TF42-23;;;;Simple;No usa
+14070291;Contactor auxiliar  CA4-16A ;;;;Simple;No usa
+14070292;Disipador 600-800;;;;Simple;No usa
+14070293;Ficha industrial 3 pin16 A Mac;;;;Simple;No usa
+14070294;Ficha industrial 5 pin16 A Hem;;;;Simple;No usa
+14070295;Cajas aéreas capsuladas s/ apl;;;;Simple;No usa
+14070296;Cajas aéreas pvc;;;;Simple;No usa
+14070297;Relé de sobre carga TF65-67;;;;Simple;No usa
+14070298;Relé de protección térmica ;0,16,0,25 A;;;Simple;No usa
+14070299;Relevo térmico RW 27D;;;;Simple;No usa
+14070300;Relevo térmico TA 25DV;;;;Simple;No usa
+14070301;Temporizador ME- MT-7;;;;Simple;No usa
+14070302;Prot. de fase CPT-CS1-40/230;;;;Simple;No usa
+14070303;Prot de fase CPT-CS1-40 N;;;;Simple;No usa
+14070304;Relé RA4P05 TLB7 BOB24V;;;;Simple;No usa
+14070305;Relé CR-P230 A C2 8 A;;;;Simple;No usa
+14070306;Relé CR-P230A C2 8AC4L;;;;Simple;No usa
+14070307;Micro switch serie x15 A ;;;;Simple;No usa
+14070308;Terminal ojal 3,16 estañado;sección 1,5 mm;;;Simple;No usa
+14070309;Terminal ojal bimetal LCT120/2;;;;Simple;No usa
+14070310;Terminal ojal estañ.LCT70 MM;;;;Simple;No usa
+14070311;Terminal empalme estañ. 35 mm;;;;Simple;No usa
+14070312;Borneras de conex.unip 16mm ;;;;Simple;No usa
+14070313;Borneras de conex en bloq 4mm;;;;Simple;No usa
+14070314;Cable unip x 1 mm marrón;;;;Simple;No usa
+14070315;Cable unip 1x10 mm verde-amari;;;;Simple;No usa
+14070316;Cable subterráneo 1x10mm ;;;;Simple;No usa
+14070317;Cable subterráneo 1x16mm  ;;;;Simple;No usa
+14070318;Termo contraíbles 0,6 -3mm;;;;Simple;No usa
+14070319;Cinta espiral ;;;;Simple;No usa
+14070320;Cable ranurado 25x25x2000mm ;;;;Simple;No usa
+14070321;Bornera repart bipolar 7 conex;;;;Simple;No usa
+14070322;Controlador led mod LD 24W;;;;Simple;No usa
+14070323;Conectores elect. de pvc32mm;;;;Simple;No usa
+14070324;Cupla unión de caño pvc22mm;;;;Simple;No usa
+14070325;Grampas elect. Pvc 22mm;;;;Simple;No usa
+14070326;Curvas elect. Pvc 40mm;;;;Simple;No usa
+14070327;Curvas elect. Pvc 32mm;;;;Simple;No usa
+14070328;Curvas elect. Pvc 22mm;;;;Simple;No usa
+14070329;Curvas elect. Pvc 20mm;;;;Simple;No usa
+14070330;Octogonales de pvc;;;;Simple;No usa
+14070331;Fuente trafo 24 v.Pot 150A;;;;Simple;No usa
+14070332;Fuente trafo 24vPot.125A;;;;Simple;No usa
+14070333;Fuente trafo 24v.Pot.75A;;;;Simple;No usa
+14070334;Terminal Tubular 1x1mm;;;;Simple;No usa
+14070335;Limite de carrera c/resort ;Kxl-901;;;Simple;No usa
+14070336;Interruptor p/ taladro banco ;KJD18;;;Simple;No usa
+14070337;Capacitor LM44010LVA 1.0MF 440;1.0MF – 440VCA ;;;Simple;No usa
+14070338;Resistencia segm-ceramica 5w; 5W- 100 OHMS;;;Simple;No usa
+14070339;Contactor  LC1D32B7 Bobina 24V;Schneider;;;Simple;No usa
+14070340;Lámpara led 12W;;;;Simple;No usa
+14070341;Panel led 24W ;;;;Simple;No usa
+14070342;Fuente led 12V 30amp;;;;Simple;No usa
+14070343;Lámpara dicroica 5/7W;;;;Simple;No usa
+14070344;Cable Unipolar P.A Tierra 4Mm;Verde Amarillo;;;Simple;No usa
+14070345;Cable Unipolar P.A Tierra 1.5M;Verde Amarillo;;;Simple;No usa
+14070346;Pegamento Sellador;;;;Simple;No usa
+14070347;Llave select. 0.1 - 2 posic. ;;;;Simple;No usa
+14070348;Cable Multipolar 4x0.125mm ;Mallado blindado;;;Simple;No usa
+14070349;Reflector 50w. IP65;;;;Simple;No usa
+14070350;Luz de ojo buey color rojo;;;;Simple;No usa
+14070351;Interruptor Termomag unip. 6A;;;;Simple;No usa
+14070352;Interruptor Termom. Tetrap 40A;;;;Simple;No usa
+14070353;Interruptor Termom Tetrap 125A;;;;Simple;No usa
+14070354;Conductímetro;;;;Simple;No usa
+14070355;"Prensa cable de acero 1/8""";De Poliamida;;;Simple;No usa
+14070356;Caja De Pase 115x115x80mm;Estanco;;;Simple;No usa
+14070357;Descargador de sobretensión;;;;Simple;No usa
+14070358;Materiales Eléct. varios ;;;;Simple;No usa
+14070359;Capacitor 2.5 microfaradios;;;;Simple;No usa
+14070360;Cable Unipolar 1x2.5Mm ;Verde Amarillo;;;Simple;No usa
+14070361;Cable Unipolar 1x4.mm ;Verde Amarillo;;;Simple;No usa
+14070362;Cable Tpr 4x4 mts;;;;Simple;No usa
+14070363;Cable Tpr 4x1.5 mm2 ;;;;Simple;No usa
+14070364;Contactora 18A x220V;;;;Simple;No usa
+14070365;Tablero comando ;;;;Simple;No usa
+14070366;Fusible Media Tension 25k;;;;Simple;No usa
+14070367;Fusible Media Tension 1.5 K;;;;Simple;No usa
+14070368;Arrancadores Suave P/ mez. ;;;;Simple;No usa
+14070369;Capacitor 7.5 Kvar 400v trif ;39Uf;;;Simple;No usa
+14070370;Capacitor MKP 20,0 Kvar 400V;;;;Simple;No usa
+14070371;Temporizador ABB CT-YDE;Schneider;;;Simple;No usa
+14070372;Reflector 150W.;;;;Simple;No usa
+14070373;Vent. cooler 220vac ;120x120x38mm;;;Simple;No usa
+14070374;Contactor Lc1F115 bob. 24v;;;;Simple;No usa
+14070375;Interruptor termomagnético tetrapolar  50A;;;;Simple;No usa
+14070376;Válvula de seguridad ;;;;Simple;No usa
+14070377;Fusible 8 x 36 ;;;;Simple;No usa
+14070378;Convertidor de Freq WEG, CFW300;;;;Simple;No usa
+14070379;Cable Tpr 3 X 1.5 Mmt;;;;Simple;No usa
+14070380;Cable unipolar multifilamento 2178E 1x185 ;;;;Simple;No usa
+14070381;Cable unipolar multifilamento 2178E 1x150 ;;;;Simple;No usa
+14070382;Terminal cobre estañado 185mm;;;;Simple;No usa
+14070383;Terminal cobre estañado 150mm ;;;;Simple;No usa
+14080001;Tensor De Distribución  ;Amarok ;;;Simple;No usa
+14080002;15W-40 Ambra (Lubricantes);;;;Simple;No usa
+14080003;Sae 15-40 Super Duty (Scannia);;;;Simple;No usa
+14080004;S1 Atf P/Transmision ;;;;Simple;No usa
+14080005;Agua Destilada ;;;;Simple;No usa
+14080006;Refrigerante por 1 Litros.;;;;Simple;No usa
+14080007;Aceite Atf ;;;;Simple;No usa
+14080008;Ruedas Bf-3157 Fija ;;;;Simple;No usa
+14080009;Batería 110 X 12 V.;;;;Simple;No usa
+14080010;Cubierta 750 R/16 C/Cámara;;;;Simple;No usa
+14080011;Aceite P/Diferencial S2A 80W90;Por Litro;;;Simple;No usa
+14080012;Filtro De Combustible  P556245;;;;Simple;No usa
+14080013;Reten  45X70X14Mm 1211;Massey Ferguson;;;Simple;No usa
+14080014;Ramal Eléctrico C/Faros Trase.;Para Tractor Tt55;;;Simple;No usa
+14080015;Aceite  S3 Ax 80W-90 X Litros ;;;;Simple;No usa
+14080016;Liquido De Freno ;;;;Simple;No usa
+14080017;Filtro De Combust. C1-1860 Pl ;(Camion Mercedes);;;Simple;No usa
+14080018;Aceite Extravida Xv 100-15W40;;;;Simple;No usa
+14080019;"Racor Rapido - Roscado 3/8"""; 8,25Mm ;;;Simple;No usa
+14080020;Reten De Nitrilo 65-90-10;;;;Simple;No usa
+14080021;Reten De Nitrilo 60-110-8;;;;Simple;No usa
+14080022;Reten De Nitrilo 60-10-13;;;;Simple;No usa
+14080023;Reten De Nitrilo 70-90-10;;;;Simple;No usa
+14080024;Reten De Nitrilo 40-80-10;;;;Simple;No usa
+14080025;Reten De Nitrilo 40-80-12;;;;Simple;No usa
+14080026;Reten De Nitrilo 40-62-10;;;;Simple;No usa
+14080027;Aceite Hidraulico Tellus 68;;;;Simple;No usa
+14080028;Aceite Rimula 15W 40 P/Motor;;;;Simple;No usa
+14080029;Aceite Vegetal Para Reductor ;Isovg320Gulf Hd;;;Simple;No usa
+14080030;Anti Freeze Organico ( Rojo); Anticongelante;;;Simple;No usa
+14080031;Aceite Hidraulico Tellus 100;;;;Simple;No usa
+14080032;Aceite Hidraulico Atf;;;;Simple;No usa
+14080033;Filtro De Aceite Fram Ph 2852;;;;Simple;No usa
+14080034;Filtro De Aceite Fram H 2225;;;;Simple;No usa
+14080035;Correa  A-32  ;;;;Simple;No usa
+14080036;Correa  A-84 ;;;;Simple;No usa
+14080037;Grasa De Litio X Kilo Roja ;;;;Simple;No usa
+14080038;Correa Ax 64 ;(Extractores Ulapes);;;Simple;No usa
+14080039;Rueda Nd-270Pr  ;Llanta De Chapa;;;Simple;No usa
+14080040;Control + Percha De Tolva ;;;;Simple;No usa
+14080041;Poleas V7501 P/Tensor T-Max;;;;Simple;No usa
+14080042;Amortiguador de cabina camión ;;;;Simple;No usa
+14080043;Tacos cabina camión VW19320;;;;Simple;No usa
+14080044;Amortiguador camión VW 19320;;;;Simple;No usa
+14080045;Mantenimiento rodados ;;;;Simple;No usa
+14080046;Filtro de aire primario ;;;;Simple;No usa
+14080047;Filtro de aire secundario ;;;;Simple;No usa
+14080048;Filtro de combustible primario;;;;Simple;No usa
+14080049;Filtro de combustible secundar;;;;Simple;No usa
+14080050;Filtro de aceite ;;;;Simple;No usa
+14080051;Filtro de gas oil;;;;Simple;No usa
+14080052;Filtro de gas oil secund;;;;Simple;No usa
+14080053;Filtro hidráulico;;;;Simple;No usa
+14080054;Filtro dirección ;;;;Simple;No usa
+14080055;Filtro de agua;;;;Simple;No usa
+14080056;Kit service Ford Ranger;;;;Simple;No usa
+14080057;Perfil aluminio p/ camion ;;;;Simple;No usa
+14080058;Manchon ada acople bomba ;;;;Simple;No usa
+14080059;Mica Trasero  de Camioneta ;;;;Simple;No usa
+14080060;Vidrio p/ ventana camión;;;;Simple;No usa
+14080061;Bomba Hid. 25/16lts ;Venturi tandem 1;;;Simple;No usa
+14080062;Bomba hidráulica ;;;;Simple;No usa
+14080063;Juego embrague comp. Merc8151;;;;Simple;No usa
+14080064;Service Saveiro;;;;Simple;No usa
+14080065;Orbitrol de dirección ;autoelevador;;;Simple;No usa
+14080066;Cubiertas 295/80/R 22.5;;;;Simple;No usa
+14080067;Llanta 900x22.5 ;;;;Simple;No usa
+14080068;Regulador de Voltaje ;;;;Simple;No usa
+14080069;Cubiertas 175/70/R14;;;;Simple;No usa
+14080070;Base columna de dirección;;;;Simple;No usa
+14080071;Electroválvula 1/4 ;;;;Simple;No usa
+14080072;Depósito de agua camión ;;;;Simple;No usa
+14080073;Radiador p/ agua;;;;Simple;No usa
+14080074;Paragolpe delantero ;;;;Simple;No usa
+14080075;Cilindro redondo ;p/ tolva ;;;Simple;No usa
+14080076;Aceite 2T;;;;Simple;No usa
+14080077;Mango de acople cardan ;Pauny 180A;;;Simple;No usa
+14080078;Aceite P/Motor 4 tiempos;;;;Simple;No usa
+14080079;Bateria 12v x 90amp;;;;Simple;No usa
+14080080;Kit tensores y correas poly-v ;;;;Simple;No usa
+14080081;Líquido hidráulico p/dirección;;;;Simple;No usa
+14080082;Ruleman 30206;;;;Simple;No usa
+14080083;Cubierta p/tractor 12/4/24 ;;;;Simple;No usa
+14080084;Tubo de aire acondicionado ;Ford ranger 2.2;;;Simple;No usa
+14080085;Tensor de correa poli v;Ford Ranger 2.2;;;Simple;No usa
+14080086;Pulmón de aire p/tolva;;;;Simple;No usa
+14080087;Tambor de arranque ;;;;Simple;No usa
+14080088;Varilla de suspensión;;;;Simple;No usa
+14080089;Cubierta 275/80/R 22.5;;;;Simple;No usa
+14080090;Batería 12 X 75amp;;;;Simple;No usa
+14080091;Bujía precalentamiento;;;;Simple;No usa
+14080092;Manguera de hidráulico;;;;Simple;No usa
+14080093;Válvula de manguera hidráulico;;;;Simple;No usa
+14080094;Kit de seguridad p/ autos;;;;Simple;No usa
+14080095;Batería 12 x 20amp ;;;;Simple;No usa
+14080096;Crique hidráulico 4 tn;;;;Simple;No usa
+14080097;Maza y punta de eje 2000kg;5x139 trailer;;;Simple;No usa
+14080098;Filtro secador completo;camiones;;;Simple;No usa
+14080099;Cubierta 265/60 R18;;;;Simple;No usa
+14080100;Cubierta 215/75 R17.5;;;;Simple;No usa
+14080101;Ruleman UC 204;;;;Simple;No usa
+14080102;Ruleman UC 212;;;;Simple;No usa
+14080103;Llave cruz p/rodados;;;;Simple;No usa
+14080104;Conjunto de transmisión ;;;;Simple;No usa
+14080105;Correa avx 10 x1238;;;;Simple;No usa
+14080106;Emulador de luces ;P/ carro;;;Simple;No usa
+14080107;Cubierta 265/65/R17;;;;Simple;No usa
+14080108;Ficha trailer 5 pines;;;;Simple;No usa
+14080109;Bombin de bomba inyectora MV1518;;;;Simple;No usa
+14080110;Agua Desmineralizada;;;;Simple;No usa
+14080111;Urea automotriz;;;;Simple;No usa
+14080112;Bloqueador de aire p/ camión mercedes 15/18;;;;Simple;No usa
+14080113;Válvula Manual Freno Estacionamiento;Mercedes Benz ;;;Simple;No usa
+14080114;Filtro de aire EP/080 ;;;;Simple;No usa
+14080115;Filtro de aire ES/080;;;;Simple;No usa
+14080116;Filtro de aceite mwm/905411880009 ;;;;Simple;No usa
+14080117;Filtro de combustible mwm/905411540019;;;;Simple;No usa
+14080118;Saca filtro con cadena ;;;;Simple;No usa
+14080119;Filtro de combustible P4182;;;;Simple;No usa
+14080120;Filtro de aire CA32955Y;;;;Simple;No usa
+14080121;Filtro de aire CA3295 ;;;;Simple;No usa
+14080122;Chapa lisa negra cal 12 2,5mm;p/ batea;;;Simple;No usa
+14080123;Caño estructural p/ batea 80mmx60mmx4mm;;;;Simple;No usa
+14080124;Cubierta 6-00-9 autoelevador;;;;Simple;No usa
+14080125;Limpia inyector p/diésel;;;;Simple;No usa
+14080126;Correa Auxiliar 1238;Amarok ;;;Simple;No usa
+14080127;Cubierta 295/80 R22.5 ;Batea;;;Simple;No usa
+14080128;Llanta R22.5 10 tornillos;;;;Simple;No usa
+14080129;Pulsador de metal 12V ;Pauny;;;Simple;No usa
+14090001;Servicio de Pinturería;;;;Simple;No usa
+14090002;Servicio de Plomeria;;;;Simple;No usa
+14090003;Serv. Mant. y Rep. Equipos ;;;;Simple;No usa
+14090004;Servicio Mant. Eléctrico ;;;;Simple;No usa
+14090005;Servicio de Herrería;;;;Simple;No usa
+14090006;Servicio Mant. General;;;;Simple;No usa
+14090007;Servicio Mant. General NG;;;;Simple;No usa
+14100001;Llave de impacto gds 18V;;;;Simple;No usa
+14100002;Taladro inalámbrico 18V;;;;Simple;No usa
+14100003;Máquina grippera ;;;;Simple;No usa
+14100004;Gripper ;;;;Simple;No usa
+15010001;Eventos especiales ;;;;Simple;No usa
+15020001;Obsequios empresariales;;;;Simple;No usa
+15020002;Obs. Empresariales No Grav;;;;Simple;No usa
+16010001;Bonificación proveedores;;;;Simple;No usa
+16020001;Diferencia de precio ;;;;Simple;No usa
+16020002;Dif. precio x Vta de Granos;;;;Simple;No usa
+16020003;Ajustes proveedores;;;;Simple;No usa
+16020004;Ajust. por devolución producto;;;;Simple;No usa
+16020005;Ajustes proveedores S/IVA;;;;Simple;No usa
+16020006;Ajustes clientes;;;;Simple;No usa
+17020004;Movimiento y niv. de suelo;;;;Simple;No usa
+17020005;Mejoras edilicias Locales Comerciales;;;;Simple;No usa
+17030001;Cemento obra en curso;;;;Simple;No usa
+17030002;Malla sima obra en curso;;;;Simple;No usa
+17030003;Block vibrado obra en curso;;;;Simple;No usa
+17030004;Cal aérea obra en curso;;;;Simple;No usa
+17030005;Árido x metro obra en curso ;;;;Simple;No usa
+17030006;Hierro nerv. 12mm obra en curs;obra en curso;;;Simple;No usa
+17030007;Hierro nerv. 10mm obra en curs;Obra en curso;;;Simple;No usa
+17030008;Hierro nerv. 5,5mm ob. en curs;Obra en curso;;;Simple;No usa
+17030009;Caño est. 60x30 1.2mm ob. en c;Obra en curso;;;Simple;No usa
+17030010;Caño est. 80x40 1.6mm ob. en c;Obra en curso;;;Simple;No usa
+17030011;Carretilla obra en curso ;;;;Simple;No usa
+17030012;Cal obra en curso;;;;Simple;No usa
+17030013;Rotomartillo 850W Ob. en curso;;;;Simple;No usa
+17030014;Amoladora 230W Ob. en curso;;;;Simple;No usa
+17030015;Art. Ferreteria Obra en curso;;;;Simple;No usa
+17030016;Sikagrout x25kg obra en curso ;;;;Simple;No usa
+17030017;Sikaflex-1A 300ml ob en curso ;;;;Simple;No usa
+17030018;Sika monotop 25kk ob en curso ;;;;Simple;No usa
+17030019;Alambre obra en curso;;;;Simple;No usa
+17030020;Vibrador de concreto ob. curso;1200x;;;Simple;No usa
+17030021;Block P20U obra en curso;;;;Simple;No usa
+17030022;Hierro nervado 8 obra en curso;;;;Simple;No usa
+17030023;Hierro nervado 6 obra en curso;;;;Simple;No usa
+17030024;Caño Cloacal PVC 110MM X 4 MTS;Obra en curso;;;Simple;No usa
+17030025;Protex Ret obra en curso;Plast. y retardador;;;Simple;No usa
+17030026;Buje red pvc ø63mmø32mm ob cur;obra e curso ;;;Simple;No usa
+17030027;"Caño PEAD K6 1"" obra en curso";;;;Simple;No usa
+17030028;"Caño PEAD K6 1/2"" obra en curs";;;;Simple;No usa
+17030029;Curva 90º pvc ø160mm obr curso;;;;Simple;No usa
+17030030;"Espiga 1"" RM PEAD ob. en curso";;;;Simple;No usa
+17030031;"Espiga 1/2"" RH PEAD ob. en cur";;;;Simple;No usa
+17030032;"Espiga 1/2"" RM PEAD ob en curs";;;;Simple;No usa
+17030033;"Montura derivacion ø32mm-1/2"" ";Obra en curso ;;;Simple;No usa
+17030034;"Montura derivacion ø63mm-1""";Obra en curso ;;;Simple;No usa
+17030035;"Tee espiga 1/2"" PEAD obra curs";;;;Simple;No usa
+17030036;"Tee espiga doble 1/2"" RM 1/2"" ";obra en curso;;;Simple;No usa
+17030037;Tee pvc ø63mm obra en curso;;;;Simple;No usa
+17030038;Teflon alta densidad 3/4 x50mt;Obra en curso ;;;Simple;No usa
+17030039;Tubo pvc ø160mm K6 ob curso;;;;Simple;No usa
+17030040;Tubo pvc ø250mm K6 ob en curso;;;;Simple;No usa
+17030041;Tubo pvc ø63mm ob en curso;;;;Simple;No usa
+17030042;"Valvula esferica pvc 1""ob curs";;;;Simple;No usa
+17030043;Valvula esferica pvc ø32mm;;;;Simple;No usa
+17030044;"Tornillo tel madera cabeza waffer 6 x ¾""";;;;Simple;No usa
+17030045;Perfil montante 34mm;;;;Simple;No usa
+17030046;Perfil montante 76mm;Obra en curso;;;Simple;No usa
+17030047;Tornillo aut. T1 punta mecha ;Obra en curso;;;Simple;No usa
+17030048;Taco c/ tope c/ tirafondo fix 8mm ;Obra en curso ;;;Simple;No usa
+17030049;Gabinete 60x45x21 IP 65;;;;Simple;No usa
+17030050;Interruptor compacto 35ka trip.35x160A;;Obra en curso;;Simple;No usa
+17030051;Interruptor térmico 4x40A 4,5KA;;;;Simple;No usa
+17030052;Conector prensacable 1 1/4 plástico  R/E;;;;Simple;No usa
+17030053;Soporte reforzado galvanizado SR-130-G;;;;Simple;No usa
+17030054;Soporte reforzado galvanizao  SR-230-G;;;;Simple;No usa
+17030055;Terminal cobre estañado 16/2 (5/16);;;;Simple;No usa
+17030056;Bandeja metálica perforada 100/50 tramo 3mts;;;;Simple;No usa
+17030057;Bandeja metálica perforada 200/50 tramo 3mts;;;;Simple;No usa
+17030058;Bornera unipolar 100A 5/16;;;;Simple;No usa
+17030059;Cable 4x16 mm subt. tetrapolar ;;;;Simple;No usa
+17030060;Base 32amp 5 polos (3P+1N+1T);;;;Simple;No usa
+17030061;Cable 3 x 1,5mm² 2178E;Obra en curso;;;Simple;No usa
+17030062;Cable 4 x 1,5mm² 2178E;Obra en curso;;;Simple;No usa
+17030064;Cable TPR 3 x 1,5mm²;Obra en curso;;;Simple;No usa
+17030065;Cable TPR 4 x 2,5mm²;Obra en curso;;;Simple;No usa
+17030066;Cable unipolar 1,5mm² negro;Obra en curso;;;Simple;No usa
+17030067;Cable unipolar 2,5mm² celeste;Obra en curso;;;Simple;No usa
+17030068;Cable unipolar 2,5mm² marrón;Obra en curso;;;Simple;No usa
+17030069;Cable unipolar 2,5mm² negro;Obra en curso;;;Simple;No usa
+17030070;Cable unipolar 2,5mm² rojo;Obra en curso;;;Simple;No usa
+17030071;Cable unipolar 2,5mm² verde/amarillo;Obra en curso;;;Simple;No usa
+17030072;Cable unipolar 4mm² negro;Obra en curso;;;Simple;No usa
+17030073;Cable unipolar 6mm² negro;Obra en curso;;;Simple;No usa
+17030084;Disyuntor diferencial 4 x 40 amp;Obra en curso;;;Simple;No usa
+17030110;Grampa PVC Ø32mm;Obra en curso;;;Simple;No usa
+17030111;Piton abierto zincado c/tope N°8;;;;Simple;No usa
+17030112;Alambre 17x15 obra en curso;;;;Simple;No usa
+17030113;Mecha copa widia 65mm comp. + ext.  SDS plus ;Obra en curso;;;Simple;No usa
+17030114;Grampa omega 2x1/2;;;;Simple;No usa
+17030115;Sierra copa 36mm bimetálica completa;;;;Simple;No usa
+17030116;Cable 2178E 5x1;Obra en curso;;;Simple;No usa
+17030117;Codo PVC 160mm PVC cloacal;Obra en Curso;;;Simple;No usa
+17030118;Caño PVC 25mm;Obra en Curso;;;Simple;No usa
+17030119;Salida de tanque 63mm PVC;Obra en Curso;;;Simple;No usa
+17030120;Manguera mayada 3/4 Obra en curso;;;;Simple;No usa
+17030121;Cable canal ranurado PVC 50mm;Obra en curso;;;Simple;No usa
+17030122;Caja de pase 162x116x76 mm;Obra en curso;;;Simple;No usa
+17030123;Caja de pase 211x211x110 mm;Obra en curso;;;Simple;No usa
+17030124;Caja de pase 9x9 IP65;Obra en curso;;;Simple;No usa
+17030125;Conector PVC Ø22mm;Obra en curso;;;Simple;No usa
+17030126;Conector PVC Ø22mm;Obra en curso;;;Simple;No usa
+17030127;Conector PVC Ø32mm;Obra en curso;;;Simple;No usa
+17030128;Conector PVC Ø40mm;Obra en curso;;;Simple;No usa
+17030129;Conector PVC Ø50mm;Obra en curso;;;Simple;No usa
+17030130;Contactor LC1D09 bobina 220v;Obra en curso;;;Simple;No usa
+17030131;Curva 90° PVC Ø32mm;Obra en curso;;;Simple;No usa
+17030132;Curva 90° PVC Ø50mm;Obra en curso;;;Simple;No usa
+17030133;Estabilizador de tensión 1500w;Obra en curso;;;Simple;No usa
+17030134;Grampa PVC Ø22mm;Obra en curso;;;Simple;No usa
+17030135;Grampa PVC Ø40mm;Obra en curso;;;Simple;No usa
+17030136;Grampa PVC Ø50mm;Obra en curso;;;Simple;No usa
+17030137;Guardamotor 4-6amp;Obra en curso;;;Simple;No usa
+17030138;Guardamotor 6-10amp;Obra en curso;;;Simple;No usa
+17030139;Interruptor termomagnético 1x10A;Obra en curso;;;Simple;No usa
+17030140;Interruptor termomagnético 2x10A;Obra en curso;;;Simple;No usa
+17030141;Interruptor térmico 2x16A;Obra en curso;;;Simple;No usa
+17030142;Interruptor térmico 4x25A;Obra en curso;;;Simple;No usa
+17030143;Interruptor térmico 4x32A;Obra en curso;;;Simple;No usa
+17030144;Interruptor térmico 4x40A;Obra en curso;;;Simple;No usa
+17030145;Plafón doble T8 LED IP65;Obra en curso;;;Simple;No usa
+17030146;Prensacable poliamida 1 1/4;Obra en curso;;;Simple;No usa
+17030147;Prensacable poliamida 5/8;Obra en curso;;;Simple;No usa
+17030148;Riel DIN 35mm;Obra en curso;;;Simple;No usa
+17030149;Selectora 1-0-2 Ø22mm;Obra en curso;;;Simple;No usa
+17030150;Terminal horquilla 2,4-4mm²;Obra en curso;;;Simple;No usa
+17030151;Terminal ojal 2,5-4mm²;Obra en curso;;;Simple;No usa
+17030152;Terminal puntera aislado 1,5mm;Obra en curso;;;Simple;No usa
+17030153;Terminal puntera aislado 2,5-4;Obra en curso;;;Simple;No usa
+17030154;Tubo eléctrico PVC Ø32mm;Obra en curso;;;Simple;No usa
+17030155;Tubo eléctrico PVC Ø40mm;Obra en curso;;;Simple;No usa
+17030156;Tubo eléctrico PVC Ø50mm;Obra en curso;;;Simple;No usa
+17030157;Tirafondo Nº6 con taco;Obra en curso;;;Simple;No usa
+17030158;Cable unipolar 1,5 celeste;Obra en curso;;;Simple;No usa
+17030159;Cable unipolar 1,5 rojo;Obra en curso;;;Simple;No usa
+17030160;Cable ranurado zoloda x2 mt ;Obra en curso;;;Simple;No usa
+17030161;Cable unipolar 1x4mm negro;Obra en curso;;;Simple;No usa
+17030162;Caja P / conexión EXT115x165x110 ip65;Obra en curso;;;Simple;No usa
+17030163;Riel din x 1mts perforado y galavanizado forli;Obra en curso;;;Simple;No usa
+17030164;Tubo eléctrico PVC de 22mm;Obra en curso;;;Simple;No usa
+17030166;Cable unipolar 1x6mm negro;Obra en curso;;;Simple;No usa
+17030167;Caja paso 200x200x80;Obra en curso;;;Simple;No usa
+17030168;Caja paso 200x160x100;;;;Simple;No usa
+17030169;Soporte reforzado galvanizado SR 130g;;;;Simple;No usa
+17030170;Soporte galvanizado SR 230 G;;;;Simple;No usa
+17030171;Caja inclinada 32A 84x106 570-0132;Obra en curso;;;Simple;No usa
+17030172;Conmutadora 1-0-2 manija corta;Obra en curso;;;Simple;No usa
+17030173;Grampa suspensión gsp 200 zincado;Obra en curso;;;Simple;No usa
+17030174;Mecha sds plus 14 x 160mm;;;;Simple;No usa
+17030175;Térmica tetrapolar 100amp;;;;Simple;No usa
+17030176;Térmica tetrapolar 63 amp;;;;Simple;No usa
+17030177;Disyuntor diferencial 63 amp;;;;Simple;No usa
+17030178;Sistema de levante p/cortina obra en curso;;;;Simple;No usa
+17030179;Cortina negra black out norte obra en curso;;;;Simple;No usa
+17030180;Cortina tunel blanca sur obra en curso ;;;;Simple;No usa
+17030181;Cortina tunel negra norte black out obra en curso;;;;Simple;No usa
+17030182;Babero norte negro black out obra en curso;;;;Simple;No usa
+17030183;Babero sur blanco obra en curso ;;;;Simple;No usa
+17030184;Cortina lateral blanca sur obra en curso ;;;;Simple;No usa
+17030185;Tanque tricapa 550L ob. en curso;;;;Simple;No usa
+17030186;Cuchara de albañil ob. en curso ;;;;Simple;No usa
+17030187;Fratacho obra en curso;;;;Simple;No usa
+17030188;"Manguito pvc ø32mm-1""RM ob. en curso ";;;;Simple;No usa
+17030189;"Montura derivacion ø110mm-2""";;;;Simple;No usa
+17030190;"Manguito pvc ø63mm-2""RM obra en curso ";;;;Simple;No usa
+17030191;Codo pvc ø63mm obra en curso ;;;;Simple;No usa
+17030192;Tapon pvc ø63mm obra en curso ;;;;Simple;No usa
+17030193;Tubo led T8 obra en curso ;;;;Simple;No usa
+17030194;Caja de pase PVC 115X115X90 obra en curso ;;;;Simple;No usa
+17030195;Rele din 35mm obra en curso ;;;;Simple;No usa
+17030196;Cable canal ranurado 60x60 obra en curso ;;;;Simple;No usa
+17030197;Chapa T 101x4 ob. en curso;;;;Simple;No usa
+17030198;Rollo aislante térmico 10mm (doble aluminio) ob. c;;;;Simple;No usa
+17030199;Sensores capacitivos de alim. obra en curso;;;;Simple;No usa
+17030200;Abrazadera estampada 50-70 obra en curso;;;;Simple;No usa
+17030201;Cable tpr 2x1 obra en curso;;;;Simple;No usa
+17030202;Mecha sds plus 14 x 160 no usar ;;;;Simple;No usa
+17040002;Silla ;;;;Simple;No usa
+17040003;Bibiblioteca ;;;;Simple;No usa
+17040004;Archivero;;;;Simple;No usa
+17050001;Termotanque eléctrico ;;;;Simple;No usa
+17050002;Silo 16 tn;;;;Simple;No usa
+17050003;Bota salida silo;;;;Simple;No usa
+17050004;Rasera Cajetín ;;;;Simple;No usa
+17050005;Descargador simple 75;;;;Simple;No usa
+17050006;Tubo PVC línea 75 3m 3.6;;;;Simple;No usa
+17050007;Curva PVC 75 a 1.5mts ;;;;Simple;No usa
+17050008;Aire acondicionado 3300fr;;;;Simple;No usa
+17050009;Geomembrana 1000mc 7x100mts;;;;Simple;No usa
+17050010;Termotanque Industrial 400 lt ;A gas ;;;Simple;No usa
+17050011;Aire acondicionado 18000fr;;;;Simple;No usa
+17050012;Perforacion p/ pozo de agua ;;;;Simple;No usa
+17050013;Bomba sumergible Wilo-cpo A1/11-15HP;;;;Simple;No usa
+17060001;Bomba sum. cloacal Q2.2-4P-3hp;;;;Simple;No usa
+17060002;Bomba sumergible 5.5hp;;;;Simple;No usa
+17060003;Bomba S.Speroni1000-1 ¼-1.34HP;;;;Simple;No usa
+17060004;"Roscadora Eléctrica 1/2-2""";;;;Simple;No usa
+17060005;Bomba dosificadora de cloro ;;;;Simple;No usa
+17060006;Teléfono corporativo ;;;;Simple;No usa
+17060007;Batea ;;;;Simple;No usa
+17060008;Unidad de control peso;;;;Simple;No usa
+17060009;"TV 40""";TCL;;;Simple;No usa
+17060010;Freezer 550 L;Inelro ;;;Simple;No usa
+17060011;Balanza rielera 500kg - 200gr;;;;Simple;No usa
+17060012;Hidrolavadora 1520A RK;Placa base;;;Simple;No usa
+17060013;Calefactora Gasolec M8 5-310;;;;Simple;No usa
+17060014;Mesa p/ necropsias ;;;;Simple;No usa
+17060015;Equipamiento interno granja 21;;;;Simple;No usa
+17060016;Equipamiento inter granja 10,5;;;;Simple;No usa
+17060017;Maq. Formadora de productos;Adicional ciclo 3;;;Simple;No usa
+17060018;Empanadora;Productos elaborados;;;Simple;No usa
+17060019;Secadero;;P/embutidos;;Simple;No usa
+17060020;Motor para electrobomba 22Kw;;;;Simple;No usa
+17060021;Heladera exhibidora 120lt p/dosis;P/Dosis;;;Simple;No usa
+17060022;Cámara de Frio ;;;;Simple;No usa
+17060023;Tablet;samsung A11;;;Simple;No usa
+17070001;Desmalezadora FS 350;;;;Simple;No usa
+17070002;Hormigonera 400lts;Trifásica;;;Simple;No usa
+17070003;Carro zorra hidráulica 2500kg;;;;Simple;No usa
+17090001;Anticipo proveedores;;;;Simple;No usa
+17090003;Mercedes Benz ARB635;;;;Simple;No usa
+17090004;Trailer ;;;;Simple;No usa
+17090005;Pick Up Toyota Hilux ;;;;Simple;No usa
+17090006;Gastos de patentamiento ;Toyota Hilux;;;Simple;No usa
+17090007;Gastos de patentamiento exento;Toyota Hilux;;;Simple;No usa
+17090008;Amarok 4x4 AA626VQ;2t dc 2.0L TDI ;;;Simple;No usa
+17090009;Jaula antivuelco Toyota Hilux ;;;;Simple;No usa
+17090010;Laterales jaula toyota hilux ;;;;Simple;No usa
+17090011;Pick Up Toyota Hilux 4x2 ;Cabina simple;;;Simple;No usa
+17090012;Volkswagen saveiro pick up;cabina y meda ;;;Simple;No usa
+17090013;Deudores incobrables;;;;Simple;No usa
+17090014;Fiat Toro AB963AM;cabina doble;;;Simple;No usa
+17090015;Tractor c/ cabina iveco AG700LQ;;;;Simple;No usa
+17090016;Jaula doble piso AA441WS;;;;Simple;No usa
+17090017;Batea semiremolque AG673KT;;;;Simple;No usa
+17100001;Notebook ;ASUS 1502ZAEJ830W I3;;;Simple;No usa
+17100002;Notebook Bangho max L5;Bangho max L5 ;;;Simple;No usa
+17100003;PC Profesional-alto rendimient;;;;Simple;No usa
+17100004;PC Profesional no grav.;;;;Simple;No usa
+17100005;PC Profesional-alto rend. 21%;;;;Simple;No usa
+18010001;Porcinos Hembras Tzzzz;;;;Simple;No usa
+18010002;PG Porcinos Hembras Tzzzz;;;;Simple;No usa
