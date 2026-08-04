@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Tesseract from 'tesseract.js';
 import './App.css';
+import logoImg from './assets/logo.png';
 
 // Configuración de locales disponibles
 const LOCALES = ['Local 1', 'Local 2', 'Local 3'];
@@ -906,7 +907,7 @@ function App() {
         <div className="login-card-container">
           <div className="login-card glass">
             <div className="brand-header">
-              <img src="logo.png" alt="Logo" className="brand-logo" />
+              <img src={logoImg} alt="Logo" className="brand-logo" />
               <h1>SPI - Control de Stock</h1>
               <p>Ingrese su PIN de operador para comenzar</p>
             </div>
@@ -964,7 +965,7 @@ function App() {
           {/* SIDEBAR NAVIGATION */}
           <aside className="sidebar glass">
             <div className="sidebar-brand">
-              <img src="logo.png" alt="Logo" className="sidebar-logo" />
+              <img src={logoImg} alt="Logo" className="sidebar-logo" />
               <h3 className="sidebar-title">SPI Stock</h3>
             </div>
 
