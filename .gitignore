@@ -1,0 +1,62 @@
+# --- Python & Cache Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.vscode/
+.idea/
+
+# --- Web Node Modules & Vite Caches ---
+stock-app/node_modules/
+stock-app/dist/
+stock-app/.vite/
+
+# --- Desktop Executables & PyInstaller Builds ---
+build/
+dist/
+*.spec
+*.exe
+*.iss
+
+# --- Desktop Python GUI Scripts ---
+main.py
+main_horizontal.py
+test_*.py
+migrate_to_postgres.py
+procesador_datos.py
+
+# --- Local Data Files & CSVs ---
+*.csv
+*.txt
+config.json
+token.json
+client_secret_*.json
+*.db
+*.sqlite
+*.log
+
+# --- Sensitive Credentials ---
+credentials.json
+
+# --- Images & Static Icons ---
+*.jpeg
+*.png
+*.ico
+
+# --- Other Projects & Temp Folders ---
+scratch/
+Informes/
+SPI - Cachorras/
+SPI - Movil/
+SPI Cachorras Movil/
+Requerimiento_Estandar.md
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
