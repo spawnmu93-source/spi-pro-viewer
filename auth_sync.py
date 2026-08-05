@@ -336,13 +336,16 @@ def push_despiece_to_sheets(corte_madre, peso_madre, resultantes, operador, lote
                 peso = c.get('peso', 0.0)
                 sumatoria[clave] = sumatoria.get(clave, 0.0) + peso
             
-            # Generamos el lote resultante en el formato solicitado
-            lote_destino = generar_lote_resultante(lote)
-            
             for (desc, motivo, es_dec), peso_total in sumatoria.items():
                 # Obtener código para la descripción
                 codigo_res = ProcesadorDatos().obtener_codigo(desc)
                 movimiento = "Decomiso" if es_dec else "Ingreso"
+                
+                # Caso especial: Si el corte resultante es TOCINO, el lote queda fijo en "00049"
+                if str(desc).strip().upper() == "TOCINO":
+                    lote_destino = "00049"
+                else:
+                    lote_destino = generar_lote_resultante(lote)
                 
                 # Columnas: Timestamp, Movimiento, Corte, CODIGO, Peso, Operador, Lote, Motivo Decomiso
                 filas_a_agregar.append([
