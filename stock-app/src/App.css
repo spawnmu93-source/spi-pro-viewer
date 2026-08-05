@@ -1762,7 +1762,7 @@ body {
 /* Grid de Cortes Madre */
 .mother-cuts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 14px;
 }
 
@@ -1802,6 +1802,61 @@ body {
   gap: 4px;
   font-size: 0.8rem;
   color: var(--text-secondary);
+}
+
+.sub-cuts-list {
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sub-cuts-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #94a3b8;
+  margin-bottom: 2px;
+}
+
+.sub-cut-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sub-cut-name {
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+.sub-cut-metrics {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.sub-cut-kg {
+  color: #34d399;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.sub-cut-pct {
+  font-size: 0.72rem;
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 700;
 }
 
 /* Pills y utilidades para tabla */

@@ -1360,7 +1360,7 @@ function App() {
                     };
                   });
 
-                  // 4. Breakdown por Corte Madre con Deduplicación Correcta
+                  // 4. Breakdown por Corte Madre con Deduplicación Correcta y Desglose de Resultantes
                   const motherCuts = Array.from(new Set(yieldData.map(r => r['Corte Madre'] || ''))).filter(Boolean);
                   const cutList = motherCuts.map(cut => {
                     const rowsInCut = filteredYieldList.filter(r => r['Corte Madre'] === cut);
@@ -1385,6 +1385,22 @@ function App() {
                       mermaSum += s.merma;
                     });
 
+                    // Desglose por producto resultante obtenido
+                    const resultantMap = new Map();
+                    rowsInCut.forEach(r => {
+                      const prod = (r['Producto Resultante'] || '').trim();
+                      if (prod) {
+                        const kg = parseFloat(r['Peso Resultante (KG)'] || 0);
+                        resultantMap.set(prod, (resultantMap.get(prod) || 0) + kg);
+                      }
+                    });
+
+                    const resultants = Array.from(resultantMap.entries()).map(([prodName, kg]) => ({
+                      name: prodName,
+                      kg,
+                      pct: madreSum > 0 ? ((kg / madreSum) * 100).toFixed(1) : '0.0'
+                    })).sort((a, b) => b.kg - a.kg);
+
                     const rend = madreSum > 0 ? ((resSum / madreSum) * 100).toFixed(1) : '0.0';
                     return { 
                       name: cut, 
@@ -1392,7 +1408,8 @@ function App() {
                       res: resSum, 
                       merma: mermaSum, 
                       count: cutSessionsMap.size, 
-                      rend 
+                      rend,
+                      resultants
                     };
                   }).sort((a, b) => b.madre - a.madre);
 
@@ -1490,7 +1507,7 @@ function App() {
                       </div>
 
                       <div className="mother-cuts-grid">
-                        {cutList.slice(0, 6).map(cut => (
+                        {cutList.map(cut => (
                           <div key={cut.name} className="mother-cut-card glass">
                             <div className="cut-card-top">
                               <span className="cut-name">{cut.name}</span>
@@ -1498,7 +1515,24 @@ function App() {
                             </div>
                             <div className="cut-card-details">
                               <span>Ingresado: <strong>{cut.madre.toFixed(1)} KG</strong></span>
-                              <span>Obtenido: <strong className="text-success">{cut.res.toFixed(1)} KG</strong></span>
+                              <span>Obtenido Total: <strong className="text-success">{cut.res.toFixed(1)} KG</strong></span>
+                            </div>
+
+                            <div className="sub-cuts-list">
+                              <span className="sub-cuts-title">Resultantes Obtenidos:</span>
+                              {cut.resultants && cut.resultants.length > 0 ? (
+                                cut.resultants.map(res => (
+                                  <div key={res.name} className="sub-cut-item">
+                                    <span className="sub-cut-name">{res.name}</span>
+                                    <div className="sub-cut-metrics">
+                                      <span className="sub-cut-kg">{res.kg.toFixed(1)} KG</span>
+                                      <span className="sub-cut-pct">{res.pct}%</span>
+                                    </div>
+                                  </div>
+                                ))
+                              ) : (
+                                <span style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', fontStyle: 'italic' }}>Sin cargas procesadas</span>
+                              )}
                             </div>
                           </div>
                         ))}
