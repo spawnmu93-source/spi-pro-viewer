@@ -275,7 +275,7 @@ def save_permitir_manual(permitir_bool):
 
 def generar_lote_resultante(lote_origen):
     ahora = datetime.now()
-    dia_num = (ahora.isoweekday() % 7) + 1
+    dia_num = ahora.isoweekday() # Lunes = 1, Martes = 2, ..., Domingo = 7
     num_semana = ahora.isocalendar()[1]
     yy = ahora.strftime("%y")
     lote_str = str(lote_origen).strip()
