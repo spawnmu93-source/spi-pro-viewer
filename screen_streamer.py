@@ -16,7 +16,7 @@ except ImportError:
 RENDER_HOST = "spi-pro-viewer.onrender.com"
 
 class ScreenStreamer:
-    def __init__(self, store_name="Local 1", fps=4, quality=55):
+    def __init__(self, store_name="Local 1", fps=30, quality=55):
         self.store_name = store_name
         self.fps = fps
         self.interval = 1.0 / fps
@@ -78,11 +78,11 @@ class ScreenStreamer:
                     time.sleep(2)
             
             elapsed = time.time() - t0
-            sleep_time = max(0.05, self.interval - elapsed)
+            sleep_time = max(0.005, self.interval - elapsed)
             time.sleep(sleep_time)
 
 def start_screen_streamer_async(store_name="Local 1"):
     """Inicia la transmisión de pantalla en segundo plano para la app de escritorio."""
-    streamer = ScreenStreamer(store_name=store_name, fps=4, quality=55)
+    streamer = ScreenStreamer(store_name=store_name, fps=30, quality=55)
     streamer.start()
     return streamer

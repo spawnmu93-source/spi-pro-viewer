@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.9.1",
+    "latest_version": "1.9.2",
     "mandatory": true,
-    "changelog": "Versión 1.9.1 con marca de agua discreta de versión e indicador en pantalla.",
-    "vertical_filename": "Instalador_SPI_Despiece_V1.9.1_Vertical.exe",
-    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.1_Horizontal.exe"
+    "changelog": "Versión 1.9.2 con transmisión de pantalla fluida a 30 FPS.",
+    "vertical_filename": "Instalador_SPI_Despiece_V1.9.2_Vertical.exe",
+    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.2_Horizontal.exe"
 }
