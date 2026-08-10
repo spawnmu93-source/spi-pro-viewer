@@ -2,7 +2,7 @@ import os
 import datetime
 import json
 from typing import List, Dict, Any, Optional
-from fastapi import FastAPI, HTTPException, Depends, status, Query
+from fastapi import FastAPI, HTTPException, Depends, status, Query, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import psycopg2
@@ -849,6 +849,88 @@ def download_update(filename: str):
         filename=filename,
         media_type="application/octet-stream"
     )
+
+# --- CANAL WEBSOCKET STREAMING EN VIVO 480P ---
+
+class StreamManager:
+    def __init__(self):
+        self.streams: Dict[str, Dict[str, Any]] = {}
+
+    async def connect_sender(self, store_name: str, websocket: WebSocket):
+        await websocket.accept()
+        if store_name not in self.streams:
+            self.streams[store_name] = {"last_frame": None, "updated_at": None, "viewers": []}
+        print(f"🟢 Terminal emisor conectado: {store_name}")
+
+    async def broadcast_frame(self, store_name: str, frame_data: str):
+        now_str = datetime.datetime.now().strftime("%H:%M:%S")
+        if store_name not in self.streams:
+            self.streams[store_name] = {"last_frame": frame_data, "updated_at": now_str, "viewers": []}
+        else:
+            self.streams[store_name]["last_frame"] = frame_data
+            self.streams[store_name]["updated_at"] = now_str
+        
+        viewers = self.streams[store_name]["viewers"]
+        disconnected = []
+        for v in list(viewers):
+            try:
+                await v.send_json({"store": store_name, "frame": frame_data, "timestamp": now_str})
+            except Exception:
+                disconnected.append(v)
+        for d in disconnected:
+            if d in viewers:
+                viewers.remove(d)
+
+    async def connect_viewer(self, store_name: str, websocket: WebSocket):
+        await websocket.accept()
+        if store_name not in self.streams:
+            self.streams[store_name] = {"last_frame": None, "updated_at": None, "viewers": []}
+        self.streams[store_name]["viewers"].append(websocket)
+        
+        last_f = self.streams[store_name]["last_frame"]
+        upd = self.streams[store_name]["updated_at"]
+        if last_f:
+            try:
+                await websocket.send_json({"store": store_name, "frame": last_f, "timestamp": upd})
+            except Exception:
+                pass
+
+    def disconnect_viewer(self, store_name: str, websocket: WebSocket):
+        if store_name in self.streams and websocket in self.streams[store_name]["viewers"]:
+            self.streams[store_name]["viewers"].remove(websocket)
+
+stream_manager = StreamManager()
+
+@app.websocket("/ws/stream/{store_name}")
+async def websocket_stream_sender(websocket: WebSocket, store_name: str):
+    await stream_manager.connect_sender(store_name, websocket)
+    try:
+        while True:
+            data = await websocket.receive_text()
+            await stream_manager.broadcast_frame(store_name, data)
+    except WebSocketDisconnect:
+        print(f"🔴 Terminal emisor desconectado: {store_name}")
+
+@app.websocket("/ws/view/{store_name}")
+async def websocket_stream_viewer(websocket: WebSocket, store_name: str):
+    await stream_manager.connect_viewer(store_name, websocket)
+    try:
+        while True:
+            await websocket.receive_text()
+    except WebSocketDisconnect:
+        stream_manager.disconnect_viewer(store_name, websocket)
+
+@app.get("/api/stream/active")
+def get_active_streams():
+    """Devuelve la lista de locales y su estado de transmisión en vivo."""
+    result = []
+    for store, info in stream_manager.streams.items():
+        result.append({
+            "store": store,
+            "updated_at": info["updated_at"],
+            "has_frame": info["last_frame"] is not None
+        })
+    return result
 
 @app.post("/api/stock/registrar")
 def registrar_stock(payload: RegistrarStockRequest):

@@ -977,6 +977,12 @@ function App() {
               >
                 <span className="sidebar-icon"><IconYield size={18} /></span> Transformaciones
               </button>
+              <button 
+                onClick={() => setActiveTab('stream')} 
+                className={`sidebar-link ${activeTab === 'stream' ? 'active' : ''}`}
+              >
+                <span className="sidebar-icon">🎥</span> Pantallas en Vivo
+              </button>
             </nav>
 
             <div className="sidebar-footer">
@@ -1769,6 +1775,11 @@ function App() {
               </div>
             )}
 
+            {/* VISTA 5: STREAMING EN VIVO (CCTV 480P) */}
+            {activeTab === 'stream' && (
+              <LiveStreamViewer />
+            )}
+
           </div>
         </div>
       )}
@@ -1923,3 +1934,124 @@ function App() {
 }
 
 export default App;
+
+function LiveStreamViewer() {
+  const LOCALES = ['Local 1', 'Local 2', 'Local 3'];
+  const [fullscreenStore, setFullscreenStore] = useState(null);
+  const [streamsData, setStreamsData] = useState({});
+
+  useEffect(() => {
+    const sockets = {};
+
+    LOCALES.forEach(store => {
+      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      const wsHost = window.location.host;
+      const wsUrl = `${protocol}//${wsHost}/ws/view/${encodeURIComponent(store)}`;
+
+      try {
+        const ws = new WebSocket(wsUrl);
+        ws.onmessage = (event) => {
+          try {
+            const data = JSON.parse(event.data);
+            setStreamsData(prev => ({
+              ...prev,
+              [store]: {
+                frame: data.frame,
+                timestamp: data.timestamp,
+                online: true
+              }
+            }));
+          } catch (e) {
+            console.error(e);
+          }
+        };
+        ws.onerror = () => {
+          setStreamsData(prev => ({ ...prev, [store]: { ...(prev[store] || {}), online: false } }));
+        };
+        ws.onclose = () => {
+          setStreamsData(prev => ({ ...prev, [store]: { ...(prev[store] || {}), online: false } }));
+        };
+        sockets[store] = ws;
+      } catch (e) {
+        console.error("WS error:", e);
+      }
+    });
+
+    return () => {
+      Object.values(sockets).forEach(s => s.close());
+    };
+  }, []);
+
+  return (
+    <div className="stream-section fade-in">
+      <div className="report-header" style={{ marginBottom: '20px' }}>
+        <h3>🎥 Transmisión de Pantallas en Vivo (Monitoreo CCTV 480p)</h3>
+        <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>Visualización en tiempo real de las terminales de despiece operando en las sucursales</p>
+      </div>
+
+      {fullscreenStore ? (
+        <div className="fullscreen-monitor-overlay glass" style={{ padding: '20px', borderRadius: '16px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '14px' }}>
+            <h3 style={{ color: '#38bdf8' }}>📺 Terminal: {fullscreenStore}</h3>
+            <button onClick={() => setFullscreenStore(null)} className="btn-refresh" style={{ padding: '8px 16px' }}>
+              ✖ Salir de Pantalla Completa
+            </button>
+          </div>
+          <div className="monitor-frame-large" style={{ background: '#000', borderRadius: '12px', overflow: 'hidden', textAlign: 'center', minHeight: '500px' }}>
+            {streamsData[fullscreenStore]?.frame ? (
+              <img src={streamsData[fullscreenStore].frame} alt={fullscreenStore} style={{ width: '100%', maxHeight: '75vh', objectFit: 'contain' }} />
+            ) : (
+              <div style={{ padding: '120px 0', color: 'var(--text-secondary)' }}>
+                <span style={{ fontSize: '3rem' }}>📡</span>
+                <p style={{ marginTop: '12px' }}>Esperando transmisión en vivo de {fullscreenStore}...</p>
+              </div>
+            )}
+          </div>
+        </div>
+      ) : (
+        <div className="stream-monitors-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '20px' }}>
+          {LOCALES.map(store => {
+            const data = streamsData[store];
+            const isOnline = data?.online && data?.frame;
+
+            return (
+              <div key={store} className="monitor-card glass" style={{ padding: '16px', borderRadius: '14px', border: '1px solid rgba(255,255,255,0.08)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: isOnline ? '#10b981' : '#ef4444', display: 'inline-block' }}></span>
+                    <strong style={{ fontSize: '1rem', color: 'var(--text-primary)' }}>{store}</strong>
+                  </div>
+                  <span style={{ fontSize: '0.75rem', color: isOnline ? '#34d399' : '#f87171', fontWeight: 600 }}>
+                    {isOnline ? `🟢 EN VIVO (${data.timestamp})` : '🔴 SIN TRANSMISIÓN'}
+                  </span>
+                </div>
+
+                <div className="monitor-screen" style={{ width: '100%', height: '220px', background: '#090d16', borderRadius: '10px', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(255,255,255,0.05)' }}>
+                  {isOnline ? (
+                    <img src={data.frame} alt={store} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  ) : (
+                    <div style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>
+                      <span style={{ fontSize: '2rem', opacity: 0.5 }}>📺</span>
+                      <p style={{ fontSize: '0.8rem', marginTop: '6px' }}>Esperando señal 480p...</p>
+                    </div>
+                  )}
+                </div>
+
+                <div style={{ marginTop: '12px', display: 'flex', justifyContent: 'flex-end' }}>
+                  <button 
+                    disabled={!isOnline}
+                    onClick={() => setFullscreenStore(store)}
+                    className="btn-refresh"
+                    style={{ padding: '6px 12px', fontSize: '0.8rem', opacity: isOnline ? 1 : 0.4, cursor: isOnline ? 'pointer' : 'not-allowed' }}
+                  >
+                    ⛶ Pantalla Completa
+                  </button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
