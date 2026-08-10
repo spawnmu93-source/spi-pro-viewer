@@ -2,7 +2,7 @@ import os
 import datetime
 import json
 from typing import List, Dict, Any, Optional
-from fastapi import FastAPI, HTTPException, Depends, status
+from fastapi import FastAPI, HTTPException, Depends, status, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import psycopg2
@@ -10,7 +10,7 @@ from psycopg2 import pool
 from psycopg2.extras import RealDictCursor
 
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, FileResponse
 
 app = FastAPI(
     title="SPI - Sistema de Producción Integral API",
@@ -800,6 +800,55 @@ def get_stock_cortes():
         return cortes
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error al leer cortes: {e}")
+
+# --- ENDPOINTS DE AUTO-ACTUALIZADOR ---
+
+UPDATE_CONFIG_PATH = os.path.join(os.path.dirname(__file__), "updates_config.json")
+UPDATES_DIR = os.path.join(os.path.dirname(__file__), "static_stock", "updates")
+
+@app.get("/api/update/check")
+def check_for_updates(mode: str = Query("vertical")):
+    """Devuelve la información de la última versión disponible para el cliente de escritorio."""
+    mode = mode.lower().strip()
+    
+    default_config = {
+        "latest_version": "1.8",
+        "mandatory": True,
+        "changelog": "Actualización automática del sistema de despiece.",
+        "vertical_filename": "Instalador_SPI_Despiece_V1.8_Vertical.exe",
+        "horizontal_filename": "Instalador_SPI_Despiece_V1.8_Horizontal.exe"
+    }
+    
+    config = default_config
+    if os.path.exists(UPDATE_CONFIG_PATH):
+        try:
+            with open(UPDATE_CONFIG_PATH, 'r', encoding='utf-8') as f:
+                config = json.load(f)
+        except Exception as e:
+            print(f"Error al leer updates_config.json: {e}")
+
+    filename = config.get("vertical_filename") if mode == "vertical" else config.get("horizontal_filename")
+    
+    return {
+        "latest_version": config.get("latest_version", "1.8"),
+        "mandatory": config.get("mandatory", True),
+        "changelog": config.get("changelog", "Actualización automática del sistema de despiece."),
+        "mode": mode,
+        "filename": filename,
+        "download_url": f"/api/update/download/{filename}"
+    }
+
+@app.get("/api/update/download/{filename}")
+def download_update(filename: str):
+    """Sirve el binario instalador del actualizador."""
+    file_path = os.path.join(UPDATES_DIR, filename)
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail=f"El archivo instalador {filename} no se encuentra en el servidor.")
+    return FileResponse(
+        path=file_path,
+        filename=filename,
+        media_type="application/octet-stream"
+    )
 
 @app.post("/api/stock/registrar")
 def registrar_stock(payload: RegistrarStockRequest):

@@ -50,8 +50,10 @@ credentials.json
 *.png
 *.ico
 !static_stock/assets/*
+!static_stock/updates/*
 !stock-app/src/assets/*
 !stock-app/public/*
+!updates_config.json
 
 # --- Other Projects & Temp Folders ---
 scratch/
