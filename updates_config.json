@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.9",
+    "latest_version": "1.9.1",
     "mandatory": true,
-    "changelog": "Versión 1.9 con transmisión de pantalla en vivo a 480p hacia el Dashboard Web.",
-    "vertical_filename": "Instalador_SPI_Despiece_V1.9_Vertical.exe",
-    "horizontal_filename": "Instalador_SPI_Despiece_V1.9_Horizontal.exe"
+    "changelog": "Versión 1.9.1 con marca de agua discreta de versión e indicador en pantalla.",
+    "vertical_filename": "Instalador_SPI_Despiece_V1.9.1_Vertical.exe",
+    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.1_Horizontal.exe"
 }
