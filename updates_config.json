@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.8",
+    "latest_version": "1.9",
     "mandatory": true,
-    "changelog": "Versión 1.8 con soporte de auto-actualización silenciosa.",
-    "vertical_filename": "Instalador_SPI_Despiece_V1.8_Vertical.exe",
-    "horizontal_filename": "Instalador_SPI_Despiece_V1.8_Horizontal.exe"
+    "changelog": "Versión 1.9 con transmisión de pantalla en vivo a 480p hacia el Dashboard Web.",
+    "vertical_filename": "Instalador_SPI_Despiece_V1.9_Vertical.exe",
+    "horizontal_filename": "Instalador_SPI_Despiece_V1.9_Horizontal.exe"
 }
