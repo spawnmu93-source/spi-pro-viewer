@@ -193,10 +193,10 @@ function App() {
   // --- Efecto para cargar datos de los reportes al cambiar de pestaña ---
   useEffect(() => {
     if (!isLoggedIn) return;
-    if (activeTab !== 'rendimiento') {
-      setActiveTab('rendimiento');
-    } else {
+    if (activeTab === 'rendimiento') {
       fetchYieldData();
+    } else if (activeTab === 'consistencia') {
+      fetchConsistencyData();
     }
   }, [activeTab, isLoggedIn]);
 

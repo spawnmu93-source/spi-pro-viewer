@@ -1327,7 +1327,8 @@ def get_reporte_rendimiento():
         records = ws.get_all_records()
         return records
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error al obtener rendimiento de despiece: {e}")
+        print(f"Error al obtener rendimiento de despiece de Google Sheets: {e}")
+        return []
 
 @app.post("/api/stock/save-tango")
 def save_tango_data(payload: SaveTangoRequest):
