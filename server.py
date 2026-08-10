@@ -2,7 +2,7 @@ import os
 import datetime
 import json
 from typing import List, Dict, Any, Optional
-from fastapi import FastAPI, HTTPException, Depends, status, Query, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException, Depends, status, Query, WebSocket, WebSocketDisconnect, Body
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import psycopg2
@@ -931,6 +931,13 @@ def get_active_streams():
             "has_frame": info["last_frame"] is not None
         })
     return result
+
+@app.post("/api/stream/upload/{store_name}")
+async def upload_stream_frame(store_name: str, body: bytes = Body(...)):
+    """Fallback HTTP POST para recibir fotogramas de transmisión en vivo."""
+    frame_data = body.decode('utf-8')
+    await stream_manager.broadcast_frame(store_name, frame_data)
+    return {"status": "ok"}
 
 @app.post("/api/stock/registrar")
 def registrar_stock(payload: RegistrarStockRequest):
