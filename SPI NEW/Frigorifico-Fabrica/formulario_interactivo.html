@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPI - Cuestionario de Definición Operativa (Frigorífico y Fábrica)</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --surface: #0f172a;
+      --card: #171f36;
+      --border: #334155;
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e1b4b 0%, var(--surface) 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 24px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      background: linear-gradient(90deg, #a5b4fc, #6366f1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .legend-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .leg-red { background: rgba(239, 68, 68, 0.15); color: #fca5a5; border: 1px solid rgba(239,68,68,0.3); }
+    .leg-amber { background: rgba(245, 158, 11, 0.15); color: #fde68a; border: 1px solid rgba(245,158,11,0.3); }
+    .leg-green { background: rgba(16, 185, 129, 0.15); color: #a7f3d0; border: 1px solid rgba(16,185,129,0.3); }
+
+    .card {
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      color: #38bdf8;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: 10px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group:last-child { margin-bottom: 0; }
+
+    label.question-title {
+      display: block;
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .options-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .option-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 12px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-size: 0.92rem;
+    }
+
+    .option-label:hover {
+      background: rgba(99, 102, 241, 0.1);
+      border-color: var(--primary);
+    }
+
+    .option-label input[type="radio"],
+    .option-label input[type="checkbox"] {
+      margin-top: 3px;
+      accent-color: var(--primary);
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    input[type="text"], select, textarea {
+      width: 100%;
+      background: #060911;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: #fff;
+      font-family: inherit;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input[type="text"]:focus, select:focus, textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 10px rgba(99,102,241,0.25);
+    }
+
+    /* Tabla de matriz */
+    .matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 0.88rem;
+    }
+
+    .matrix-table th, .matrix-table td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: center;
+    }
+
+    .matrix-table th:first-child, .matrix-table td:first-child {
+      text-align: left;
+      font-weight: 500;
+    }
+
+    .matrix-table th {
+      background: rgba(255,255,255,0.05);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    .matrix-table input[type="radio"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--primary);
+      cursor: pointer;
+    }
+
+    .btn-submit {
+      width: 100%;
+      background: linear-gradient(135deg, var(--primary) 0%, #4338ca 100%);
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 16px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(99,102,241,0.4);
+      transition: all 0.2s;
+      margin-top: 10px;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(99,102,241,0.5);
+    }
+
+    .btn-submit:active {
+      transform: scale(0.99);
+    }
+
+    .modal-overlay {
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0,0,0,0.8);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .modal-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      max-width: 600px;
+      width: 100%;
+      padding: 26px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    .modal-box h3 {
+      font-size: 1.3rem;
+      color: var(--success);
+      margin-bottom: 12px;
+    }
+
+    .modal-box pre {
+      background: #050811;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 12px;
+      font-family: monospace;
+      font-size: 0.8rem;
+      color: #38bdf8;
+      max-height: 250px;
+      overflow-y: auto;
+      margin-bottom: 16px;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn-modal {
+      flex: 1;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn-copy { background: var(--primary); color: #fff; }
+    .btn-close { background: rgba(255,255,255,0.1); color: #fff; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>SPI - Definición Operativa Frigorífico y Fábrica</h1>
+      <p>Cuestionario oficial para parametrizar validaciones, límites y flujos en el software</p>
+      
+      <div class="legend-box">
+        <div class="legend-item leg-red">🔴 Bloqueo Duro (Requiere PIN)</div>
+        <div class="legend-item leg-amber">🟡 Advertencia Blanda (Deja seguir)</div>
+        <div class="legend-item leg-green">🟢 Registro Silencioso (Solo reporte)</div>
+      </div>
+    </header>
+
+    <form id="spiForm">
+      <!-- SECCIÓN 0: IDENTIFICACIÓN -->
+      <div class="card">
+        <h2>👤 1. Datos del Responsable</h2>
+        <div class="form-group">
+          <label class="question-title">Nombre y Apellido:</label>
+          <input type="text" name="nombre" required placeholder="Ej. Dr. Carlos Rossi">
+        </div>
+        <div class="form-group">
+          <label class="question-title">Puesto / Rol en la Empresa:</label>
+          <select name="rol" required>
+            <option value="">Selecciona tu rol...</option>
+            <option value="Jefe de Frigorífico">Responsable de Frigorífico / Faena</option>
+            <option value="Veterinario SENASA">Médico Veterinario Inspector (SENASA / Calidad)</option>
+            <option value="Maestro Chacinero">Maestro Fiambrero / Jefe de Fábrica de Chacinados</option>
+            <option value="Supervisor">Supervisor de Planta / Mantenimiento</option>
+            <option value="Gerencia">Gerencia de Operaciones</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- SECCIÓN 1: FRIGORÍFICO -->
+      <div class="card">
+        <h2>🥩 2. Frigorífico: Recepción, SENASA y Faena</h2>
+        
+        <div class="form-group">
+          <label class="question-title">2.1. Si los kilos de báscula viva difieren > 2% del DT-e SENASA:</label>
+          <div class="options-group">
+            <label class="option-label">
+              <input type="radio" name="dif_dte" value="bloqueo" required>
+              <span>🔴 <b>Bloquear la tropa:</b> No permitir faenar sin clave de supervisor.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="dif_dte" value="alerta">
+              <span>🟡 <b>Alerta blanda:</b> Aviso en pantalla pero permitir descargar a corrales.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="dif_dte" value="silencioso">
+              <span>🟢 <b>Registro silencioso:</b> No frenar; solo calcular la merma en el reporte.</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="question-title">2.2. Aprobación Sanitaria Veterinaria SENASA (Dinámica en Línea):</label>
+          <div class="options-group">
+            <label class="option-label">
+              <input type="radio" name="dinamica_senasa" value="excepcion" required checked>
+              <span>🟢 <b>Aprobación por Excepción (Recomendada):</b> Toda res se asume APTA en balanza a menos que el veterinario accione un decomiso o desvío.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="dinamica_senasa" value="unitaria">
+              <span>🔴 <b>Bloqueo Unitario:</b> La balanza NO pesa ni imprime etiqueta si el veterinario no dio "Apto" previo a cada res.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="dinamica_senasa" value="posterior">
+              <span>🟡 <b>Carga Posterior:</b> Se faena corrido y las actas de decomiso se cargan al final de la tropa.</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="question-title">2.3. Dinámica de pesaje en riel aéreo (Balanza Systel Gancho):</label>
+          <div class="options-group">
+            <label class="option-label">
+              <input type="radio" name="dinamica_pesaje" value="detenido" required>
+              <span>La res se detiene completamente sobre la celda de carga.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="dinamica_pesaje" value="movimiento">
+              <span>Pesaje al paso (en movimiento continuo sobre la noria).</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="question-title">2.4. Si la impresora Zebra se queda sin papel en plena faena:</label>
+          <div class="options-group">
+            <label class="option-label">
+              <input type="radio" name="falla_zebra" value="frenar" required>
+              <span>🔴 Frenar el pesaje inmediatamente hasta cambiar el rollo.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="falla_zebra" value="cola" checked>
+              <span>🟢 Seguir pesando en pantalla; encolar etiquetas y sacarlas juntas al recargar.</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECCIÓN 2: FÁBRICA -->
+      <div class="card">
+        <h2>🌭 3. Fábrica de Chacinados y Embutidos</h2>
+
+        <div class="form-group">
+          <label class="question-title">3.1. Rigidez en pesaje de receta (ej. 70% Magro y 30% Tocino):</label>
+          <div class="options-group">
+            <label class="option-label">
+              <input type="radio" name="rigidez_receta" value="estricta" required>
+              <span>🔴 <b>Estricto:</b> Bloquear si el operario se desvía más de ±1% de la receta.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="rigidez_receta" value="alerta" checked>
+              <span>🟡 <b>Alerta suave:</b> Mostrar aviso, recalcular rendimiento real y permitir embutir.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="rigidez_receta" value="permisiva">
+              <span>🟢 <b>Permisivo:</b> Registrar lo pesado sin exigir exactitud contra la fórmula.</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="question-title">3.2. Control de Temperatura de Masa en Picado / Batea:</label>
+          <div class="options-group">
+            <label class="option-label">
+              <input type="radio" name="temp_masa" value="bloqueo" required checked>
+              <span>🔴 <b>Bloquear embutido si supera 6.0 °C:</b> Exigir agregado de escarcha/hielo.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="temp_masa" value="aviso">
+              <span>🟡 <b>Advertir:</b> Mostrar aviso de masa caliente pero dejar decidir al Maestro Chacinero.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="temp_masa" value="solo_registro">
+              <span>🟢 <b>Solo registro:</b> Guardar la temperatura para bromatología sin avisos.</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="question-title">3.3. Control de Secado en Salames (Merma objetivo 35% - 38%):</label>
+          <div class="options-group">
+            <label class="option-label">
+              <input type="radio" name="control_secado" value="carros" required>
+              <span>Pesamos carros completos periódicamente en la báscula.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="control_secado" value="testigos" checked>
+              <span>Pesamos ristras testigo marcadas como patrón de secado.</span>
+            </label>
+            <label class="option-label">
+              <input type="radio" name="control_secado" value="tacto">
+              <span>El punto lo determina el Maestro Fiambrero al tacto y textura.</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECCIÓN 3: MATRIZ BLOQUEAR VS PERMITIR -->
+      <div class="card">
+        <h2>⚖️ 4. Matriz de Fricción: ¿Qué debe bloquear la pantalla?</h2>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 12px;">Selecciona el nivel de rigor para cada situación:</p>
+        
+        <div style="overflow-x: auto;">
+          <table class="matrix-table">
+            <thead>
+              <tr>
+                <th>Situación en Planta</th>
+                <th style="color: #fca5a5;">🔴 Bloqueo (PIN)</th>
+                <th style="color: #fde68a;">🟡 Advertencia</th>
+                <th style="color: #a7f3d0;">🟢 Silencioso</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1. Balanza RS-232 se desconecta en el turno</td>
+                <td><input type="radio" name="m1" value="bloqueo" checked></td>
+                <td><input type="radio" name="m1" value="alerta"></td>
+                <td><input type="radio" name="m1" value="silencioso"></td>
+              </tr>
+              <tr>
+                <td>2. Rendimiento faena tropa inferior a 79.5%</td>
+                <td><input type="radio" name="m2" value="bloqueo"></td>
+                <td><input type="radio" name="m2" value="alerta" checked></td>
+                <td><input type="radio" name="m2" value="silencioso"></td>
+              </tr>
+              <tr>
+                <td>3. Masa de chacinado supera 6.0 °C</td>
+                <td><input type="radio" name="m3" value="bloqueo" checked></td>
+                <td><input type="radio" name="m3" value="alerta"></td>
+                <td><input type="radio" name="m3" value="silencioso"></td>
+              </tr>
+              <tr>
+                <td>4. Merma secado salames fuera de rango</td>
+                <td><input type="radio" name="m4" value="bloqueo"></td>
+                <td><input type="radio" name="m4" value="alerta" checked></td>
+                <td><input type="radio" name="m4" value="silencioso"></td>
+              </tr>
+              <tr>
+                <td>5. Se solicita re-imprimir etiqueta emitida</td>
+                <td><input type="radio" name="m5" value="bloqueo"></td>
+                <td><input type="radio" name="m5" value="alerta" checked></td>
+                <td><input type="radio" name="m5" value="silencioso"></td>
+              </tr>
+              <tr>
+                <td>6. Usar pesaje manual por rotura de balanza</td>
+                <td><input type="radio" name="m6" value="bloqueo" checked></td>
+                <td><input type="radio" name="m6" value="alerta"></td>
+                <td><input type="radio" name="m6" value="silencioso"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- SECCIÓN 4: COMENTARIOS -->
+      <div class="card">
+        <h2>💬 5. Comentarios y Casos Particulares</h2>
+        <div class="form-group">
+          <label class="question-title">¿Hay algún detalle de su rutina diaria que los sistemas comunes no contemplan?</label>
+          <textarea name="comentarios" rows="4" placeholder="Escribe aquí cualquier observación o sugerencia..."></textarea>
+        </div>
+      </div>
+
+      <button type="button" class="btn-submit" onclick="enviarFormulario()">💾 Guardar y Exportar Respuestas</button>
+    </form>
+  </div>
+
+  <!-- MODAL DE EXPORTACIÓN -->
+  <div class="modal-overlay" id="modalResult">
+    <div class="modal-box">
+      <h3>🎉 ¡Respuestas Registradas con Éxito!</h3>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 12px;">Puedes copiar este resumen o enviarlo por WhatsApp al equipo de desarrollo:</p>
+      <pre id="jsonPreview"></pre>
+      <div class="modal-actions">
+        <button class="btn-modal btn-copy" onclick="copiarAlPortapapeles()">📋 Copiar Resumen</button>
+        <button class="btn-modal btn-close" onclick="cerrarModal()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function enviarFormulario() {
+      const form = document.getElementById('spiForm');
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+      data.fecha_respuesta = new Date().toISOString();
+
+      const jsonStr = JSON.stringify(data, null, 2);
+      document.getElementById('jsonPreview').textContent = jsonStr;
+      document.getElementById('modalResult').style.display = 'flex';
+    }
+
+    function copiarAlPortapapeles() {
+      const text = document.getElementById('jsonPreview').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("✅ ¡Copiado al portapapeles! Ya puedes pegarlo en WhatsApp o por email.");
+      });
+    }
+
+    function cerrarModal() {
+      document.getElementById('modalResult').style.display = 'none';
+    }
+  </script>
+</body>
+</html>

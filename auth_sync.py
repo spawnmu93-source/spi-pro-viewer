@@ -361,16 +361,106 @@ def push_despiece_to_sheets(corte_madre, peso_madre, resultantes, operador, lote
                 
         # 3. Escribir todas las filas en la hoja correspondiente al local activo
         if filas_a_agregar:
+            ws_local = None
             try:
                 ws_local = spreadsheet.worksheet(local_activo)
-                ws_local.append_rows(filas_a_agregar)
-            except Exception as e:
-                print(f"Error al escribir en la hoja {local_activo}: {e}")
-                raise e
+            except Exception:
+                # Buscar de manera insensible a mayúsculas/minúsculas (ej: 'Local Pruebas' -> 'LOCAL PRUEBAS')
+                for ws in spreadsheet.worksheets():
+                    if ws.title.strip().upper() == local_activo.strip().upper():
+                        ws_local = ws
+                        break
+                if not ws_local:
+                    ws_local = spreadsheet.add_worksheet(title=local_activo, rows="1000", cols="10")
+                    headers = ['Marca Temporal', 'Proceso', 'Corte', 'Codigo', 'Peso', 'Operario', 'Lote', 'Motivo D']
+                    ws_local.append_row(headers)
+                    
+            ws_local.append_rows(filas_a_agregar)
         
         return True, "Sincronización Cloud exitosa."
     except Exception as e:
         error_msg = f"Error Cloud: {e}"
+        if callback_error:
+            callback_error(error_msg)
+        return False, error_msg
+
+def push_combo_to_sheets(combo_nombre, combo_codigo, bandejas, lote, ingredientes_pesados, operador, callback_error=None):
+    """
+    Sincroniza la producción de un combo en la hoja correspondiente al local activo (ej. LOCAL PRUEBAS, Local 1, Local 2, Local 3).
+    Registra los ingredientes pesados como Egresos (consumo de materia prima) y el combo terminado como Ingreso (producto elaborado).
+    """
+    if not is_connected():
+        return False, "Sin conexión."
+    
+    if not os.path.exists(CREDENTIALS_FILE):
+        return False, "Falta credenciales."
+    
+    try:
+        creds = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, SCOPES)
+        client = gspread.authorize(creds)
+        spreadsheet = client.open_by_key(SHEET_ID)
+        
+        local_activo = load_local_config()
+        ahora = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+        
+        filas_a_agregar = []
+        peso_total_ingredientes = 0.0
+        
+        # 1. Registrar Egresos (Ingredientes pesados consumidos)
+        for ing in ingredientes_pesados:
+            corte_nombre = ing.get("corte", "")
+            codigo_ing = ProcesadorDatos().obtener_codigo(corte_nombre)
+            peso_real = float(ing.get("peso_real", 0.0))
+            peso_total_ingredientes += peso_real
+            desvio = ing.get("desvio_pct", 0.0)
+            nota = f"Consumo Combo ({desvio:+.1f}%)" if desvio != 0.0 else "Consumo Combo"
+            
+            # Columnas: Timestamp, Movimiento/Proceso, Corte, CODIGO, Peso, Operador, Lote, Motivo D
+            filas_a_agregar.append([
+                ahora,
+                "Egreso",
+                corte_nombre,
+                codigo_ing,
+                f"{peso_real:.2f}",
+                operador,
+                lote,
+                nota
+            ])
+            
+        # 2. Registrar Ingreso (Producto Combo terminado)
+        lote_combo = generar_lote_resultante(lote)
+        filas_a_agregar.append([
+            ahora,
+            "Ingreso",
+            combo_nombre,
+            combo_codigo,
+            f"{peso_total_ingredientes:.2f}",
+            operador,
+            lote_combo,
+            f"Producción {int(round(bandejas))} bandejas"
+        ])
+        
+        # 3. Escribir en la hoja del local activo (con búsqueda insensible a mayúsculas y auto-creación)
+        if filas_a_agregar:
+            ws_local = None
+            try:
+                ws_local = spreadsheet.worksheet(local_activo)
+            except Exception:
+                for ws in spreadsheet.worksheets():
+                    if ws.title.strip().upper() == local_activo.strip().upper():
+                        ws_local = ws
+                        break
+                if not ws_local:
+                    ws_local = spreadsheet.add_worksheet(title=local_activo, rows="1000", cols="10")
+                    headers = ['Marca Temporal', 'Proceso', 'Corte', 'Codigo', 'Peso', 'Operario', 'Lote', 'Motivo D']
+                    ws_local.append_row(headers)
+                    
+            ws_local.append_rows(filas_a_agregar)
+            
+        return True, "Sincronización Cloud de combo exitosa."
+    except Exception as e:
+        error_msg = f"Error Cloud Combo: {e}"
+        print(f"Error al enviar combo a Sheets: {e}")
         if callback_error:
             callback_error(error_msg)
         return False, error_msg

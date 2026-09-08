@@ -952,9 +952,16 @@ def registrar_stock(payload: RegistrarStockRequest):
     if not os.path.exists(CREDENTIALS_FILE):
         raise HTTPException(status_code=500, detail="Falta el archivo credentials.json en el servidor.")
         
-    local_clean = payload.local.strip()
-    if local_clean not in ["Local 1", "Local 2", "Local 3"]:
-        raise HTTPException(status_code=400, detail="El local especificado no es válido (Debe ser Local 1, Local 2 o Local 3).")
+    local_map = {
+        "LOCAL 1": "Local 1",
+        "LOCAL 2": "Local 2",
+        "LOCAL 3": "Local 3",
+        "LOCAL PRUEBAS": "Local Pruebas",
+        "LOCAL PRUEBA": "Local Pruebas",
+    }
+    local_clean = local_map.get(payload.local.strip().upper(), payload.local.strip())
+    if local_clean not in ["Local 1", "Local 2", "Local 3", "Local Pruebas"]:
+        raise HTTPException(status_code=400, detail="El local especificado no es válido (Debe ser Local 1, Local 2, Local 3 o Local Pruebas).")
         
     sheet_name = f"Stock {local_clean}"
     
@@ -1004,9 +1011,16 @@ def registrar_stock_lote(payload: RegistrarStockLoteRequest):
     if not os.path.exists(CREDENTIALS_FILE):
         raise HTTPException(status_code=500, detail="Falta el archivo credentials.json en el servidor.")
         
-    local_clean = payload.local.strip()
-    if local_clean not in ["Local 1", "Local 2", "Local 3"]:
-        raise HTTPException(status_code=400, detail="El local especificado no es válido (Debe ser Local 1, Local 2 o Local 3).")
+    local_map = {
+        "LOCAL 1": "Local 1",
+        "LOCAL 2": "Local 2",
+        "LOCAL 3": "Local 3",
+        "LOCAL PRUEBAS": "Local Pruebas",
+        "LOCAL PRUEBA": "Local Pruebas",
+    }
+    local_clean = local_map.get(payload.local.strip().upper(), payload.local.strip())
+    if local_clean not in ["Local 1", "Local 2", "Local 3", "Local Pruebas"]:
+        raise HTTPException(status_code=400, detail="El local especificado no es válido (Debe ser Local 1, Local 2, Local 3 o Local Pruebas).")
         
     sheet_name = f"Stock {local_clean}"
     
@@ -1095,21 +1109,38 @@ def run_recalculate_consistency_and_yields(spreadsheet):
         reconciliation_results = []
         yield_results = []
         
-        for local_num in [1, 2, 3]:
-            local_name_tango = f"Local comercial {local_num}"
-            tab_name_despiece = f"Local {local_num}"
-            tab_name_stock = f"Stock Local {local_num}"
+        locales_a_calcular = [
+            {"tango": "Local comercial 1", "despiece": "Local 1", "stock": "Stock Local 1"},
+            {"tango": "Local comercial 2", "despiece": "Local 2", "stock": "Stock Local 2"},
+            {"tango": "Local comercial 3", "despiece": "Local 3", "stock": "Stock Local 3"},
+            {"tango": "Local comercial Pruebas", "despiece": "Local Pruebas", "stock": "Stock Local Pruebas"},
+        ]
+        
+        for loc in locales_a_calcular:
+            local_name_tango = loc["tango"]
+            tab_name_despiece = loc["despiece"]
+            tab_name_stock = loc["stock"]
             
             # Leer despieces
             despiece_in = {}
             despiece_out = {}
             despiece_groups = defaultdict(list)
             try:
-                # Intenta abrir 'Local X' o fallback 'Local comercial X'
+                # Intenta abrir 'Local X', 'LOCAL PRUEBAS' o fallback 'Local comercial X'
                 try:
                     d_sheet = spreadsheet.worksheet(tab_name_despiece)
                 except:
-                    d_sheet = spreadsheet.worksheet(f"Local comercial {local_num}")
+                    try:
+                        d_sheet = spreadsheet.worksheet(local_name_tango)
+                    except:
+                        d_sheet = None
+                        for ws in spreadsheet.worksheets():
+                            t = ws.title.strip().upper()
+                            if t in [tab_name_despiece.upper(), local_name_tango.upper()]:
+                                d_sheet = ws
+                                break
+                        if not d_sheet:
+                            raise Exception(f"Hoja {tab_name_despiece} no encontrada")
                     
                 d_rows = d_sheet.get_all_values()
                 for r in d_rows:
@@ -1147,7 +1178,7 @@ def run_recalculate_consistency_and_yields(spreadsheet):
                             'lote': lote
                         })
             except Exception as e:
-                print(f"Error leyendo despiece de Local {local_num}: {e}")
+                print(f"Error leyendo despiece de {tab_name_despiece}: {e}")
                 
             # Procesar rendimientos despiece
             for (ts, oper), items in despiece_groups.items():
@@ -1155,10 +1186,15 @@ def run_recalculate_consistency_and_yields(spreadsheet):
                 ingresos = [it for it in items if it['type'] == 'Ingreso']
                 
                 if egresos:
-                    mother = egresos[0]
-                    mother_cut = mother['cut']
-                    mother_weight = mother['weight']
-                    mother_lote = mother['lote']
+                    if len(egresos) == 1:
+                        mother = egresos[0]
+                        mother_cut = mother['cut']
+                        mother_weight = mother['weight']
+                        mother_lote = mother['lote']
+                    else:
+                        mother_cut = "COMBO: " + ", ".join(e['cut'] for e in egresos)
+                        mother_weight = sum(e['weight'] for e in egresos)
+                        mother_lote = egresos[0]['lote']
                     
                     if mother_weight > 0:
                         merma_item = [it for it in ingresos if it['code'] == '01030073']
@@ -1184,7 +1220,14 @@ def run_recalculate_consistency_and_yields(spreadsheet):
             # Leer stock físico
             stock_counts = {}
             try:
-                s_sheet = spreadsheet.worksheet(tab_name_stock)
+                try:
+                    s_sheet = spreadsheet.worksheet(tab_name_stock)
+                except:
+                    s_sheet = None
+                    for ws in spreadsheet.worksheets():
+                        if ws.title.strip().upper() == tab_name_stock.upper():
+                            s_sheet = ws
+                            break
                 s_rows = s_sheet.get_all_values()
                 if len(s_rows) > 1:
                     for r in s_rows[1:]:
@@ -1324,7 +1367,7 @@ def get_reporte_rendimiento():
         client = gspread.authorize(creds)
         spreadsheet = client.open_by_key(SHEET_ID)
         
-        # Recalcular automáticamente para incluir las últimas entradas de Local 1, Local 2 y Local 3
+        # Recalcular automáticamente para incluir las últimas entradas de Local 1, Local 2, Local 3 y Local Pruebas
         try:
             run_recalculate_consistency_and_yields(spreadsheet)
         except Exception as err:

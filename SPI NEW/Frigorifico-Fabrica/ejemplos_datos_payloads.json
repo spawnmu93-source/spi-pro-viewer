@@ -1,0 +1,158 @@
+{
+  "_comentario": "EJEMPLOS DE DATOS Y PAYLOADS OFICIALES - SPI FRIGORIFICO Y FABRICA",
+  "hardware_serial_raw": {
+    "systel_gancho_cuora": {
+      "descripcion": "Trama continua recibida desde Balanza Systel Cuora a 9600-8N1",
+      "bytes_hex": "02 53 2B 30 30 38 34 35 30 30 30 30 30 30 30 03",
+      "raw_ascii": "\u0002S+008450000000\u0003",
+      "parsed_dict": {
+        "marca": "Systel",
+        "modelo": "Cuora Gancho",
+        "estado": "ESTABLE",
+        "signo": "+",
+        "peso_neto_kg": 84.5,
+        "tara_kg": 0.0,
+        "timestamp_captura": "2026-09-04T09:12:45.105Z"
+      }
+    },
+    "moretti_plataforma_lap": {
+      "descripcion": "Trama ASCII recibida desde Balanza Moretti LAP/Batea a 9600-8N1",
+      "bytes_hex": "02 50 2B 30 34 35 2E 32 35 30 6B 67 0D 0A 03",
+      "raw_ascii": "\u0002P+045.250kg\r\n\u0003",
+      "parsed_dict": {
+        "marca": "Moretti",
+        "modelo": "LAP Plataforma",
+        "estado": "ESTABLE",
+        "peso_neto_kg": 45.25,
+        "unidad": "KG",
+        "timestamp_captura": "2026-09-04T10:30:12.440Z"
+      }
+    }
+  },
+  "sqlite_local_buffer_row": {
+    "id_local": 104,
+    "idempotency_key": "c7a8b091-e45f-4a11-b921-729f81d59302",
+    "entity_type": "FAENA_MEDIA_RES",
+    "payload_json": {
+      "id_tropa_fk": "TRP-2026-00412",
+      "lado": "DER",
+      "peso_gancho_caliente_kg": 42.5,
+      "espesor_grasa_dorsal_mm": 14.2,
+      "porcentaje_magro_estimado": 58.4,
+      "ph_45min": 6.2,
+      "temperatura_camara_c": 3.5,
+      "lote_media_res": "MR-DER-00412-01",
+      "aprobacion_veterinaria_senasa": true,
+      "operario_id": 4,
+      "idempotency_key": "c7a8b091-e45f-4a11-b921-729f81d59302"
+    },
+    "creado_en": "2026-09-04 09:12:45",
+    "intentos": 0,
+    "sincronizado": 0
+  },
+  "https_sync_request_payload": {
+    "sync_batch_id": "BATCH-EDGE-FRIG01-202609040915",
+    "terminal_id": "TERM-FRIG-01",
+    "timestamp_envio": "2026-09-04T09:15:00.000Z",
+    "registros_faena": [
+      {
+        "idempotency_key": "c7a8b091-e45f-4a11-b921-729f81d59302",
+        "id_tropa_fk": "TRP-2026-00412",
+        "lado": "DER",
+        "peso_gancho_caliente_kg": 42.5,
+        "espesor_grasa_dorsal_mm": 14.2,
+        "porcentaje_magro_estimado": 58.4,
+        "ph_45min": 6.2,
+        "temperatura_camara_c": 3.5,
+        "lote_media_res": "MR-DER-00412-01",
+        "aprobacion_veterinaria_senasa": true,
+        "operario_id": 4
+      }
+    ],
+    "registros_chacinados": [
+      {
+        "idempotency_key": "f1d4a899-231a-4c22-9011-54bc7832ef11",
+        "id_bachada": "BACH-SALMIL-260904-01",
+        "id_receta_fk": 2,
+        "fecha_elaboracion": "2026-09-04T10:45:00Z",
+        "operario_responsable": 6,
+        "temperatura_mezclado_real": 3.8,
+        "kilos_masa_formulada": 150.0,
+        "kilos_obtenidos_terminados": 149.2,
+        "unidades_ristras": 120,
+        "ingredientes": [
+          {
+            "tipo_ingrediente": "MAGRO_CERDO",
+            "lote_origen_mp": "LOT-20260904-MAGRO",
+            "kilos_utilizados_kg": 105.0
+          },
+          {
+            "tipo_ingrediente": "TOCINO_GRASA",
+            "lote_origen_mp": "00049",
+            "kilos_utilizados_kg": 30.0
+          },
+          {
+            "tipo_ingrediente": "SAL_CURA_ADITIVO",
+            "lote_origen_mp": "PROV-ESP-8821",
+            "kilos_utilizados_kg": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  "evento_lote_central_payload": {
+    "id_evento": 98402,
+    "lote": "MR-DER-00412-01",
+    "tipo_evento": "PESAJE",
+    "ubicacion": "FRIGORIFICO_GANCHO_01",
+    "id_operario_fk": 4,
+    "idempotency_key": "c7a8b091-e45f-4a11-b921-729f81d59302",
+    "fecha_hora": "2026-09-04T09:12:45.321Z",
+    "payload_json": {
+      "tropa_senasa": "TRP-2026-00412",
+      "balanza": "Systel Cuora Gancho Serial (COM3)",
+      "peso_kg": 42.5,
+      "calidad": {
+        "grasa_dorsal_mm": 14.2,
+        "magro_pct": 58.4,
+        "ph_inicial": 6.2
+      },
+      "temperatura_ambiente_c": 11.5,
+      "etiqueta_zpl_emitida": true,
+      "checksum_hardware": "VALID_OK"
+    }
+  },
+  "trazabilidad_e2e_consulta_resultado": {
+    "producto_final": {
+      "lote_bachada": "BACH-SALMIL-260904-01",
+      "producto": "Salame Milán Seco Curado",
+      "kilos": 149.2,
+      "unidades": 120,
+      "fecha_elab": "2026-09-04"
+    },
+    "materias_primas_consumidas": [
+      {
+        "tipo": "MAGRO_CERDO",
+        "kilos": 105.0,
+        "lote_origen": "LOT-20260904-MAGRO",
+        "procedencia": {
+          "tipo": "DESPOSTE_FRIGORIFICO",
+          "canales_involucradas": [
+            "MR-DER-00412-01",
+            "MR-IZQ-00412-01"
+          ],
+          "tropa_faena": "TRP-2026-00412",
+          "dte_senasa": "DTE-2026-AR-09941",
+          "lote_engorde_origen": "ENG-GALPON-03",
+          "granja_origen": "Granja Las Lilas Pista 3"
+        }
+      },
+      {
+        "tipo": "TOCINO_GRASA",
+        "kilos": 30.0,
+        "lote_origen": "00049",
+        "clasificacion": "Subproducto Tocino Dorsal Estandarizado SPI"
+      }
+    ]
+  }
+}

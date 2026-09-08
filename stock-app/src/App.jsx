@@ -4,7 +4,7 @@ import './App.css';
 import logoImg from './assets/logo.png';
 
 // Configuración de locales disponibles
-const LOCALES = ['Local 1', 'Local 2', 'Local 3'];
+const LOCALES = ['Local 1', 'Local 2', 'Local 3', 'Local Pruebas'];
 
 // Datos demostrativos de transformaciones despiece por local
 const SAMPLE_YIELD_DATA = [
@@ -1076,6 +1076,7 @@ function App() {
                       <option value="Local comercial 1">Local Comercial 1</option>
                       <option value="Local comercial 2">Local Comercial 2</option>
                       <option value="Local comercial 3">Local Comercial 3</option>
+                      <option value="Local comercial Pruebas">Local Comercial Pruebas</option>
                     </select>
                   </div>
                   <div className="form-group">
@@ -1121,7 +1122,9 @@ function App() {
                       <tbody>
                         {consistencyData
                           .filter(r => {
-                            const matchSuc = filterConsistencySucursal === 'Todas' || r.Sucursal === filterConsistencySucursal;
+                            const matchSuc = filterConsistencySucursal === 'Todas' || 
+                              r.Sucursal === filterConsistencySucursal || 
+                              (filterConsistencySucursal.toLowerCase().includes('pruebas') && r.Sucursal?.toLowerCase().includes('pruebas'));
                             const matchSearch = !filterConsistencySearch || 
                               r.Producto.toLowerCase().includes(filterConsistencySearch.toLowerCase()) ||
                               r.Código.toString().includes(filterConsistencySearch);
@@ -1206,6 +1209,7 @@ function App() {
                       <option value="Local comercial 1">Local Comercial 1</option>
                       <option value="Local comercial 2">Local Comercial 2</option>
                       <option value="Local comercial 3">Local Comercial 3</option>
+                      <option value="Local comercial Pruebas">Local Comercial Pruebas</option>
                     </select>
                   </div>
 
@@ -1253,6 +1257,7 @@ function App() {
                     if (str.includes('local 1') || str.includes('comercial 1') || str.endsWith('1')) return 'Local comercial 1';
                     if (str.includes('local 2') || str.includes('comercial 2') || str.endsWith('2')) return 'Local comercial 2';
                     if (str.includes('local 3') || str.includes('comercial 3') || str.endsWith('3')) return 'Local comercial 3';
+                    if (str.includes('pruebas') || str.includes('prueba')) return 'Local comercial Pruebas';
                     return name.toString().trim();
                   };
 
@@ -1332,7 +1337,7 @@ function App() {
                   const mermaPctGlobal = totalMadre > 0 ? ((totalMerma / totalMadre) * 100).toFixed(2) : '0.00';
 
                   // 3. Breakdown por Sucursal con Deduplicación Correcta
-                  const storeList = ['Local comercial 1', 'Local comercial 2', 'Local comercial 3'].map(suc => {
+                  const storeList = ['Local comercial 1', 'Local comercial 2', 'Local comercial 3', 'Local comercial Pruebas'].map(suc => {
                     const normTarget = normalizeStore(suc);
                     const rowsInStore = filteredYieldList.filter(r => normalizeStore(r.Sucursal) === normTarget);
                     const resSum = rowsInStore.reduce((a, r) => a + parseFloat(r['Peso Resultante (KG)'] || 0), 0);
@@ -1936,7 +1941,7 @@ function App() {
 export default App;
 
 function LiveStreamViewer() {
-  const LOCALES = ['Local 1', 'Local 2', 'Local 3'];
+  const LOCALES = ['Local 1', 'Local 2', 'Local 3', 'Local Pruebas'];
   const [fullscreenStore, setFullscreenStore] = useState(null);
   const [streamsData, setStreamsData] = useState({});
 

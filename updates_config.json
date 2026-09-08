@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.9.2",
+    "latest_version": "1.9.3",
     "mandatory": true,
-    "changelog": "Versión 1.9.2 con transmisión de pantalla fluida a 30 FPS.",
-    "vertical_filename": "Instalador_SPI_Despiece_V1.9.2_Vertical.exe",
-    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.2_Horizontal.exe"
+    "changelog": "Versión 1.9.3: Incorporación del módulo de Combos Cárnicos (7 recetas oficiales ERP), pesaje por bandejas redondas con tolerancias (+/-5%), soporte para Local Pruebas y optimizaciones de sincronización.",
+    "vertical_filename": "Instalador_SPI_Despiece_V1.9.3_Vertical.exe",
+    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.3_Horizontal.exe"
 }
