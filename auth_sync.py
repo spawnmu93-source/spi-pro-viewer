@@ -273,6 +273,37 @@ def save_permitir_manual(permitir_bool):
         print(f"Error al guardar permitir_control_manual: {e}")
         return False
 
+def load_puerto_balanza():
+    """Carga el puerto COM configurado para la balanza desde config.json. Por defecto 'Auto'."""
+    config_file = os.path.join(DATA_DIR, 'config.json')
+    if os.path.exists(config_file):
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data.get('puerto_balanza', 'Auto')
+        except Exception as e:
+            print(f"Error al cargar puerto_balanza: {e}")
+    return 'Auto'
+
+def save_puerto_balanza(puerto_val):
+    """Guarda el puerto COM configurado en config.json."""
+    config_file = os.path.join(DATA_DIR, 'config.json')
+    data = {}
+    if os.path.exists(config_file):
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"Error al leer config.json existente para puerto: {e}")
+    data['puerto_balanza'] = str(puerto_val).strip()
+    try:
+        with open(config_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+        return True
+    except Exception as e:
+        print(f"Error al guardar puerto_balanza: {e}")
+        return False
+
 def generar_lote_resultante(lote_origen):
     ahora = datetime.now()
     dia_num = ahora.isoweekday() # Lunes = 1, Martes = 2, ..., Domingo = 7
