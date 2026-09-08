@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capacitación Operativa - Módulo de Combos | SPI Despiece</title>
+  <style>
+    :root {
+      --primary: #6366f1;
+      --primary-dark: #4f46e5;
+      --primary-light: #e0e7ff;
+      --secondary: #8b5cf6;
+      --success: #10b981;
+      --success-light: #d1fae5;
+      --warning: #f59e0b;
+      --warning-light: #fef3c7;
+      --danger: #ef4444;
+      --danger-light: #fee2e2;
+      --slate-900: #0f172a;
+      --slate-800: #1e293b;
+      --slate-700: #334155;
+      --slate-600: #475569;
+      --slate-100: #f1f5f9;
+      --slate-50: #f8fafc;
+      --border: #e2e8f0;
+      --card-bg: #ffffff;
+      --shadow: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.03);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--slate-50);
+      color: var(--slate-800);
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* HEADER & HERO */
+    header {
+      background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%);
+      color: white;
+      padding: 40px 0 50px 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      position: relative;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(8px);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 15px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      font-size: 17px;
+      color: #c7d2fe;
+      max-width: 680px;
+    }
+
+    .btn-print {
+      background: white;
+      color: var(--primary-dark);
+      border: none;
+      padding: 12px 24px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: var(--shadow);
+      transition: all 0.2s ease;
+    }
+
+    .btn-print:hover {
+      background: #f8fafc;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* SECTIONS */
+    section {
+      margin-top: 40px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-title .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: var(--primary-light);
+      color: var(--primary);
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    /* CARDS & GRIDS */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* REGLAS DE ORO */
+    .rule-card {
+      border-left: 5px solid var(--primary);
+      background: white;
+    }
+    .rule-card.success { border-left-color: var(--success); }
+    .rule-card.warning { border-left-color: var(--warning); }
+    .rule-card.purple { border-left-color: var(--secondary); }
+
+    .rule-number {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .rule-card.success .rule-number { color: var(--success); }
+    .rule-card.warning .rule-number { color: var(--warning); }
+    .rule-card.purple .rule-number { color: var(--secondary); }
+
+    .rule-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--slate-900);
+      margin-bottom: 8px;
+    }
+
+    .rule-desc {
+      font-size: 14px;
+      color: var(--slate-600);
+    }
+
+    /* STEP BY STEP TIMELINE */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .step-item {
+      display: flex;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .step-badge {
+      background: var(--primary);
+      color: white;
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .step-content h4 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--slate-900);
+      margin-bottom: 6px;
+    }
+
+    .step-content p {
+      font-size: 14px;
+      color: var(--slate-600);
+      margin-bottom: 10px;
+    }
+
+    .key-tip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--slate-100);
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--slate-700);
+    }
+
+    .key-tag {
+      background: var(--slate-800);
+      color: white;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-weight: 700;
+    }
+
+    /* RECIPES CATALOG */
+    .recipe-card {
+      background: white;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow);
+    }
+
+    .recipe-header {
+      background: #2e1065;
+      color: white;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .recipe-header h3 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .recipe-weight {
+      background: #7c3aed;
+      color: white;
+      font-size: 13px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 6px;
+    }
+
+    .recipe-code {
+      font-size: 12px;
+      color: #cbd5e1;
+      padding: 8px 20px;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      font-family: monospace;
+      font-weight: 600;
+    }
+
+    .recipe-body {
+      padding: 16px 20px;
+      flex-grow: 1;
+    }
+
+    .ingredient-list {
+      list-style: none;
+    }
+
+    .ingredient-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      border-bottom: 1px dashed var(--border);
+      font-size: 13px;
+    }
+
+    .ingredient-item:last-child {
+      border-bottom: none;
+    }
+
+    .ingredient-name {
+      font-weight: 600;
+      color: var(--slate-700);
+    }
+
+    .ingredient-qty {
+      font-weight: 700;
+      color: var(--primary-dark);
+      background: var(--primary-light);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+
+    /* SIMULADOR INTERACTIVO */
+    .simulator-container {
+      background: white;
+      border-radius: 16px;
+      border: 2px solid var(--primary-light);
+      padding: 28px;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .sim-controls {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+      background: var(--slate-50);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--slate-700);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      background: white;
+      color: var(--slate-900);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-control:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+    }
+
+    .sim-result-badge {
+      background: #fdf4ff;
+      border: 2px solid #d946ef;
+      border-radius: 12px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .sim-result-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #86198f;
+      text-transform: uppercase;
+    }
+
+    .sim-result-val {
+      font-size: 28px;
+      font-weight: 800;
+      color: #701a75;
+    }
+
+    .sim-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .sim-table th {
+      background: var(--slate-800);
+      color: white;
+      text-align: left;
+      padding: 12px 14px;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    .sim-table th.center, .sim-table td.center {
+      text-align: center;
+    }
+
+    .sim-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sim-table tbody tr:hover {
+      background-color: var(--slate-50);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .status-ok {
+      background: var(--success-light);
+      color: #065f46;
+    }
+
+    .status-alert {
+      background: var(--warning-light);
+      color: #92400e;
+    }
+
+    /* CHEAT SHEET BOX */
+    .printable-sheet {
+      background: white;
+      border: 2px dashed #94a3b8;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 30px;
+      position: relative;
+    }
+
+    .printable-sheet::before {
+      content: "✂️ RECORTAR Y PEGAR EN BALANZA";
+      position: absolute;
+      top: -12px;
+      left: 24px;
+      background: #f1f5f9;
+      padding: 2px 12px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748b;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    /* PRINT STYLES */
+    @media print {
+      body {
+        background: white;
+        padding-bottom: 0;
+      }
+      .btn-print, .sim-controls, .brand-badge {
+        display: none !important;
+      }
+      header {
+        background: none !important;
+        color: black !important;
+        padding: 10px 0 !important;
+        box-shadow: none !important;
+        border-bottom: 2px solid #000;
+      }
+      .subtitle { color: #555 !important; }
+      .card, .step-item, .recipe-card, .simulator-container {
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        page-break-inside: avoid;
+      }
+      .printable-sheet {
+        border: 2px dashed #000 !important;
+        page-break-before: always;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER HERO -->
+  <header>
+    <div class="container">
+      <div class="brand-badge">
+        <span>🏭 SISTEMA DE PRODUCCIÓN INTEGRAL</span>
+        <span>•</span>
+        <span>VERSIÓN 1.9.4</span>
+      </div>
+      <div class="header-content">
+        <div>
+          <h1>Módulo de Combos Cárnicos</h1>
+          <p class="subtitle">Guía de Capacitación Operativa y Estandarización de Producción para Encargados y Operarios de Planta y Locales.</p>
+        </div>
+        <div>
+          <button class="btn-print" onclick="window.print()">
+            🖨️ Imprimir / Guardar en PDF
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- SECCIÓN 1: OBJETIVOS & BENEFICIOS -->
+    <section>
+      <div class="section-title">
+        <span class="icon">🎯</span>
+        <h2>1. ¿Por qué implementamos este módulo?</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 10px;">⚖️</div>
+          <h3 style="font-size: 17px; margin-bottom: 6px; font-weight: 700;">Estandarización Exacta</h3>
+          <p style="font-size: 14px; color: var(--slate-600);">Cada combo entregado al cliente cumple de forma estricta con la receta oficial aprobada por la empresa, sin variaciones arbitrarias.</p>
+        </div>
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 10px;">📉</div>
+          <h3 style="font-size: 17px; margin-bottom: 6px; font-weight: 700;">Control Real de Mermas</h3>
+          <p style="font-size: 14px; color: var(--slate-600);">El control automático de tolerancia al <b>±5%</b> alerta en el momento si se está cargando de más o si falta carne en los ingredientes.</p>
+        </div>
+        <div class="card">
+          <div style="font-size: 28px; margin-bottom: 10px;">📦</div>
+          <h3 style="font-size: 17px; margin-bottom: 6px; font-weight: 700;">Inventario Automático</h3>
+          <p style="font-size: 14px; color: var(--slate-600);">Al finalizar la tanda, el sistema da de baja los kilos de carne utilizados y suma las bandejas elaboradas en Google Sheets y AppSheet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: LAS 4 REGLAS DE ORO -->
+    <section>
+      <div class="section-title">
+        <span class="icon">⭐</span>
+        <h2>2. Las 4 Reglas Fundamentales</h2>
+      </div>
+      <div class="grid-2">
+        <div class="card rule-card">
+          <div class="rule-number">REGLA N° 1</div>
+          <div class="rule-title">Bandejas Redondas (Enteras)</div>
+          <div class="rule-desc">
+            No existen medios combos. Las bandejas son siempre números enteros (ej. 15, 20, 42 bandejas). El peso teórico de todos los ingredientes siempre será un <b>múltiplo exacto</b> de la fórmula.
+          </div>
+        </div>
+
+        <div class="card rule-card purple">
+          <div class="rule-number">REGLA N° 2</div>
+          <div class="rule-title">El 1° Corte es el "Pivote"</div>
+          <div class="rule-desc">
+            Al pesar el primer corte de la receta en la balanza, el sistema calcula de inmediato cuántas bandejas enteras saldrán de esa tanda. También podés fijar las bandejas con el botón <b>[ ✏️ MODIFICAR BANDEJAS ]</b>.
+          </div>
+        </div>
+
+        <div class="card rule-card warning">
+          <div class="rule-number">REGLA N° 3</div>
+          <div class="rule-title">Tolerancia de Porcionado (±5%)</div>
+          <div class="rule-desc">
+            Cada corte debe estar dentro de un desvío máximo del <b>±5%</b>. Si se desvía más, el sistema pasa a color naranja/rojo y exigirá la <b>autorización del Supervisor</b> para poder cerrarlo.
+          </div>
+        </div>
+
+        <div class="card rule-card success">
+          <div class="rule-number">REGLA N° 4</div>
+          <div class="rule-title">Completitud Obligatoria</div>
+          <div class="rule-desc">
+            No se puede finalizar ningún combo si falta registrar el peso de algún ingrediente de la receta. Si falta alguno, el sistema lo bloqueará avisando cuál corte quedó pendiente.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3: CATÁLOGO DE LAS 7 RECETAS OFICIALES -->
+    <section>
+      <div class="section-title">
+        <span class="icon">🥩</span>
+        <h2>3. Catálogo Oficial de Recetas (Gramajes ERP)</h2>
+      </div>
+      <div class="grid-3">
+        
+        <!-- COMBO 1 -->
+        <div class="recipe-card">
+          <div class="recipe-header">
+            <h3>1. Asado</h3>
+            <span class="recipe-weight">3.00 KG</span>
+          </div>
+          <div class="recipe-code">
+            <span>CÓD. ERP</span>
+            <span>01030002</span>
+          </div>
+          <div class="recipe-body">
+            <ul class="ingredient-list">
+              <li class="ingredient-item"><span class="ingredient-name">Tapa de asado</span><span class="ingredient-qty">1.10 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Costeleta al través</span><span class="ingredient-qty">0.50 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Costilla - Pechito</span><span class="ingredient-qty">0.89 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Chorizo de cerdo</span><span class="ingredient-qty">0.29 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Morcilla bombón</span><span class="ingredient-qty">0.23 kg</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- COMBO 2 -->
+        <div class="recipe-card">
+          <div class="recipe-header" style="background:#4c1d95;">
+            <h3>2. Asado Premium</h3>
+            <span class="recipe-weight" style="background:#8b5cf6;">4.00 KG</span>
+          </div>
+          <div class="recipe-code">
+            <span>CÓD. ERP</span>
+            <span>01030003</span>
+          </div>
+          <div class="recipe-body">
+            <ul class="ingredient-list">
+              <li class="ingredient-item"><span class="ingredient-name">Matambre de cerdo</span><span class="ingredient-qty">0.90 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Tapa de asado</span><span class="ingredient-qty">1.10 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Costilla - Pechito</span><span class="ingredient-qty">1.00 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Costeleta al través</span><span class="ingredient-qty">0.45 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Chorizo de cerdo</span><span class="ingredient-qty">0.35 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Morcilla bombón</span><span class="ingredient-qty">0.20 kg</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- COMBO 3 -->
+        <div class="recipe-card">
+          <div class="recipe-header">
+            <h3>3. Oferta Asado 2</h3>
+            <span class="recipe-weight">2.50 KG</span>
+          </div>
+          <div class="recipe-code">
+            <span>CÓD. ERP</span>
+            <span>01030039</span>
+          </div>
+          <div class="recipe-body">
+            <ul class="ingredient-list">
+              <li class="ingredient-item"><span class="ingredient-name">Chuleta de paleta</span><span class="ingredient-qty">2.00 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Chorizo de cerdo</span><span class="ingredient-qty">0.50 kg</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- COMBO 4 -->
+        <div class="recipe-card">
+          <div class="recipe-header">
+            <h3>4. Oferta Asado 2Kg.</h3>
+            <span class="recipe-weight">2.00 KG</span>
+          </div>
+          <div class="recipe-code">
+            <span>CÓD. ERP</span>
+            <span>01030038</span>
+          </div>
+          <div class="recipe-body">
+            <ul class="ingredient-list">
+              <li class="ingredient-item"><span class="ingredient-name">Costilla - Pechito</span><span class="ingredient-qty">1.50 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Chorizo de cerdo</span><span class="ingredient-qty">0.50 kg</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- COMBO 5 -->
+        <div class="recipe-card">
+          <div class="recipe-header">
+            <h3>5. Combo Semanal</h3>
+            <span class="recipe-weight">4.00 KG</span>
+          </div>
+          <div class="recipe-code">
+            <span>CÓD. ERP</span>
+            <span>01030021</span>
+          </div>
+          <div class="recipe-body">
+            <ul class="ingredient-list">
+              <li class="ingredient-item"><span class="ingredient-name">Milanesa de cerdo</span><span class="ingredient-qty">0.700 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Costeleta</span><span class="ingredient-qty">0.700 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Picada especial</span><span class="ingredient-qty">1.000 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Chuleta c/ cuero</span><span class="ingredient-qty">1.605 kg</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- COMBOS 6 Y 7 -->
+        <div class="recipe-card">
+          <div class="recipe-header">
+            <h3>6. Combo Locro / 7. Premium</h3>
+            <span class="recipe-weight">3.00 / 3.50 KG</span>
+          </div>
+          <div class="recipe-code">
+            <span>CÓDS. ERP</span>
+            <span>01030020 / 01030086</span>
+          </div>
+          <div class="recipe-body">
+            <ul class="ingredient-list">
+              <li class="ingredient-item"><span class="ingredient-name">Chuleta paleta</span><span class="ingredient-qty">1.00 / 1.50 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Caracú</span><span class="ingredient-qty">1.00 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Chorizo de cerdo</span><span class="ingredient-qty">1.00 / 0.50 kg</span></li>
+              <li class="ingredient-item"><span class="ingredient-name">Panceta (solo Premium)</span><span class="ingredient-qty">0.50 kg</span></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: SIMULADOR INTERACTIVO -->
+    <section>
+      <div class="section-title">
+        <span class="icon">🧮</span>
+        <h2>4. Simulador Interactivo de Bandejas y Tolerancias</h2>
+      </div>
+      <div class="simulator-container">
+        <p style="font-size: 14px; color: var(--slate-600); margin-bottom: 20px;">
+          Esta herramienta permite simular cómo responde el sistema según los kilos de carne que ingresa el operario. Elegí un combo, un corte y poné un peso estimado:
+        </p>
+
+        <div class="sim-controls">
+          <div class="form-group">
+            <label>1. Seleccionar Combo</label>
+            <select id="simComboSelect" class="form-control" onchange="actualizarCortesSimulador()">
+              <option value="ASADO_3KG">1. Asado (3 kg)</option>
+              <option value="ASADO_PREMIUM_4KG" selected>2. Asado Premium (4 kg)</option>
+              <option value="OFERTA_ASADO_2_5KG">3. Oferta Asado 2 (2.5 kg)</option>
+              <option value="OFERTA_ASADO_2KG">4. Oferta Asado 2Kg. (2 kg)</option>
+              <option value="COMBO_SEMANAL_4KG">5. Combo Semanal (4 kg)</option>
+              <option value="COMBO_LOCRO_3KG">6. Combo Locro (3 kg)</option>
+              <option value="COMBO_LOCRO_PREMIUM_3_5KG">7. Locro Premium (3.5 kg)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>2. Corte Base (Pivote)</label>
+            <select id="simCorteSelect" class="form-control" onchange="calcularSimulador()"></select>
+          </div>
+
+          <div class="form-group">
+            <label>3. Kilos Pesados en Balanza</label>
+            <input type="number" id="simKilosInput" class="form-control" value="44.0" step="0.5" min="0.5" oninput="calcularSimulador()">
+          </div>
+        </div>
+
+        <div class="sim-result-badge">
+          <div>
+            <div class="sim-result-title">Cálculo Automático del Sistema</div>
+            <div style="font-size: 13px; color: #701a75;">Redondeo al entero más próximo (sin fracciones)</div>
+          </div>
+          <div class="sim-result-val" id="simBandejasVal">40 BANDEJAS</div>
+        </div>
+
+        <table class="sim-table">
+          <thead>
+            <tr>
+              <th>Corte / Ingrediente</th>
+              <th class="center">Fórmula Unit.</th>
+              <th class="center">Peso Teórico Total</th>
+              <th class="center">Rango Permitido (±5%)</th>
+              <th class="center">Estado de Producción</th>
+            </tr>
+          </thead>
+          <tbody id="simTableBody">
+            <!-- Renderizado dinámicamente por JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5: PASO A PASO OPERATIVO -->
+    <section>
+      <div class="section-title">
+        <span class="icon">📋</span>
+        <h2>5. Paso a Paso Operativo en la Pantalla</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="step-item">
+          <div class="step-badge">1</div>
+          <div class="step-content">
+            <h4>Iniciar Sesión y Cargar Lote</h4>
+            <p>Ingresá tu PIN personal de 6 dígitos. En la pantalla inicial, escribí el número de lote de la carne a trabajar (o presioná <b>[ ⌨️ INGRESAR LOTE ]</b> para abrir el teclado grande).</p>
+            <span class="key-tip">⚠️ Bloqueo: No se puede tocar ningún combo si el campo Lote está vacío.</span>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-badge">2</div>
+          <div class="step-content">
+            <h4>Elegir el Combo a Elaborar</h4>
+            <p>Tocá el botón violeta del combo correspondiente en el sector inferior de la pantalla. El sistema abrirá la pantalla dedicada de armado.</p>
+            <span class="key-tip">Tip: En la barra superior verás el nombre del combo y tu usuario activo.</span>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-badge">3</div>
+          <div class="step-content">
+            <h4>Pesar el 1° Corte (Pivote de Bandejas)</h4>
+            <p>Colocá el primer corte sobre la balanza y presioná la tecla <span class="key-tag">P</span> o tocá el botón verde grande <b>[ ⚖️ REGISTRAR PESO ACTUAL ('P') ]</b>. El sistema fijará automáticamente las bandejas enteras de la tanda.</p>
+            <span class="key-tip">Ajuste: Si querés un número fijo de bandejas (ej. 30), tocá <b>[ ✏️ MODIFICAR BANDEJAS ]</b>.</span>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-badge">4</div>
+          <div class="step-content">
+            <h4>Pesar los Demás Ingredientes en Secuencia</h4>
+            <p>El sistema seleccionará de forma automática el siguiente corte pendiente. Apoyalo en la balanza y apretá <span class="key-tag">P</span>. Si te equivocaste de peso, seleccioná el corte y tocá <b>[ 🗑️ RE-PESAR ]</b>.</p>
+            <span class="key-tip">Semáforo: Verificá que la columna ESTADO quede en <b style="color:var(--success);">✅ CONFORME</b>.</span>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-badge">5</div>
+          <div class="step-content">
+            <h4>Finalizar y Enviar a Stock</h4>
+            <p>Una vez pesados todos los ingredientes, presioná <b>[ 🔒 FINALIZAR COMBO ]</b>. Si todo está dentro del ±5%, se cerrará y se enviará en tiempo real a Google Sheets / AppSheet. Si hubo algún exceso o faltante, requerirá el PIN de Supervisor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6: PROTOCOLO DE SUPERVISIÓN -->
+    <section>
+      <div class="section-title">
+        <span class="icon">🔐</span>
+        <h2>6. Protocolo ante Desvíos de Tolerancia (Supervisor)</h2>
+      </div>
+      <div class="card" style="border-left: 5px solid var(--danger);">
+        <h3 style="font-size: 18px; margin-bottom: 8px; color: var(--danger);">¿Qué sucede si un corte supera el ±5% de tolerancia?</h3>
+        <p style="font-size: 14px; color: var(--slate-700); margin-bottom: 12px;">
+          El sistema está programado para proteger el costo de la mercadería. Si se produce un desvío excesivo (ejemplo: se cargó un 7% de chorizo o faltó un 6% de matambre):
+        </p>
+        <ol style="margin-left: 20px; font-size: 14px; color: var(--slate-600); line-height: 1.8;">
+          <li>El sistema mostrará una ventana emergente indicando exactamente qué corte se desvió y cuántos kilos sobran o faltan.</li>
+          <li>Preguntará si se desea <b>Solicitar Autorización con PIN de Supervisor</b>.</li>
+          <li>El responsable o encargado evaluará la situación. Si la tanda está justificada, ingresará su <b>PIN de Supervisor</b> en el teclado flotante.</li>
+          <li>El proceso se guardará con la etiqueta de auditoría <code>[AUTORIZADO POR SUPERVISOR]</code> en el registro oficial de producción.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 7: FICHA RÁPIDA IMPRIMIBLE -->
+    <section>
+      <div class="printable-sheet">
+        <div style="text-align: center; margin-bottom: 15px;">
+          <h3 style="font-size: 18px; font-weight: 800; color: var(--slate-900);">GUÍA RÁPIDA DE PRODUCCIÓN - ARMADO DE COMBOS</h3>
+          <p style="font-size: 12px; color: var(--slate-600);">Pegar junto a la balanza del sector de despiece</p>
+        </div>
+
+        <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 15px;">
+          <thead>
+            <tr style="background: #f1f5f9; text-align: left;">
+              <th style="padding: 6px 10px; border: 1px solid #cbd5e1;">Paso</th>
+              <th style="padding: 6px 10px; border: 1px solid #cbd5e1;">Acción en Pantalla</th>
+              <th style="padding: 6px 10px; border: 1px solid #cbd5e1;">Atajo / Tecla</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1; font-weight: bold;">1</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Ingresar PIN de 6 dígitos y escribir Lote</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Teclado numérico</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1; font-weight: bold;">2</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Tocar el botón del Combo elegido</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Botones violetas</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1; font-weight: bold;">3</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Pesar el 1° corte (Fija bandejas de la tanda)</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;"><span class="key-tag">P</span> o Botón Verde</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1; font-weight: bold;">4</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Pesar los demás cortes hasta que todos queden VERDES</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;"><span class="key-tag">P</span> continuo</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1; font-weight: bold;">5</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Presionar [ 🔒 FINALIZAR COMBO ]</td>
+              <td style="padding: 6px 10px; border: 1px solid #cbd5e1;">Botón azul derecho</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div style="background: #f8fafc; padding: 10px; border-radius: 6px; font-size: 12px; color: #334155; display: flex; justify-content: space-between;">
+          <span>🟢 <b>VERDE:</b> Dentro del margen de ±5%</span>
+          <span>🟠 <b>NARANJA:</b> Exceso o falta carne. Corregir o avisar al Supervisor.</span>
+          <span>🗑️ <b>RE-PESAR:</b> Para borrar un peso mal cargado.</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- LÓGICA DEL SIMULADOR -->
+  <script>
+    const CATALOGO = {
+      "ASADO_3KG": {
+        nombre: "1. Asado (3 kg)",
+        cortes: {
+          "Tapa de asado": 1.10,
+          "Costeleta al través": 0.50,
+          "Costilla - Pechito": 0.89,
+          "Chorizo de cerdo": 0.29,
+          "Morcilla bombón": 0.23
+        }
+      },
+      "ASADO_PREMIUM_4KG": {
+        nombre: "2. Asado Premium (4 kg)",
+        cortes: {
+          "Matambre de cerdo": 0.90,
+          "Tapa de asado": 1.10,
+          "Costilla - Pechito": 1.00,
+          "Costeleta al través": 0.45,
+          "Chorizo de cerdo": 0.35,
+          "Morcilla bombón": 0.20
+        }
+      },
+      "OFERTA_ASADO_2_5KG": {
+        nombre: "3. Oferta Asado 2 (2.5 kg)",
+        cortes: {
+          "Chuleta de paleta": 2.00,
+          "Chorizo de cerdo": 0.50
+        }
+      },
+      "OFERTA_ASADO_2KG": {
+        nombre: "4. Oferta Asado 2Kg. (2 kg)",
+        cortes: {
+          "Costilla - Pechito": 1.50,
+          "Chorizo de cerdo": 0.50
+        }
+      },
+      "COMBO_SEMANAL_4KG": {
+        nombre: "5. Combo Semanal (4 kg)",
+        cortes: {
+          "Milanesa de cerdo": 0.700,
+          "Costeleta": 0.700,
+          "Picada especial": 1.000,
+          "Chuleta con cuero": 1.605
+        }
+      },
+      "COMBO_LOCRO_3KG": {
+        nombre: "6. Combo Locro (3 kg)",
+        cortes: {
+          "Chuleta de paleta": 1.000,
+          "Caracú": 1.000,
+          "Chorizo de cerdo": 1.000
+        }
+      },
+      "COMBO_LOCRO_PREMIUM_3_5KG": {
+        nombre: "7. Locro Premium (3.5 kg)",
+        cortes: {
+          "Chuleta de paleta": 1.500,
+          "Caracú": 1.000,
+          "Chorizo de cerdo": 0.500,
+          "Panceta": 0.500
+        }
+      }
+    };
+
+    function actualizarCortesSimulador() {
+      const comboKey = document.getElementById('simComboSelect').value;
+      const combo = CATALOGO[comboKey];
+      const corteSelect = document.getElementById('simCorteSelect');
+      corteSelect.innerHTML = '';
+
+      for (const corte in combo.cortes) {
+        const opt = document.createElement('option');
+        opt.value = corte;
+        opt.textContent = `${corte} (${combo.cortes[corte].toFixed(2)} kg/u)`;
+        corteSelect.appendChild(opt);
+      }
+      calcularSimulador();
+    }
+
+    function calcularSimulador() {
+      const comboKey = document.getElementById('simComboSelect').value;
+      const combo = CATALOGO[comboKey];
+      const corteSel = document.getElementById('simCorteSelect').value;
+      const kilosInput = parseFloat(document.getElementById('simKilosInput').value) || 0;
+
+      if (!combo || !corteSel || kilosInput <= 0) return;
+
+      const pesoUnitario = combo.cortes[corteSel];
+      const bandejasCalc = Math.round(kilosInput / pesoUnitario);
+      const bandejas = Math.max(1, bandejasCalc);
+
+      document.getElementById('simBandejasVal').textContent = `${bandejas} BANDEJAS`;
+
+      const tbody = document.getElementById('simTableBody');
+      tbody.innerHTML = '';
+
+      for (const [corte, pesoU] of Object.entries(combo.cortes)) {
+        const pesoTeorico = bandejas * pesoU;
+        const minTol = pesoTeorico * 0.95;
+        const maxTol = pesoTeorico * 1.05;
+
+        const isPivote = (corte === corteSel);
+        const pesoReal = isPivote ? kilosInput : pesoTeorico;
+        const desvioPct = ((pesoReal - pesoTeorico) / pesoTeorico) * 100;
+        const enTolerancia = Math.abs(desvioPct) <= 5.0;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><b>${corte}</b> ${isPivote ? '<span style="font-size:11px; background:#c7d2fe; color:#312e81; padding:2px 6px; border-radius:4px; margin-left:6px;">PIVOTE PESADO</span>' : ''}</td>
+          <td class="center font-mono">${pesoU.toFixed(2)} kg</td>
+          <td class="center font-mono" style="font-weight:700; color:var(--primary-dark);">${pesoTeorico.toFixed(2)} kg</td>
+          <td class="center font-mono" style="color:var(--slate-600); font-size:12px;">${minTol.toFixed(2)} a ${maxTol.toFixed(2)} kg</td>
+          <td class="center">
+            <span class="status-badge ${enTolerancia ? 'status-ok' : 'status-alert'}">
+              ${enTolerancia ? '✅ ' + desvioPct.toFixed(1) + '% (OK)' : '⚠️ ' + desvioPct.toFixed(1) + '% (DESVÍO)'}
+            </span>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      }
+    }
+
+    // Inicializar al cargar
+    actualizarCortesSimulador();
+  </script>
+</body>
+</html>
