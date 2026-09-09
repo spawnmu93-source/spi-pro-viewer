@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.9.5",
+    "latest_version": "1.9.6",
     "mandatory": true,
-    "changelog": "Versión 1.9.5: Incorporación de TOCINO en despiece de CARRE (ERP 01030058 y lote 00049), reubicación de la configuración y test de balanza dentro del panel protegido de Ajustes con bloqueo para operarios.",
-    "vertical_filename": "Instalador_SPI_Despiece_V1.9.5_Vertical.exe",
-    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.5_Horizontal.exe"
+    "changelog": "Versión 1.9.6: Cargas acumulativas en egreso (Ventana 1) con tabla de pesadas y botón explícito de transformación. Tolerancia técnica de 100g en ingresos para evitar bloqueos por oscilación o despieces sin merma física.",
+    "vertical_filename": "Instalador_SPI_Despiece_V1.9.6_Vertical.exe",
+    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.6_Horizontal.exe"
 }

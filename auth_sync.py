@@ -323,7 +323,7 @@ def generar_lote_resultante(lote_origen):
     ultimos_4 = lote_str[-4:] if len(lote_str) >= 4 else lote_str
     return f"{dia_num}{num_semana}{yy}{ultimos_4}{sufijo}"
 
-def push_despiece_to_sheets(corte_madre, peso_madre, resultantes, operador, lote, callback_error=None):
+def push_despiece_to_sheets(corte_madre, peso_madre, resultantes, operador, lote, callback_error=None, cantidad_madre=1):
     """Sincroniza el despiece en una sola hoja por local (ej. Local 1, Local 2), diferenciando ingresos y egresos con la columna Movimiento."""
     if not is_connected():
         return False, "Sin conexión."
