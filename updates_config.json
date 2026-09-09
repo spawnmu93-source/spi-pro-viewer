@@ -1,7 +1,7 @@
 {
     "latest_version": "1.9.5",
     "mandatory": true,
-    "changelog": "Versión 1.9.5: Incorporación de TOCINO como corte resultante habilitado para el corte origen CARRE en la matriz de despiece operativa (código ERP 01030058 y lote asignado 00049).",
+    "changelog": "Versión 1.9.5: Incorporación de TOCINO en despiece de CARRE (ERP 01030058 y lote 00049), reubicación de la configuración y test de balanza dentro del panel protegido de Ajustes con bloqueo para operarios.",
     "vertical_filename": "Instalador_SPI_Despiece_V1.9.5_Vertical.exe",
     "horizontal_filename": "Instalador_SPI_Despiece_V1.9.5_Horizontal.exe"
 }
