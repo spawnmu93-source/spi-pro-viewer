@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.9.6",
+    "latest_version": "1.9.7",
     "mandatory": true,
-    "changelog": "Versión 1.9.6: Cargas acumulativas en egreso (Ventana 1) con tabla de pesadas y botón explícito de transformación. Tolerancia técnica de 100g en ingresos para evitar bloqueos por oscilación o despieces sin merma física.",
-    "vertical_filename": "Instalador_SPI_Despiece_V1.9.6_Vertical.exe",
-    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.6_Horizontal.exe"
+    "changelog": "Versión 1.9.7: Botonera táctil directa para cortes resultantes en Ventana 2 (eliminación de ComboBox). Optimización visual de Combos con tabla adaptativa y anclaje inferior de botones para evitar desborde de pantalla.",
+    "vertical_filename": "Instalador_SPI_Despiece_V1.9.7_Vertical.exe",
+    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.7_Horizontal.exe"
 }
