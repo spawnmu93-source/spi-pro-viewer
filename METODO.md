@@ -60,11 +60,21 @@ En pantallas con formularios y acciones finales:
 
 ---
 
+### Regla 5: Límite Estricto de Columnas en Botoneras Táctiles (Máximo 3 Columnas)
+- **Las cuadrículas de botones de opciones y cortes resultantes NUNCA deben superar las 3 columnas** (`num_cols <= 3`).
+- *Causa:* En terminales verticales (768 px de ancho total), usar 4 o más columnas reduce el ancho útil de cada botón por debajo del umbral mínimo de usabilidad (~200 px). Esto genera:
+  1. Truncamiento de los nombres de los cortes o productos (texto cortado o ilegible).
+  2. Aumento de toques erróneos accidentales al operar con guantes o dedos húmedos.
+- *Configuración obligatoria:* Configurar la grilla en **2 o 3 columnas** como máximo, asegurando una altura ergonómica de 45px - 50px por botón.
+
+---
+
 ## 👆 3. Ergonomía Táctil y Legibilidad
 
 | Elemento | Medida Mínima | Justificación |
 | :--- | :--- | :--- |
-| **Altura de Botón Táctil** | `50px - 65px` | Permite pulsación rápida y certera con guantes o dedos húmedos. |
+| **Columnas en Botoneras Táctiles** | `Máximo 3 columnas` | Previene truncamiento de nombres y asegura ancho táctil para pulsar con guantes. |
+| **Altura de Botón Táctil** | `50px - 65px` (o `45px` en grillas compactas) | Permite pulsación rápida y certera con guantes o dedos húmedos. |
 | **Separación entre Botones** | `10px - 14px` | Previene toques dobles o accidentales entre botones críticos. |
 | **Tipografía Operativa (Totales / Kilos)** | `18pt - 24pt` (Bold) | Legibilidad inmediata a más de 1 metro de distancia. |
 | **Tipografía de Etiquetas / Instrucciones** | `14pt - 16pt` | Claridad bajo iluminación variable de planta frigorífica. |
@@ -89,8 +99,9 @@ desplazamiento.»
 ## 📋 5. Checklist Rápido de Pre-Release
 
 - [ ] ¿La botonera de acciones está anclada con `side="bottom"` antes de los componentes dinámicos?
+- [ ] ¿Las cuadrículas de selección táctil (cortes/opciones) respetan el límite estricto de no más de 3 columnas?
 - [ ] ¿Se verificó en resolución `768x1366` (vertical) y `1366x768` (horizontal)?
 - [ ] ¿Se probó la vista con una alerta de error/tolerancia activada al mismo tiempo que la tabla llena?
 - [ ] ¿Todos los botones principales tienen al menos 50px de alto y espacio suficiente para dedos con guantes?
 - [ ] ¿Se eliminaron combos o desplegables en favor de botones directos o pop-ups modales?
-- [ ] ¿El instalador Inno Setup incluye la última versión compilada y versionada (`config.py`)?
+- [ ] ¿El instalador Inno Setup incluye la última versión compilada y versionada (`config.py` / `APP_VERSION`)?
