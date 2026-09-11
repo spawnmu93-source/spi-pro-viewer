@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.9.7",
+    "latest_version": "1.9.8",
     "mandatory": true,
-    "changelog": "Versión 1.9.7: Botonera táctil directa para cortes resultantes en Ventana 2 (eliminación de ComboBox). Optimización visual de Combos con tabla adaptativa y anclaje inferior de botones para evitar desborde de pantalla.",
-    "vertical_filename": "Instalador_SPI_Despiece_V1.9.7_Vertical.exe",
-    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.7_Horizontal.exe"
+    "changelog": "Versión 1.9.8: Corrección integral de layout táctil según METODO.md (anclaje inferior de botones FINALIZAR/TOTALES, tabla adaptativa en Ventana 2, 3 columnas de cortes y blindaje de popups de ajustes y diagnóstico).",
+    "vertical_filename": "Instalador_SPI_Despiece_V1.9.8_Vertical.exe",
+    "horizontal_filename": "Instalador_SPI_Despiece_V1.9.8_Horizontal.exe"
 }
